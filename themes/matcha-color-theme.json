@@ -1,10 +1,39 @@
 {
 	"name": "matcha",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		// 背景色設定
+		"activityBar.background": "#384a41",
+		"activityBarBadge.background": "#384a41",
+		"button.background": "#3a5b52",
+		"editor.background": "#384a41",
+		"editorGroupHeader.tabsBackground": "#24302a",
+		"sideBar.background": "#384a41",
+		"statusBar.background": "#384a41",
+		"tab.activeBackground": "#384a41",
+		"tab.inactiveBackground": "#2f3f37",
+		"titleBar.activeBackground": "#384a41",
+		
+		// 文字色設定 (foreground: 文字色)
+		"foreground": "#f0dfcc",
+		"activityBar.foreground": "#f0dfcc",
+		"breadcrumb.foreground": "#f0dfcc",
+		"button.foreground": "#f0dfcc",
+		"editor.foreground": "#f0dfcc",
+		"tab.activeForeground": "#f0dfcc",
+		"tab.inactiveForeground": "#f0dfccc5",
+		"sideBar.foreground": "#f0dfcc",
+		"sideBarTitle.foreground": "#f0dfcc",
+		"statusBar.foreground": "#f0dfcc",
+
+		// ハイライト色設定
+		"editor.lineHighlightBorder": "#384a41",
+
+		// ボーダー色設定
+		"activityBar.border": "#f0dfcc",
+		"sideBar.border": "#f0dfcc",
+		"statusBar.border": "#f0dfcc",
+		"titleBar.border": "#f0dfcc",
+
 	},
 	"tokenColors": [
 		{
