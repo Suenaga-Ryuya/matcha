@@ -1,21 +1,23 @@
 {
 	"name": "matcha",
 	"colors": {
-		// 背景色設定
-		"activityBar.background": "#384a41",
-		"activityBarBadge.background": "#384a41",
+		// 背景色設定設定
+		"activityBar.background": "#2B3225",
+		"activityBarBadge.background": "#acc95d",
 		"button.background": "#3a5b52",
-		"editor.background": "#384a41",
-		"editorGroupHeader.tabsBackground": "#24302a",
-		"sideBar.background": "#384a41",
-		"statusBar.background": "#384a41",
+		"editor.background": "#2B3225",
+		"editorGroupHeader.tabsBackground": "#2B3225",
+		"notifications.background": "#384a41",
+		"sideBar.background": "#2B3225",
+		"statusBar.background": "#2B3225",
 		"tab.activeBackground": "#384a41",
 		"tab.inactiveBackground": "#2f3f37",
-		"titleBar.activeBackground": "#384a41",
+		"titleBar.activeBackground": "#2B3225",
 		
 		// 文字色設定 (foreground: 文字色)
-		"foreground": "#f0dfcc",
+		"foreground": "#f4d9ba",
 		"activityBar.foreground": "#f0dfcc",
+		"activityBarBadge.foreground": "#1e3d08",
 		"breadcrumb.foreground": "#f0dfcc",
 		"button.foreground": "#f0dfcc",
 		"editor.foreground": "#f0dfcc",
