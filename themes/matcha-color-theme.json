@@ -1,40 +1,211 @@
 {
 	"name": "matcha",
 	"colors": {
-		// 背景色設定設定
-		"activityBar.background": "#2B3225",
-		"activityBarBadge.background": "#acc95d",
-		"button.background": "#3a5b52",
-		"editor.background": "#2B3225",
-		"editorGroupHeader.tabsBackground": "#2B3225",
-		"notifications.background": "#384a41",
-		"sideBar.background": "#2B3225",
-		"statusBar.background": "#2B3225",
-		"tab.activeBackground": "#384a41",
-		"tab.inactiveBackground": "#2f3f37",
-		"titleBar.activeBackground": "#2B3225",
+		// == Contrast Color Section ==
+		"contrastActiveBorder": "#363f2e", // アクティブなファイルなどのボーダー色
+		"contrastBorder": "#363f2e",
 		
-		// 文字色設定 (foreground: 文字色)
+		// == Base Color Section ==
+		"focusBorder": "#2B3225", // 各ブロックのフォーカス時の枠色
 		"foreground": "#f4d9ba",
+		// "disabledForeground": "#fff",
+		// "widget.border": "#fff",
+		// "widget.shadow": "#fff",
+		// "selection.background": "#fff",
+		// "descriptionForeground": "#fff",
+		// "errorForeground": "#fff",
+		// "icon.foreground": "#fff",
+		// "sash.hoverBorder": "#fff",
+		
+		// == Window Border Section (for macOS and Linux) ==
+		// "window.activeBorder": "#fff",
+		// "window.inactiveBorder": "#fff",
+		
+		// == Text Color Section ==
+		// "textBlockQuote.background": "#fff",
+		// "textBlockQuote.border": "#fff",
+		"textCodeBlock.background": "#ff0000",
+		"textLink.activeForeground": "#ccee6e", // リンクのアクティブ時の色
+		"textLink.foreground": "#acc95d", // リンクの色
+		// "textPreformat.foreground": "#fff", // プリフォーマットの色
+		// "text.preformat.background": "#fff", // プリフォーマットの背景色
+		// "textSeparator.foreground": "#fff", // セパレータの色
+		
+		// == Action Color Section ([フォルダアイコンなど]のツールバーの設定) ==
+		"toolbar.hoverBackground": "#48543d",
+		"toolbar.hoverOutline": "#f0dfcc",
+		"toolbar.activeBackground": "#718360",
+		
+		// == Button Control Section =
+		"button.background": "#4f5e50",
+		"button.foreground": "#f0dfcc",
+		"button.border": "#f0dfcc",
+		// "button.separator": "#fff",
+		// "button.hoverBackground": "#fff",
+		// "button.secondaryForeground": "#fff",
+		// "button.secondaryBackground": "#fff",
+		// "button.secondaryHoverBackground": "#fff",
+		// "checkbox.background": "#fff",
+		// "checkbox.foreground": "#fff",
+		// "checkbox.border": "#fff",
+		// "checkbox.selectedBackground": "#fff",
+		// "checkbox.selectedBorder": "#fff",
+		
+		// == Dropdown Control Section (for Windows) ==
+		// "dropdown.background": "#fff",
+		// "dropdown.listBackground": "#fff",
+		// "dropdown.border": "#fff",
+		// "dropdown.foreground": "#fff",
+		
+		// == Input Control Section ==
+		// "input.background": "#fff",
+		// "input.border": "#fff",
+		// "input.foreground": "#fff",
+		// "input.placeholderForeground": "#fff",
+		// "inputOption.activeBackground": "#fff",
+		// "inputOption.activeBorder": "#fff",
+		// "inputOption.activeForeground": "#fff",
+		// "inputOption.hoverBackground": "#fff",
+		// "inputValidation.errorBackground": "#fff",
+		// "inputValidation.errorForeground": "#fff",
+		// "inputValidation.errorBorder": "#fff",
+		// "inputValidation.infoBackground": "#fff",
+		// "inputValidation.infoForeground": "#fff",
+		// "inputValidation.infoBorder": "#fff",
+		// "inputValidation.warningBackground": "#fff",
+		// "inputValidation.warningForeground": "#fff",
+		// "inputValidation.warningBorder": "#fff",
+		
+		// == Scrollbar Control Section ==
+		// "scrollbar.shadow": "#fff",
+		// "scrollbarSlider.activeBackground": "#fff",
+		// "scrollbarSlider.background": "#fff",
+		// "scrollbarSlider.hoverBackground": "#fff",
+		
+		// == Badge Section ==
+		// "badge.background": "#acc95d",
+		// "badge.foreground": "#1e3d08",
+		
+		// == Progress Bar Section ==
+		// "progressBar.background": "#fff",
+		
+		// Lists and Trees Section
+		"list.hoverBackground": "#363f2e", // サイドバーのホバー時の色
+		"list.activeSelectionBackground": "#363f2e",
+		
+		// Activity Bar Section
+		"activityBar.border": "#f0dfcc",
+		"activityBar.background": "#2B3225", // フォルダとか拡張機能のアイコンがあるところ
+		"activityBarBadge.background": "#acc95d",
 		"activityBar.foreground": "#f0dfcc",
 		"activityBarBadge.foreground": "#1e3d08",
-		"breadcrumb.foreground": "#f0dfcc",
-		"button.foreground": "#f0dfcc",
-		"editor.foreground": "#f0dfcc",
-		"tab.activeForeground": "#f0dfcc",
-		"tab.inactiveForeground": "#f0dfccc5",
+		
+		// Profiles Section
+		
+		// Side Bar Section
+		"sideBar.background": "#2B3225", // サイドバー
+		"sideBar.border": "#f0dfcc",
+		"sideBarSectionHeader.background": "#363f2e",
+		"sideBar.dropBackground": "#ff0000",
 		"sideBar.foreground": "#f0dfcc",
 		"sideBarTitle.foreground": "#f0dfcc",
+		
+		// Minimap Section
+		"minimap.background": "#ff0000",
+		
+		// Editor Groups & Tabs Section
+		"tab.activeBackground": "#384a41",
+		"tab.inactiveBackground": "#2f3f37",
+		"tab.activeForeground": "#f0dfcc",
+		"tab.inactiveForeground": "#f0dfccc5",
+		"editorGroupHeader.tabsBackground": "#2B3225",
+		
+		// Editor Section
+		"editor.background": "#2B3225",
+		"editor.foreground": "#f0dfcc",
+		"editor.lineHighlightBorder": "#2B3225",
+		
+		// Diff Editor Color Section
+		
+		// Chat Color Section
+		
+		// Inline Chat Color Section
+		
+		// Panel Chat Color Section
+		
+		// Editor Widget Color Section
+		
+		// Peek View Color Section
+		
+		// Merge Conflicts Color Section
+		
+		// Panel Color Section
+		"panel.background": "#303030",
+		"panel.border": "#f0dfcc", // ターミナルのすぐ上のボーダー
+		
+		// Status Bar Color Section
 		"statusBar.foreground": "#f0dfcc",
-
-		// ハイライト色設定
-		"editor.lineHighlightBorder": "#384a41",
-
-		// ボーダー色設定
-		"activityBar.border": "#f0dfcc",
-		"sideBar.border": "#f0dfcc",
+		"statusBar.background": "#2B3225", // 下のバー
 		"statusBar.border": "#f0dfcc",
+		
+		// Title Bar Color Section
+		"titleBar.activeBackground": "#2B3225", // 上のバー
 		"titleBar.border": "#f0dfcc",
+		
+		// Menu Bar Color Section
+		"menu.background": "#ff0000",
+		
+		// Command Center Color Section
+		
+		// Notification Color Section
+		"notifications.background": "#384a41",
+		
+		// Banner Color Section
+		
+		// Extensions Color Section
+		
+		// Quick Picker Color Section
+		
+		// Keybinding Label Color Section
+		
+		// Keyboard shortcut Table Color Section
+		
+		// Integrated Terminal Color Section
+		
+		// Debug Color Section
+		
+		// Testing Color Section
+		
+		// Welcome Page Color Section
+		
+		// Git Color Section
+		
+		// Settings Editor Color Section
+		
+		// Breadcrumbs Color Section
+		"breadcrumb.foreground": "#f0dfcc",
+		
+		// Snippets Color Section
+		
+		// Symbol Icon Color Section
+		
+		// Debug Icon Color Section
+		
+		// Notebook Color Section
+		
+		// Chart Color Section
+		
+		// Ports Color Section
+		
+		// Comments View Color Section
+
+		// Action Bar Color Section
+
+		// Simple Find Widget Color Section
+
+		// SCM Section
+
+		// 背景色設定設定
 
 	},
 	"tokenColors": [
