@@ -17,7 +17,8 @@
 		// "contrastBorder": "#1B2716",
 		
 		// == Base Color Section (全体の統一色) ==
-		// "focusBorder": "#1B2716", // 各ブロックのフォーカス時の枠色
+		// サイドバーや入力部分などのブロックにフォーカスした際に表示されるボーダーの色
+		"focusBorder": "#1B2716",
 		// "foreground": "#E8CEB0", // テキストの色
 		// // "foreground": "#f0dfcc", // テキストの色
 		// "disabledForeground": "#fff",
@@ -182,55 +183,67 @@
 		// (プライマリサイドバーなどの)選択時の非アクティブ前面色 (例えばOPEN EDITORSでファイルを選択している時、開いてるフォルダの同じファイルの前面色)
 		"list.inactiveSelectionForeground": "#ffffff",
 		// (プライマリサイドバーなどの)選択時の非アクティブアイコン色 (例えばExtensionsで選択している状態で、OPEN EDITORSでファイルを選択している時、Extensionsで選択しているバッジやアイコン前面色)
+		// 開いてるファイルの×アイコンの色も
 		"list.inactiveSelectionIconForeground": "#871111",
 		// リストで右クリックしてフォーカスした後に、別のリストのアイテムを右クリックしてフォーカスが当たったときの最初のアイテム(アクティブじゃない)の背景色
-		"list.inactiveFocusBackground": "#cc1212",
+		// フィルターで合致した部分の背景色にもなる
+		"list.inactiveFocusBackground": "#464646",
 		// リストで右クリックしてフォーカスした後に、別のリストのアイテムを右クリックしてフォーカスが当たったときの最初のアイテム(アクティブじゃない)の前面色
 		"list.inactiveFocusOutline": "#2B3225",
+
 		"list.invalidItemForeground": "#fff",
 
 		// (プライマリサイドバーなどの)リストでエラーが起きているファイルの前面色
 		"list.errorForeground": "#ff6464",
 		// (プライマリサイドバーなどの)リストで警告が起きているファイルの前面色
 		"list.warningForeground": "#ffbf3f",
+		// (プライマリサイドバーなどの)リストのCtrl+Fを押したときに出てくるフィルターの背景色
+		"listFilterWidget.background": "#295a22",
 
-		// "listFilterWidget.background": "#fff",
-		// "listFilterWidget.outline": "#fff",
-		// "listFilterWidget.noMatchesOutline": "#fff",
+		// "listFilterWidget.outline": "#4c1a85",
+	
+		// "listFilterWidget.noMatchesOutline": "#a09999",
+		// (プライマリサイドバーなどの)リストのCtrl+Fを押したときに出てくるフィルターの影の色
 		// "listFilterWidget.shadow": "#fff",
-		// "list.filterMatchBackground": "#fff",
-		// "list.filterMatchBorder": "#fff",
-		// "list.deemphasizedForeground": "#fff",
-		// "list.dropBetweenBackground": "#fff",
-		// "tree.indentGuidesStroke": "#f0dfcc", // インデントガイドの色
-		// "tree.inactiveIndentGuidesStroke": "#f0dfcc75", // インデントガイド非活性時の色 (フォルダの階層の横の縦バー)
+		// (プライマリサイドバーなどの)リストのCtrl+Fでフィルターしたとき合致部分の背景色
+		"list.filterMatchBackground": "#888888",
+		// (プライマリサイドバーなどの)リストのCtrl+Fでフィルターしたとき合致部分のボーダー色
+		// "list.filterMatchBorder": "#000000",
+
+
+		// "list.deemphasizedForeground": "#791313",
+		// (プライマリサイドバーなどの)OPEN EDITORなどのリストの順序を変更するときに表示されるボーダーの色(背景色)
+		// "list.dropBetweenBackground": "#943131",
+		// (プライマリサイドバーなどの)リストのフォルダ階層の横に出る縦バーの色
+		// "tree.indentGuidesStroke": "#f0dfcc",
+		// (プライマリサイドバーなどの)リストのフォルダ階層の横に出る縦バーの色(非アクティブ時)
+		// "tree.inactiveIndentGuidesStroke": "#ff880075",
+
 		// "tree.tableColumnsBorder": "#fff",
 		// "tree.tableOddRowsBackground": "#fff",
 
 		
 		// == Activity Bar Section ==
 		// エクスプローラーや拡張機能のアイコンがあるバーの背景色
-		// "activityBar.background": "#1B2716",
-		// "activityBar.dropBorder": "#fff",
-
+		"activityBar.background": "#1B2716",
+		// エクスプローラーや拡張機能のアイコンがあるバーの順序を変更するときに表示されるボーダーの色(背景色)
+		"activityBar.dropBorder": "#573232",
 		// エクスプローラーや拡張機能のアイコンがあるバーの前面色
 		// "activityBar.foreground": "#E8CEB0",
 		// エクスプローラーや拡張機能のアイコンが選択されていない時の前面色
 		"activityBar.inactiveForeground": "#f0dfcc",
 		// エクスプローラーや拡張機能のアイコンがあるバーのボーダー色
 		// "activityBar.border": "#3E3546",
-
 		// 左下のリモートウィンドウのバッジや、通知バッジの背景色
 		// "activityBarBadge.background": "#809848",
 		// 左下のリモートウィンドウのバッジや、通知バッジの前面色
 		// "activityBarBadge.foreground": "#1B2716",
-
 		// エクスプローラーや拡張機能の選択されているアイコンの左ボーダー色
 		// "activityBar.activeBorder": "#e9c194",
 		// エクスプローラーや拡張機能の選択されているアイコンの背景色
 		// "activityBar.activeBackground": "#48533e",
-
-		// "activityBar.activeFocusBorder": "#ff8800",
+		// エクスプローラーや拡張機能のクリックホールドしているときの背景色
+		"activityBar.activeFocusBorder": "#464442",
 		// "activityBarTop.foreground": "#fff",
 		// "activityBarTop.activeBorder": "#fff",
 		// "activityBarTop.inactiveForeground": "#fff",
