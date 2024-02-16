@@ -224,33 +224,39 @@
 
 		
 		// == Activity Bar Section ==
-		// エクスプローラーや拡張機能のアイコンがあるバーの背景色
+		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの背景色
 		"activityBar.background": "#1B2716",
-		// エクスプローラーや拡張機能のアイコンがあるバーの順序を変更するときに表示されるボーダーの色(背景色)
+		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの順序を変更するときに表示されるボーダーの色(背景色)
 		"activityBar.dropBorder": "#573232",
-		// エクスプローラーや拡張機能のアイコンがあるバーの前面色
+		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの前面色
 		// "activityBar.foreground": "#E8CEB0",
-		// エクスプローラーや拡張機能のアイコンが選択されていない時の前面色
+		// エクスプローラーや拡張機能のアイコンがあるアクティブバーのアイコンが選択されていない時の前面色
 		"activityBar.inactiveForeground": "#f0dfcc",
-		// エクスプローラーや拡張機能のアイコンがあるバーのボーダー色
+		// エクスプローラーや拡張機能のアイコンがあるアクティブバーのボーダー色
 		// "activityBar.border": "#3E3546",
 		// 左下のリモートウィンドウのバッジや、通知バッジの背景色
 		// "activityBarBadge.background": "#809848",
 		// 左下のリモートウィンドウのバッジや、通知バッジの前面色
 		// "activityBarBadge.foreground": "#1B2716",
-		// エクスプローラーや拡張機能の選択されているアイコンの左ボーダー色
+		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの選択されているアイコンの左ボーダー色
 		// "activityBar.activeBorder": "#e9c194",
-		// エクスプローラーや拡張機能の選択されているアイコンの背景色
+		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの選択されているアイコンの背景色
 		// "activityBar.activeBackground": "#48533e",
-		// エクスプローラーや拡張機能のクリックホールドしているときの背景色
+		// エクスプローラーや拡張機能のアイコンがあるアクティブバーのクリックホールドしているときの選択されているアイコンの左ボーダー色
 		"activityBar.activeFocusBorder": "#464442",
+		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの表示位置が上になる時の前面色
 		// "activityBarTop.foreground": "#fff",
+		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの表示位置が上になる時の選択されているアイコンのボーダー色
 		// "activityBarTop.activeBorder": "#fff",
+		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの表示位置が上になる時の選択されていないアイコンの背景色
 		// "activityBarTop.inactiveForeground": "#fff",
+		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの表示位置が上になる時の順序を変更するときに表示されるボーダーの色(背景色)
 		// "activityBarTop.dropBorder": "#fff",
 		
 		// == Profiles Section ==
-		// "profileBadge.background": "#ccee6e",
+		// アクティブバーの同アイコンでプロファイルを作成したときのプロファイルのバッジ識別の背景色
+		// "profileBadge.background": "#84925d",
+		// アクティブバーの同アイコンでプロファイルを作成したときのプロファイルのバッジ識別の前面色
 		// "profileBadge.foreground": "#2B3225",
 		
 		// == Side Bar Section ==
@@ -260,7 +266,8 @@
 		// "sideBar.foreground": "#E8CEB0",
 		// サイドバーのボーダー色
 		// "sideBar.border": "#3E3546",
-		// "sideBar.dropBackground": "#fff",
+		// アクティブバーなどからサイドバーにアイテムを移動しようとしたときの背景色
+		// "sideBar.dropBackground": "#ffffff",
 		// サイドバーのタイトル(EXPLORERなど)の前面色
 		// "sideBarTitle.foreground": "#f0dfcc",
 		// サイドバーのセクションヘッダー(OPEN EDITORなど)の背景色
@@ -271,20 +278,34 @@
 		// "sideBarSectionHeader.border": "#ffffff",
 		
 		// == Minimap Section ==
-		// "minimap.findMatchHighlight": "#fff",
-		// "minimap.selectionHighlight": "#fff",
-		// "minimap.errorHighlight": "#fff",
-		// "minimap.warningHighlight": "#fff",
-		// "minimap.background": "#ff0000",
-		// "minimap.selectionOccurenceHighlight": "#fff",
-		// "minimap.foregroundOpacity": "#fff",
-		// "minimap.infoHighlight": "#fff",
+		// コードのminimap(コード全体)の検索合致の行の背景色(ハイライト)
+		"minimap.findMatchHighlight": "#42831db2",
+		// コードのminimap(コード全体)のエディターで選択しているすべての検索合致の背景色(ハイライト)
+		"minimap.selectionHighlight": "#f014ded0",
+		// コードのminimap(コード全体)のエラー行の背景色(ハイライト)
+		"minimap.errorHighlight": "#fff",
+		// コードのminimap(コード全体)の警告行の背景色(ハイライト)
+		"minimap.warningHighlight": "#bdb3b3",
+		// コードのminimap(コード全体)の背景色
+		"minimap.background": "#272727",
+		// コードのminimap(コード全体)のエディターで選択したものが複数あるときの該当行の背景色(ハイライト)
+		"minimap.selectionOccurrenceHighlight": "#7648e2b4",
+		// コードのminimap(コード全体)のコードの透過度
+		"minimap.foregroundOpacity": "#0000007a",
+
+		"minimap.infoHighlight": "#00eeff",
+		// コードのminimap(コード全体)のホバースクロール時の背景色
 		// "minimapSlider.background": "#fff",
-		// "minimapSlider.hoverBackground": "#fff",
-		// "minimapSlider.activeBackground": "#fff",
-		// "minimapGutter.addedBackground": "#fff",
-		// "minimapGutter.modifiedBackground": "#fff",
-		// "minimapGutter.deletedBackground": "#fff",
+		// コードのminimap(コード全体)の表示部分のホバー時の背景色
+		// "minimapSlider.hoverBackground": "#b11d1d",
+		// コードのminimap(コード全体)の表示部分のホールド時(アクティブ時)の背景色
+		// "minimapSlider.activeBackground": "#187528",
+		// コードのminimap(コード全体)のバージョン管理されているコードの追加行の横に表示される縦バーの背景色
+		"minimapGutter.addedBackground": "#53a057",
+		// コードのminimap(コード全体)のバージョン管理されているコードの更新行の横に表示される縦バーの背景色
+		"minimapGutter.modifiedBackground": "#dfad25",
+		// コードのminimap(コード全体)のバージョン管理されているコードの削除行の横に表示される縦バーの背景色
+		"minimapGutter.deletedBackground": "#eb2a2a",
 		
 		// == Editor Groups & Tabs Section ==
 		// "editorGroup.border": "#fff",
