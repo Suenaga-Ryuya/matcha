@@ -11,684 +11,1024 @@
 		// highlight: ハイライト
 
 		// == Contrast Color Section 今回は不要 ==
-		// コントラスト比率が高い時用のアクティブなボーダー
+		// * コントラスト比率が高い時用のアクティブなボーダー
 		// "contrastActiveBorder": "#1B2716",
-		// コントラスト比率が高い時用のボーダー
+		// * コントラスト比率が高い時用のボーダー
 		// "contrastBorder": "#1B2716",
 		
 		// == Base Color Section (全体の統一色) ==
-		// サイドバーや入力部分などのブロックにフォーカスした際に表示されるボーダーの色
+		// * サイドバーや入力部分などのブロックにフォーカスした際に表示されるボーダーの色
 		"focusBorder": "#1B2716",
+		// *
 		// "foreground": "#E8CEB0", // テキストの色
-		// // "foreground": "#f0dfcc", // テキストの色
+		// *
 		// "disabledForeground": "#fff",
+		// *
 		// "widget.border": "#fffffe40",
+		// *
 		// "widget.shadow": "#fff", // notificationなどのウィジェットの影
+		// *
 		// "selection.background": "#fff",
+		// *
 		// "descriptionForeground": "#fff",
+		// *
 		// "errorForeground": "#ff6464",
+		// *
 		// "icon.foreground": "#fff",
-
-		// 伸縮バーと移動時の色
+		// * 伸縮バーと移動時の色
 		// "sash.hoverBorder": "#ffffff",
 		
 		// == Window Border Section (for macOS and Linux) 今回は不要 ==
-		// 縮小表示している時のウィンドウにフォーカスしている時のボーダー
+		// * 縮小表示している時のウィンドウにフォーカスしている時のボーダー
 		// "window.activeBorder": "#fff",
-		// 縮小表示している時のウィンドウにフォーカスしていない時のボーダー
+		// * 縮小表示している時のウィンドウにフォーカスしていない時のボーダー
 		// "window.inactiveBorder": "#fff",
 		
 		// == Text Color Section ==
-		// markdownの引用部分の背景色
+		// * markdownの引用部分の背景色
 		// "textBlockQuote.background": "#404040",
-		// markdownの引用部分の左のボーダー色
+		// * markdownの引用部分の左のボーダー色
 		// "textBlockQuote.border": "#fff",
-		// markdownのコードスニペットの背景色
+		// * markdownのコードスニペットの背景色
 		// "textCodeBlock.background": "#000000",
-		// リンクのアクティブ時(ホバーなど)の前面色
+		// * リンクのアクティブ時(ホバーなど)の前面色
 		// "textLink.activeForeground": "#809848",
-		// リンクの前面色
+		// * リンクの前面色
 		// "textLink.foreground": "#809848",
-		// markdownのインラインコードの前面色
+		// * markdownのインラインコードの前面色
 		// "textPreformat.foreground": "#404040",
-		// markdownのインラインコードの背景色
+		// * markdownのインラインコードの背景色
 		// "textPreformat.background": "#ffffff",
-		// テキスト区切りの色 (vscodeのリポジトリでは定義されているが使用されていない？ 2024/02/14現在)
+		// * テキスト区切りの色 (vscodeのリポジトリでは定義されているが使用されていない？ 2024/02/14現在)
 		// "textSeparator.foreground": "#f21515", // セパレータの色
 		
 		// == Action Color Section ([フォルダアイコンなど]のツールバーの設定) ==
-		// 「・・・」などのツールバーホバー時の背景色
-		"toolbar.hoverBackground": "#48543d",
-		// 「・・・」などのツールバーホバー時の枠線色
+		// * 「・・・」などのツールバーホバー時の背景色
+		// "toolbar.hoverBackground": "#48543d",
+		// * 「・・・」などのツールバーホバー時の枠線色
 		// "toolbar.hoverOutline": "#f0dfcc",
-		// 「・・・」などのツールバーアクティブ時(クリックなど)の背景色
-		"toolbar.activeBackground": "#718360",
+		// * 「・・・」などのツールバーアクティブ時(クリックなど)の背景色
+		// "toolbar.activeBackground": "#718360",
 		
 		// == Button Control Section ==
-		// ボタンの背景色
-		"button.background": "#758B41",
-		// ボタンの前面色
-		"button.foreground": "#1B2716",
-		// ボタンのボーダー色
-		"button.border": "#f0dfcc7d",
+		// * ボタンの背景色
+		// "button.background": "#758B41",
+		// * ボタンの前面色
+		// "button.foreground": "#1B2716",
+		// * ボタンのボーダー色
+		// "button.border": "#f0dfcc7d",
+		// *
 		// "button.separator": "#fff",
-		// ボタンのホバー時の背景色
+		// * ボタンのホバー時の背景色
 		// "button.hoverBackground": "#6c806de0",
-		// セカンダリボタンの前面色
+		// * セカンダリボタンの前面色
 		// "button.secondaryForeground": "#ff1010",
-		// セカンダリボタンの背景色
+		// * セカンダリボタンの背景色
 		// "button.secondaryBackground": "#fff",
-		// セカンダリボタンのホバー時の背景色
+		// * セカンダリボタンのホバー時の背景色
 		// "button.secondaryHoverBackground": "#d60d0d",
-		// チェックボックスの背景色 (settingsのチェックボックスにも反映される?overrideされる?)
+		// * チェックボックスの背景色 (settingsのチェックボックスにも反映される?overrideされる?)
 		// "checkbox.background": "#f0dfcc", 
-		// チェックボックスの前面色 (settingsのチェックボックスにも反映される?overrideされる?)
+		// * チェックボックスの前面色 (settingsのチェックボックスにも反映される?overrideされる?)
 		// "checkbox.foreground": "#363f2e",
-		// チェックボックスのボーダー色 (settingsのチェックボックスにも反映される?overrideされる?)
+		// * チェックボックスのボーダー色 (settingsのチェックボックスにも反映される?overrideされる?)
 		// "checkbox.border": "#fff",
-		// チェックボックスの選択時の背景色 (settingsのチェックボックスにも反映される?overrideされる?)
+		// * チェックボックスの選択時の背景色 (settingsのチェックボックスにも反映される?overrideされる?)
 		// "checkbox.selectBackground": "#f0dfcc",
-		// チェックボックスの選択時のボーダー色 (settingsのチェックボックスにも反映される?overrideされる?)
+		// * チェックボックスの選択時のボーダー色 (settingsのチェックボックスにも反映される?overrideされる?)
 		// "checkbox.selectBorder": "#7de720",
 		
 		// == Dropdown Control Section (for Windows) ==
+		// *
 		// "dropdown.background": "#fff",
+		// *
 		// "dropdown.listBackground": "#fff",
+		// *
 		// "dropdown.border": "#fff",
+		// *
 		// "dropdown.foreground": "#fff",
 		
 		// == Input Control Section ==
-		// SEARCHなどのインプットの背景色
-		"input.background": "#363f2e",
-		// SEARCHなどのインプットのボーダー色
-		"input.border": "#f0dfcc22",
-		// SEARCHなどのインプットの前面色
-		"input.foreground": "#f0dfcc",
-		// SEARCHなどのインプットのプレースホルダーの文字色
-		"input.placeholderForeground": "#f0dfcc81",
-		// SEARCHなどのインプットのオプション(Aaのアイコンなど)のアクティブ時の背景色
-		"inputOption.activeBackground": "#48543d",
-		// SEARCHなどのインプットのオプション(Aaのアイコンなど)のアクティブ時のボーダー色
-		"inputOption.activeBorder": "#363f2e",
-		// SEARCHなどのインプットのオプション(Aaのアイコンなど)のアクティブ時の前面色
-		"inputOption.activeForeground": "#ffefdd",
-		// SEARCHなどのインプットのオプション(Aaのアイコンなど)のホバー時の背景色
-		"inputOption.hoverBackground": "#48543d",
-		// SEARCHなどのインプットのバリデーションのエラー時の背景色
+		// * SEARCHなどのインプットの背景色
+		// "input.background": "#363f2e",
+		// * SEARCHなどのインプットのボーダー色
+		// "input.border": "#f0dfcc22",
+		// * SEARCHなどのインプットの前面色
+		// "input.foreground": "#f0dfcc",
+		// * SEARCHなどのインプットのプレースホルダーの文字色
+		// "input.placeholderForeground": "#f0dfcc81",
+		// * SEARCHなどのインプットのオプション(Aaのアイコンなど)のアクティブ時の背景色
+		// "inputOption.activeBackground": "#48543d",
+		// * SEARCHなどのインプットのオプション(Aaのアイコンなど)のアクティブ時のボーダー色
+		// "inputOption.activeBorder": "#363f2e",
+		// * SEARCHなどのインプットのオプション(Aaのアイコンなど)のアクティブ時の前面色
+		// "inputOption.activeForeground": "#ffefdd",
+		// * SEARCHなどのインプットのオプション(Aaのアイコンなど)のホバー時の背景色
+		// "inputOption.hoverBackground": "#48543d",
+		// * SEARCHなどのインプットのバリデーションのエラー時の背景色
 		// "inputValidation.errorBackground": "#914a4a",
-		// SEARCHなどのインプットのバリデーションのエラー時の前面色
+		// * SEARCHなどのインプットのバリデーションのエラー時の前面色
 		// "inputValidation.errorForeground": "#f0dfcc",
-		// SEARCHなどのインプットのバリデーションのエラー時のボーダー色
+		// * SEARCHなどのインプットのバリデーションのエラー時のボーダー色
 		// "inputValidation.errorBorder": "#ff6464",
-		// SEARCHなどのインプットのバリデーションの情報・補足の背景色
+		// * SEARCHなどのインプットのバリデーションの情報・補足の背景色
 		// "inputValidation.infoBackground": "#363f2e",
-		// SEARCHなどのインプットのバリデーションの情報・補足の前面色
+		// * SEARCHなどのインプットのバリデーションの情報・補足の前面色
 		// "inputValidation.infoForeground": "#f0dfcc",
-		// SEARCHなどのインプットのバリデーションの情報・補足のボーダー色
+		// * SEARCHなどのインプットのバリデーションの情報・補足のボーダー色
 		// "inputValidation.infoBorder": "#48543d",
-		// SEARCHなどのインプットのバリデーションの警告時の背景色
+		// * SEARCHなどのインプットのバリデーションの警告時の背景色
 		// "inputValidation.warningBackground": "#916d24",
-		// SEARCHなどのインプットのバリデーションの警告時の前面色
+		// * SEARCHなどのインプットのバリデーションの警告時の前面色
 		// "inputValidation.warningForeground": "#f0dfcc",
-		// SEARCHなどのインプットのバリデーションの警告時のボーダー色
+		// * SEARCHなどのインプットのバリデーションの警告時のボーダー色
 		// "inputValidation.warningBorder": "#ffbf3f",
 		
 		// == Scrollbar Control Section ==
-		// スクロール時に固定される行の影の色
+		// * スクロール時に固定される行の影の色
 		// "scrollbar.shadow": "#ab1e1e",
-		// スクロールバーをホールドしている時の背景色
+		// * スクロールバーをホールドしている時の背景色
 		// "scrollbarSlider.activeBackground": "#48543d",
-		// スクロールバーの背景色
+		// * スクロールバーの背景色
 		// "scrollbarSlider.background": "#444f3a7d",
-		// スクロールバーのホバー時の背景色
+		// * スクロールバーのホバー時の背景色
 		// "scrollbarSlider.hoverBackground": "#444f3a7d",
 		
 		// == Badge Section ==
-		// ターミナルやインストールしている拡張機能の数値などのバッジの背景色
+		// * ターミナルやインストールしている拡張機能の数値などのバッジの背景色
 		// "badge.background": "#b6f114",
-		// ターミナルやインストールしている拡張機能の数値などのバッジの前面色
+		// * ターミナルやインストールしている拡張機能の数値などのバッジの前面色
 		// "badge.foreground": "#edf5e8",
 		
 		// == Progress Bar Section ==
-		// コミットする時など読み込み時に出てくるプログレスバーの色
+		// * コミットする時など読み込み時に出てくるプログレスバーの色
 		// "progressBar.background": "#fff",
 		
 		// == Lists and Trees Section ==
-		// (プライマリサイドバーなどの)リストの選択されているときの背景色
-		"list.activeSelectionBackground": "#1B2716",
-		// (プライマリサイドバーなどの)リストの選択されているときの前面色
-		"list.activeSelectionForeground": "#fffcf9",
-		// (プライマリサイドバーなどの)リストのアイコンの色(verified mark)
-		"list.activeSelectionIconForeground": "#758B41",
-		// ファイルをマウスでドラッグ&ドロップした時の背景色 (特にフォルダ間移動時)
+		// * (プライマリサイドバーなどの)リストの選択されているときの背景色
+		// "list.activeSelectionBackground": "#1B2716",
+		// * (プライマリサイドバーなどの)リストの選択されているときの前面色
+		// "list.activeSelectionForeground": "#fffcf9",
+		// * (プライマリサイドバーなどの)リストのアイコンの色(verified mark)
+		// "list.activeSelectionIconForeground": "#758B41",
+		// * ファイルをマウスでドラッグ&ドロップした時の背景色 (特にフォルダ間移動時)
 		// "list.dropBackground": "#dd2a2a",
-		// リストで右クリックしたときなどのフォーカスが当たったときの背景色
-		"list.focusBackground": "#921e1e",
-		// リストで右クリックしたときなどのフォーカスが当たったときの前面色
-		"list.focusForeground": "#ae4343",
-		// リストで文字列が合致した場合などの合致部分のフォーカスが当たった時の前面色 (コマンドパレットで[> git]と入力し、候補に出てきた合致コマンドにフォーカスが当たった時の前面色など)
-		"list.focusHighlightForeground": "#765656",
-		// (プライマリサイドバーなどの)リストの選択されているときのボーダー色
-		"list.focusOutline": "#99b382",
-		// (プライマリサイドバーなどの)リストの選択されているときのアウトライン色
-		"list.focusAndSelectionOutline": "#6abd17",
-		// リストで文字列が合致した場合などの合致部分の前面色 (コマンドパレットで[> git]と入力し、候補に出てきた合致コマンドの前面色など)
-		"list.highlightForeground": "#24d1b7",
-		// (プライマリサイドバーなどの)ホバー時の背景色 notificationのホバーもこの色
-		"list.hoverBackground": "#363f2e",
-		// (プライマリサイドバーなどの)ホバー時の前面色 notificationのホバーもこの色
-		"list.hoverForeground": "#817b7b",
-		// (プライマリサイドバーなどの)選択時の非アクティブ背景色 (例えばOPEN EDITORSでファイルを選択している時、開いてるフォルダの同じファイルの背景色)
-		"list.inactiveSelectionBackground": "#1B2716", 
-		// (プライマリサイドバーなどの)選択時の非アクティブ前面色 (例えばOPEN EDITORSでファイルを選択している時、開いてるフォルダの同じファイルの前面色)
-		"list.inactiveSelectionForeground": "#ffffff",
-		// (プライマリサイドバーなどの)選択時の非アクティブアイコン色 (例えばExtensionsで選択している状態で、OPEN EDITORSでファイルを選択している時、Extensionsで選択しているバッジやアイコン前面色)
-		// 開いてるファイルの×アイコンの色も
-		"list.inactiveSelectionIconForeground": "#871111",
-		// リストで右クリックしてフォーカスした後に、別のリストのアイテムを右クリックしてフォーカスが当たったときの最初のアイテム(アクティブじゃない)の背景色
-		// フィルターで合致した部分の背景色にもなる
-		"list.inactiveFocusBackground": "#464646",
-		// リストで右クリックしてフォーカスした後に、別のリストのアイテムを右クリックしてフォーカスが当たったときの最初のアイテム(アクティブじゃない)の前面色
-		"list.inactiveFocusOutline": "#2B3225",
-
-		"list.invalidItemForeground": "#fff",
-
-		// (プライマリサイドバーなどの)リストでエラーが起きているファイルの前面色
-		"list.errorForeground": "#ff6464",
-		// (プライマリサイドバーなどの)リストで警告が起きているファイルの前面色
-		"list.warningForeground": "#ffbf3f",
-		// (プライマリサイドバーなどの)リストのCtrl+Fを押したときに出てくるフィルターの背景色
-		"listFilterWidget.background": "#295a22",
-
+		// * リストで右クリックしたときなどのフォーカスが当たったときの背景色
+		// "list.focusBackground": "#921e1e",
+		// * リストで右クリックしたときなどのフォーカスが当たったときの前面色
+		// "list.focusForeground": "#ae4343",
+		// * リストで文字列が合致した場合などの合致部分のフォーカスが当たった時の前面色 (コマンドパレットで[> git]と入力し、候補に出てきた合致コマンドにフォーカスが当たった時の前面色など)
+		// "list.focusHighlightForeground": "#765656",
+		// * (プライマリサイドバーなどの)リストの選択されているときのボーダー色
+		// "list.focusOutline": "#99b382",
+		// * (プライマリサイドバーなどの)リストの選択されているときのアウトライン色
+		// "list.focusAndSelectionOutline": "#6abd17",
+		// * リストで文字列が合致した場合などの合致部分の前面色 (コマンドパレットで[> git]と入力し、候補に出てきた合致コマンドの前面色など)
+		// "list.highlightForeground": "#24d1b7",
+		// * (プライマリサイドバーなどの)ホバー時の背景色 notificationのホバーもこの色
+		// "list.hoverBackground": "#363f2e",
+		// * (プライマリサイドバーなどの)ホバー時の前面色 notificationのホバーもこの色
+		// "list.hoverForeground": "#817b7b",
+		// * (プライマリサイドバーなどの)選択時の非アクティブ背景色 (例えばOPEN EDITORSでファイルを選択している時、開いてるフォルダの同じファイルの背景色)
+		// "list.inactiveSelectionBackground": "#1B2716", 
+		// * (プライマリサイドバーなどの)選択時の非アクティブ前面色 (例えばOPEN EDITORSでファイルを選択している時、開いてるフォルダの同じファイルの前面色)
+		// "list.inactiveSelectionForeground": "#ffffff",
+		// * (プライマリサイドバーなどの)選択時の非アクティブアイコン色 (例えばExtensionsで選択している状態で、OPEN EDITORSでファイルを選択している時、Extensionsで選択しているバッジやアイコン前面色)
+		// * 開いてるファイルの×アイコンの色も
+		// "list.inactiveSelectionIconForeground": "#871111",
+		// * リストで右クリックしてフォーカスした後に、別のリストのアイテムを右クリックしてフォーカスが当たったときの最初のアイテム(アクティブじゃない)の背景色
+		// * フィルターで合致した部分の背景色にもなる
+		// "list.inactiveFocusBackground": "#464646",
+		// * リストで右クリックしてフォーカスした後に、別のリストのアイテムを右クリックしてフォーカスが当たったときの最初のアイテム(アクティブじゃない)の前面色
+		// "list.inactiveFocusOutline": "#2B3225",
+		// * 
+		// "list.invalidItemForeground": "#fff",
+		// * (プライマリサイドバーなどの)リストでエラーが起きているファイルの前面色
+		// "list.errorForeground": "#ff6464",
+		// * (プライマリサイドバーなどの)リストで警告が起きているファイルの前面色
+		// "list.warningForeground": "#ffbf3f",
+		// * (プライマリサイドバーなどの)リストのCtrl+Fを押したときに出てくるフィルターの背景色
+		// "listFilterWidget.background": "#295a22",
+		// * 
 		// "listFilterWidget.outline": "#4c1a85",
-	
+		// * 
 		// "listFilterWidget.noMatchesOutline": "#a09999",
-		// (プライマリサイドバーなどの)リストのCtrl+Fを押したときに出てくるフィルターの影の色
+		// * (プライマリサイドバーなどの)リストのCtrl+Fを押したときに出てくるフィルターの影の色
 		// "listFilterWidget.shadow": "#fff",
-		// (プライマリサイドバーなどの)リストのCtrl+Fでフィルターしたとき合致部分の背景色
-		"list.filterMatchBackground": "#888888",
-		// (プライマリサイドバーなどの)リストのCtrl+Fでフィルターしたとき合致部分のボーダー色
+		// * (プライマリサイドバーなどの)リストのCtrl+Fでフィルターしたとき合致部分の背景色
+		// "list.filterMatchBackground": "#888888",
+		// * (プライマリサイドバーなどの)リストのCtrl+Fでフィルターしたとき合致部分のボーダー色
 		// "list.filterMatchBorder": "#000000",
-
-
+		// * 
 		// "list.deemphasizedForeground": "#791313",
-		// (プライマリサイドバーなどの)OPEN EDITORなどのリストの順序を変更するときに表示されるボーダーの色(背景色)
+		// * (プライマリサイドバーなどの)OPEN EDITORなどのリストの順序を変更するときに表示されるボーダーの色(背景色)
 		// "list.dropBetweenBackground": "#943131",
-		// (プライマリサイドバーなどの)リストのフォルダ階層の横に出る縦バーの色
+		// * (プライマリサイドバーなどの)リストのフォルダ階層の横に出る縦バーの色
 		// "tree.indentGuidesStroke": "#f0dfcc",
-		// (プライマリサイドバーなどの)リストのフォルダ階層の横に出る縦バーの色(非アクティブ時)
+		// * (プライマリサイドバーなどの)リストのフォルダ階層の横に出る縦バーの色(非アクティブ時)
 		// "tree.inactiveIndentGuidesStroke": "#ff880075",
-
+		// * 
 		// "tree.tableColumnsBorder": "#fff",
+		// * 
 		// "tree.tableOddRowsBackground": "#fff",
 
 		
 		// == Activity Bar Section ==
-		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの背景色
-		"activityBar.background": "#1B2716",
-		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの順序を変更するときに表示されるボーダーの色(背景色)
-		"activityBar.dropBorder": "#573232",
-		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの前面色
+		// * エクスプローラーや拡張機能のアイコンがあるアクティブバーの背景色
+		// "activityBar.background": "#1B2716",
+		// * エクスプローラーや拡張機能のアイコンがあるアクティブバーの順序を変更するときに表示されるボーダーの色(背景色)
+		// "activityBar.dropBorder": "#573232",
+		// * エクスプローラーや拡張機能のアイコンがあるアクティブバーの前面色
 		// "activityBar.foreground": "#E8CEB0",
-		// エクスプローラーや拡張機能のアイコンがあるアクティブバーのアイコンが選択されていない時の前面色
-		"activityBar.inactiveForeground": "#f0dfcc",
-		// エクスプローラーや拡張機能のアイコンがあるアクティブバーのボーダー色
+		// * エクスプローラーや拡張機能のアイコンがあるアクティブバーのアイコンが選択されていない時の前面色
+		// "activityBar.inactiveForeground": "#f0dfcc",
+		// * エクスプローラーや拡張機能のアイコンがあるアクティブバーのボーダー色
 		// "activityBar.border": "#3E3546",
-		// 左下のリモートウィンドウのバッジや、通知バッジの背景色
+		// * 左下のリモートウィンドウのバッジや、通知バッジの背景色
 		// "activityBarBadge.background": "#809848",
-		// 左下のリモートウィンドウのバッジや、通知バッジの前面色
+		// * 左下のリモートウィンドウのバッジや、通知バッジの前面色
 		// "activityBarBadge.foreground": "#1B2716",
-		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの選択されているアイコンの左ボーダー色
+		// * エクスプローラーや拡張機能のアイコンがあるアクティブバーの選択されているアイコンの左ボーダー色
 		// "activityBar.activeBorder": "#e9c194",
-		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの選択されているアイコンの背景色
+		// * エクスプローラーや拡張機能のアイコンがあるアクティブバーの選択されているアイコンの背景色
 		// "activityBar.activeBackground": "#48533e",
-		// エクスプローラーや拡張機能のアイコンがあるアクティブバーのクリックホールドしているときの選択されているアイコンの左ボーダー色
-		"activityBar.activeFocusBorder": "#464442",
-		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの表示位置が上になる時の前面色
+		// * エクスプローラーや拡張機能のアイコンがあるアクティブバーのクリックホールドしているときの選択されているアイコンの左ボーダー色
+		// "activityBar.activeFocusBorder": "#464442",
+		// * エクスプローラーや拡張機能のアイコンがあるアクティブバーの表示位置が上になる時の前面色
 		// "activityBarTop.foreground": "#fff",
-		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの表示位置が上になる時の選択されているアイコンのボーダー色
+		// * エクスプローラーや拡張機能のアイコンがあるアクティブバーの表示位置が上になる時の選択されているアイコンのボーダー色
 		// "activityBarTop.activeBorder": "#fff",
-		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの表示位置が上になる時の選択されていないアイコンの背景色
+		// * エクスプローラーや拡張機能のアイコンがあるアクティブバーの表示位置が上になる時の選択されていないアイコンの背景色
 		// "activityBarTop.inactiveForeground": "#fff",
-		// エクスプローラーや拡張機能のアイコンがあるアクティブバーの表示位置が上になる時の順序を変更するときに表示されるボーダーの色(背景色)
+		// * エクスプローラーや拡張機能のアイコンがあるアクティブバーの表示位置が上になる時の順序を変更するときに表示されるボーダーの色(背景色)
 		// "activityBarTop.dropBorder": "#fff",
 		
 		// == Profiles Section ==
-		// アクティブバーの同アイコンでプロファイルを作成したときのプロファイルのバッジ識別の背景色
+		// * アクティブバーの同アイコンでプロファイルを作成したときのプロファイルのバッジ識別の背景色
 		// "profileBadge.background": "#84925d",
-		// アクティブバーの同アイコンでプロファイルを作成したときのプロファイルのバッジ識別の前面色
+		// * アクティブバーの同アイコンでプロファイルを作成したときのプロファイルのバッジ識別の前面色
 		// "profileBadge.foreground": "#2B3225",
 		
 		// == Side Bar Section ==
-		// サイドバーの背景色
+		// * サイドバーの背景色
 		// "sideBar.background": "#1B2716",
-		// サイドバーの前面色
+		// * サイドバーの前面色
 		// "sideBar.foreground": "#E8CEB0",
-		// サイドバーのボーダー色
+		// * サイドバーのボーダー色
 		// "sideBar.border": "#3E3546",
-		// アクティブバーなどからサイドバーにアイテムを移動しようとしたときの背景色
+		// * アクティブバーなどからサイドバーにアイテムを移動しようとしたときの背景色
 		// "sideBar.dropBackground": "#ffffff",
-		// サイドバーのタイトル(EXPLORERなど)の前面色
+		// * サイドバーのタイトル(EXPLORERなど)の前面色
 		// "sideBarTitle.foreground": "#f0dfcc",
-		// サイドバーのセクションヘッダー(OPEN EDITORなど)の背景色
+		// * サイドバーのセクションヘッダー(OPEN EDITORなど)の背景色
 		// "sideBarSectionHeader.background": "#363f2e",
-		// サイドバーのセクションヘッダー(OPEN EDITORなど)の前面色
+		// * サイドバーのセクションヘッダー(OPEN EDITORなど)の前面色
 		// "sideBarSectionHeader.foreground": "#f0dfcc",
-		// サイドバーのセクションヘッダー(OPEN EDITORなど)のボーダー色
+		// * サイドバーのセクションヘッダー(OPEN EDITORなど)のボーダー色
 		// "sideBarSectionHeader.border": "#ffffff",
 		
 		// == Minimap Section ==
-		// コードのminimap(コード全体)の検索合致の行の背景色(ハイライト)
-		"minimap.findMatchHighlight": "#42831db2",
-		// コードのminimap(コード全体)のエディターで選択しているすべての検索合致の背景色(ハイライト)
-		"minimap.selectionHighlight": "#f014ded0",
-		// コードのminimap(コード全体)のエラー行の背景色(ハイライト)
-		"minimap.errorHighlight": "#fff",
-		// コードのminimap(コード全体)の警告行の背景色(ハイライト)
-		"minimap.warningHighlight": "#bdb3b3",
-		// コードのminimap(コード全体)の背景色
-		"minimap.background": "#272727",
-		// コードのminimap(コード全体)のエディターで選択したものが複数あるときの該当行の背景色(ハイライト)
-		"minimap.selectionOccurrenceHighlight": "#7648e2b4",
-		// コードのminimap(コード全体)のコードの透過度
-		"minimap.foregroundOpacity": "#0000007a",
-
-		"minimap.infoHighlight": "#00eeff",
-		// コードのminimap(コード全体)のホバースクロール時の背景色
+		// * コードのminimap(コード全体)の検索合致の行の背景色(ハイライト)
+		// "minimap.findMatchHighlight": "#42831db2",
+		// * コードのminimap(コード全体)のエディターで選択しているすべての検索合致の背景色(ハイライト)
+		// "minimap.selectionHighlight": "#f014ded0",
+		// * コードのminimap(コード全体)のエラー行の背景色(ハイライト)
+		// "minimap.errorHighlight": "#fff",
+		// * コードのminimap(コード全体)の警告行の背景色(ハイライト)
+		// "minimap.warningHighlight": "#bdb3b3",
+		// * コードのminimap(コード全体)の背景色
+		// "minimap.background": "#272727",
+		// * コードのminimap(コード全体)のエディターで選択したものが複数あるときの該当行の背景色(ハイライト)
+		// "minimap.selectionOccurrenceHighlight": "#7648e2b4",
+		// * コードのminimap(コード全体)のコードの透過度
+		// "minimap.foregroundOpacity": "#0000007a",
+		// * コードのminimap(コード全体)のエディターで青波線で表示される(スペルチェックなど)該当行の背景色(ハイライト)
+		// "minimap.infoHighlight": "#00eeff",
+		// * コードのminimap(コード全体)のホバースクロール時の背景色
 		// "minimapSlider.background": "#fff",
-		// コードのminimap(コード全体)の表示部分のホバー時の背景色
+		// * コードのminimap(コード全体)の表示部分のホバー時の背景色
 		// "minimapSlider.hoverBackground": "#b11d1d",
-		// コードのminimap(コード全体)の表示部分のホールド時(アクティブ時)の背景色
+		// * コードのminimap(コード全体)の表示部分のホールド時(アクティブ時)の背景色
 		// "minimapSlider.activeBackground": "#187528",
-		// コードのminimap(コード全体)のバージョン管理されているコードの追加行の横に表示される縦バーの背景色
-		"minimapGutter.addedBackground": "#53a057",
-		// コードのminimap(コード全体)のバージョン管理されているコードの更新行の横に表示される縦バーの背景色
-		"minimapGutter.modifiedBackground": "#dfad25",
-		// コードのminimap(コード全体)のバージョン管理されているコードの削除行の横に表示される縦バーの背景色
-		"minimapGutter.deletedBackground": "#eb2a2a",
+		// * コードのminimap(コード全体)のバージョン管理されているコードの追加行の横に表示される縦バーの背景色
+		// "minimapGutter.addedBackground": "#53a057",
+		// * コードのminimap(コード全体)のバージョン管理されているコードの更新行の横に表示される縦バーの背景色
+		// "minimapGutter.modifiedBackground": "#dfad25",
+		// * コードのminimap(コード全体)のバージョン管理されているコードの削除行の横に表示される縦バーの背景色
+		// "minimapGutter.deletedBackground": "#eb2a2a",
 		
 		// == Editor Groups & Tabs Section ==
-		// "editorGroup.border": "#fff",
-		// "editorGroup.dropBackground": "#fff",
-		// "editorGroupHeader.noTabsBackground": "#fff",
+		// * エディターグループ(エディターのタブ)のスプリットエディターで分割した時ボーダー色
+		// "editorGroup.border": "#803a3a",
+		// * エディターグループ(エディターのタブ)のアイテムを移動しているホバー時の背景色
+		// "editorGroup.dropBackground": "#944b4b",
+		// * エディターグループ(エディターのタブ)で一つのグループでファイルしか開けない場合の背景色
+		// * (workbench.editor.showTabsがsingleの場合)
+		// "editorGroupHeader.noTabsBackground": "#000000",
+		// * エディターグループ(エディターのタブ)の背景色
 		// "editorGroupHeader.tabsBackground": "#121A0F",
-		// "editorGroupHeader.tabsBorder": "#fff",
-		// "editorGroupHeader.border": "#fff",
-		// "editorGroup.emptyBackground": "#fff",
-		// "editorGroup.focusedEmptyBorder": "#fff",
-		// "editorGroup.dropInfoPromptBackground": "#fff",
-		// "editorGroup.dropInfoPromptBorder": "#fff",
+		// * エディターグループ(エディターのタブ)直下のボーダー色
+		// "editorGroupHeader.tabsBorder": "#a84a4a",
+		// * エディターグループ(エディターのタブ)パンくずリスト直下のボーダー色
+		// "editorGroupHeader.border": "#db9797",
+		// * ファイルが開かれていない時のエディターの背景色
+		// "editorGroup.emptyBackground": "#7a7a7a",
+		// * 複数のファイルが開かれていないエディターのフォーカスが当たっている方のボーダー色
+		// "editorGroup.focusedEmptyBorder": "#e9e9e9",
+		// * 開いているファイルがあるエディターの上にアイテムをドラッグしたときに出るメッセージ枠の背景色
+		// "editorGroup.dropIntoPromptBackground": "#000000",
+		// * 開いているファイルがあるエディターの上にアイテムをドラッグしたときに出るメッセージ枠のボーダー色
+		// "editorGroup.dropIntoPromptBorder": "#912626",
+		// * エディターのアクティブ(開いている)ファイルのタブ背景色
 		// "tab.activeBackground": "#2B3225",
-		// "tab.unfocusedActiveBackground": "#fff",
+		// * 複数のエディターが開いているときのフォーカスが当たっていないエディターで開いているファイルのタブ背景色
+		// "tab.unfocusedActiveBackground": "#685f5f",
+		// * エディターのタブ前面色
 		// "tab.activeForeground": "#f0dfcc",
+		// * エディターのタブ間のボーダー色
 		// "tab.border": "#fff",
+		// * エディターのアクティブ(開いている)ファイルのタブのボーダー色(タブ直下)
 		// "tab.activeBorder": "#fff",
-		// "tab.unfocusedActiveBorder": "#fff",
+		// * 複数のエディターが開いているときのフォーカスが当たっていないエディターで開いているファイルのタブのボーダー色(タブ直下)
+		// "tab.unfocusedActiveBorder": "#00ff2a",
+		// * エディターのアクティブ(開いている)ファイルのタブのボーダー色(タブ直上)
 		// "tab.activeBorderTop": "#fff",
-		// "tab.unfocusedActiveBorderTop": "#fff",
-		// "lastPinnedBorder": "#fff",
+		// * 複数のエディターが開いているときのフォーカスが当たっていないエディターで開いているファイルのタブのボーダー色(タブ直上)
+		// "tab.unfocusedActiveBorderTop": "#fff"
+		// * ピンを設定したタブ軍の最後のタブのボーダー色(右ボーダー)
+		// "tab.lastPinnedBorder": "#ac3232",
+		// * エディターの非アクティブ(開いていない)ファイルのタブ背景色
 		// "tab.inactiveBackground": "#1b271680",
-		// "tab.unfocusedInactiveBackground": "#fff",
-		// "tab.inactiveForeground": "#f0dfccc5",
+		// * 複数のエディターが開いているときのフォーカスが当たっていないエディターで開いていないファイルのタブ背景色
+		// "tab.unfocusedInactiveBackground": "#500909",
+		// * エディターの非アクティブ(開いていない)ファイルのタブ前面色
+		// "tab.inactiveForeground": "#b8b4b0c5",
+		// * 複数のエディターが開いているときのフォーカスが当たっていないエディターで開いているファイルのタブ前面色
 		// "tab.unfocusedActiveForeground": "#fff",
-		// "tab.unfocusedInactiveForeground": "#fff",
-		// "tab.hoverBackground": "#fff",
-		// "tab.unfocusedHoverBackground": "#fff",
-		// "tab.hoverForeground": "#fff",
-		// "tab.unfocusedHoverForeground": "#fff",
-		// "tab.hoverBorder": "#fff",
-		// "tab.unfocusedHoverBorder": "#fff",
-		// "tab.activeModifiedBorder": "#fff",
+		// * 複数のエディターが開いているときのフォーカスが当たっていないエディターで開いていないファイルのタブ前面色
+		// "tab.unfocusedInactiveForeground": "#b63232",
+		// * エディターのタブのホバー時の背景色
+		// "tab.hoverBackground": "#503e3e",
+		// * 複数のエディターが開いているときのフォーカスが当たっていないエディターのタブのホバー時の背景色
+		// "tab.unfocusedHoverBackground": "#c00c0c",
+		// * エディターのタブのホバー時の前面色
+		// "tab.hoverForeground": "#1d1d1d",
+		// * 複数のエディターが開いているときのフォーカスが当たっていないエディターのタブのホバー時の前面色
+		// "tab.unfocusedHoverForeground": "#635454",
+		// * エディターのタブのホバー時のボーダー色(タブ直下)
+		// "tab.hoverBorder": "#a1b3a3",
+		// * 複数のエディターが開いているときのフォーカスが当たっていないエディタータブのホバー時のボーダー色(タブ直下)
+		// * tab.unfocusedActiveBorderが優先
+		// "tab.unfocusedHoverBorder": "#18c8df",
+		// * エディターで変更したファイル(開かれていて保存されていない)のタブのボーダー色(タブ直上)
+		// "tab.activeModifiedBorder": "#ce14ce",
+		// * エディターで変更したファイル(開かれてなくて保存されていない)のタブの背景色
+		// * Highlight Modified Tabs: true
 		// "tab.inactiveModifiedBorder": "#fff",
-		// "tab.unfocusedActiveModifiedBorder": "#fff",
-		// "tab.unfocusedInactiveModifiedBorder": "#fff",
+		// * 複数のエディターが開いているときのフォーカスが当たっていないエディターで変更したファイル(開かれていて保存されていない)のタブのボーダー色(タブ直上)
+		// "tab.unfocusedActiveModifiedBorder": "#f14040",
+		// * 複数のエディターが開いているときのフォーカスが当たっていないエディターで変更したファイル(開かれてなくて保存されていない)のタブの背景色
+		// "tab.unfocusedInactiveModifiedBorder": "#cc1212",
+		// * Zen Mode, Centerd Layout時のエディター空き空間の背景色
 		// "editorPane.background": "#fff",
-		// "sideBySideEditor.horizontalBorder": "#fff",
-		// "sideBySideEditor.verticalBorder": "#fff",
+		// * ひとつのファイルを分割したときのエディターのボーダー色(上下分割:splitinGroup:horizontal)
+		// "sideBySideEditor.horizontalBorder": "#d10e0e",
+		// * ひとつのファイルを分割したときのエディターのボーダー色(左右分割:splitinGroup:vertical)
+		// "sideBySideEditor.verticalBorder": "#756e6e",
 		
 		// == Editor Section ==
-		// エディターの背景色
+		// * エディターの背景色
 		// "editor.background": "#1B2716",
-		// エディターの前面色
+		// * エディターの前面色
 		// "editor.foreground": "#FDF1D8",
-		// エディター行番号の前面色
+		// * エディター行番号の前面色
 		// "editorLineNumber.foreground": "#f0dfcc9e",
-		// カーソルが当たってるエディター行番号の前面色
+		// * カーソルが当たってるエディター行番号の前面色
 		// "editorLineNumber.activeForeground": "#f0dfcc",
-		// "editorLineNumber.dimmedForeground": "#fff",
-
-		// "editorCursor.background": "#fff",
-		// エディターのカーソルの前面色
-		// "editorCursor.foreground": "#f0dfcc", 
-		// エディターの範囲選択をしている時の背景色
-		"editor.selectionBackground": "#626a5a",
-
-		// "editor.selectionForeground": "#fff",
-		// "editor.inactiveSelectionBackground": "#fff",
-		// "editor.selectionHighlightBackground": "#fff",
+		// * editor.renderFinalNewlineがdimmedに設定されていた場合
+		// * エディターの最後の行が空行だった時の行番号の前面色
+		// "editorLineNumber.dimmedForeground": "#3a3434",
+		// * エディターのカーソル上に文字があるときの背景色(文字色)
+		// * cursorStyleがBlockの時のみ
+		// "editorCursor.background": "#ffffff",
+		// * エディターのカーソルの前面色(カーソルの色)
+		// "editorCursor.foreground": "#fa9522", 
+		// * エディターの範囲選択をしている時の背景色
+		// "editor.selectionBackground": "#626a5a",
+		// * エディターの範囲選択をしている時の前面色(ハイライトコントラストでーまの時のみ)
+		// "editor.selectionForeground": "#ff0000",
+		// * エディターの範囲選択をしている部分のフォーカスがエディターから外れた時の背景色
+		// * 透過必須
+		// "editor.inactiveSelectionBackground": "#d3b8b89d",
+		// * エディターの範囲選択をしている対象と合致する部分の背景色(ハイライト)
+		// * 選択している文字列と同じ文字列をハイライトするときなど　
+		// "editor.selectionHighlightBackground": "#ffffffc7",
+		// * エディターの範囲選択をしている対象と合致する部分のボーダー色
 		// "editor.selectionHighlightBorder": "#fff",
-		// "editor.wordHighlightBackground": "#fff",
+		// * エディターの範囲選択をしている対象(読み込み専用,たとえば定義した変数を使うときなど)の背景色(ハイライト)
+		// "editor.wordHighlightBackground": "#b62222cb",
+		// * エディターの範囲選択をしている対象(読み込み専用,たとえば定義した変数を使うときなど)のボーダー色
 		// "editor.wordHighlightBorder": "#fff",
-		// "editor.wordHighlightStrongBackground": "#fff",
+		// * エディターの範囲選択をしている対象(書き込み可能,たとえば定義する変数など:Strong)の背景色(ハイライト)
+		// "editor.wordHighlightStrongBackground": "#d6bdbdc2",
+		// * エディターの範囲選択をしている対象(書き込み可能,たとえば定義する変数など:Strong)のボーダー色
 		// "editor.wordHighlightStrongBorder": "#fff",
-		// "editor.wordHighlightTextBackground": "#fff",
-		// "editor.wordHighlightTextBorder": "#fff",
+		// *
+		// "editor.wordHighlightTextBackground": "#6b323279",
+		// *
+		// "editor.wordHighlightTextBorder": "#a30000",
+		// * エディターでCtrl+Fで検索したときの合致しているもので選択(フォーカス)されている部分の背景色(ハイライト)
 		// "editor.findMatchBackground": "#fff",
-		// "editor.findMatchHighlightBackground": "#fff",
-		// "editor.findRangeHighlightBackground": "#fff",
-		// "editor.findMatchBorder": "#fff",
+		// * エディターでCtrl+Fで検索したときの合致しているものの背景色
+		// "editor.findMatchHighlightBackground": "#ffffffb9",
+		// * エディターでCtrl+Fで検索したときの合致しているもので選択(フォーカス)されている部分でFind in Selectionをonにした時の該当行の背景色(ハイライト)
+		// "editor.findRangeHighlightBackground": "#a0575793",
+		// * エディターでCtrl+Fで検索したときの合致しているもので選択(フォーカス)されている部分のボーダー色
+		// "editor.findMatchBorder": "#c00808",
+		// * エディターでCtrl+Fで検索したときの合致しているもののボーダー色
 		// "editor.findMatchHighlightBorder": "#fff",
-		// "editor.findRangeHighlightBorder": "#fff",
-		// "search.resultsInfoForeground": "#fff",
+		// * エディターでCtrl+Fで検索したときの合致しているもので選択(フォーカス)されている部分でFind in Selectionをonにした時の該当行のボーダー色
+		// "editor.findRangeHighlightBorder": "#ffffff77",
+		// * アクティブバーのサーチセクションで検索したときの検索結果の[x results in y files]などの前面色
+		// "search.resultsInfoForeground": "#ffffff",
+		// * アクティブバーのサーチセクションで検索したときの検索結果をエディターで開いたときの合致対象の背景色(ハイライト)
 		// "searchEditor.findMatchBackground": "#fff",
-		// "searchEditor.findMatchBorder": "#fff",
-		// "searchEditor.textInputBorder": "#fff",
-		// "editor.hoverHighlightBackground": "#fff",
-		// "editor.lineHighlightBackground": "#fff",
-		// "editor.lineHighlightBorder": "#1B2716",
+		// * アクティブバーのサーチセクションで検索したときの検索結果をエディターで開いたときの合致対象のボーダー色
+		// "searchEditor.findMatchBorder": "#772a2a",
+		// * アクティブバーのサーチセクションで検索したときの検索結果をエディターで開いたとき上部の入力部分のボーダー色
+		// "searchEditor.textInputBorder": "#702525",
+		// * エディターでクラスなどにホバーしたときのホバーされている部分の背景色(ハイライト)
+		// * たとえば[console.log()]の[console]をホバーする時に[console]という文字列の背景色
+		// "editor.hoverHighlightBackground": "#7c1717a4",
+		// * エディターのカーソルが当たっている行の背景色(ハイライト)
+		// "editor.lineHighlightBackground": "#eea5a5",
+		// * エディターのカーソルが当たっている行のボーダー色
+		// "editor.lineHighlightBorder": "#ffffff",
+		// * VSCODEのロゴ下の前面色
 		// "editorWatermark.foreground": "#fff",
-		// "editorUnicodeHighlight.border": "#fff",
-		// "editorUnicodeHighlight.background": "#fff",
-		// "editorLink.activeForeground": "#fff",
-		// "editor.rangeHighlightBackground": "#fff",
-		// "editor.rangeHighlightBorder": "#fff",
-		// "editor.symbolHighlightBackground": "#fff",
-		// "editor.symbolHighlightBorder": "#fff",
-		// "editorWhitespace.foreground": "#fff",
-		// "editor.guides.indentation"* false,
-		// "editor.guides.highlightActiveIndentation": false,
-		// "editorIndentGuide.background": "#fff",
+		// * 大文字の記号(コロンなど)のボーダー色
+		// "editorUnicodeHighlight.border": "#fa0000",
+		// * 大文字の記号(コロンなど)の背景色
+		// "editorUnicodeHighlight.background": "#000000",
+		// * エディター内のリンクの前面色(Ctrlを押しながらホバー)
+		// "editorLink.activeForeground": "#551d1d",
+		// * アクティブバーのサーチセクションで検索したときの検索結果を選んだ時の該当行の背景色(ハイライト)
+		// "editor.rangeHighlightBackground": "#ffffff7a",
+		// * アクティブバーのサーチセクションで検索したときの検索結果を選んだ時の該当行のボーダー色
+		// "editor.rangeHighlightBorder": "#ffffff80",
+		// * エディターのコードでGo To Definitionなどのコマンドを実行したときの定義元の背景色(ハイライト)
+		// "editor.symbolHighlightBackground": "#a80c0c5d",
+		// * エディターのコードでGo To Definitionなどのコマンドを実行したときの定義元のボーダー色
+		// "editor.symbolHighlightBorder": "#126074e5",
+		// * エディターのインデントの区切り線の色(他にも適用場所があるかも)
+		// "editorWhitespace.foreground": "#ffffff96",
+		// * editor.guides.indentationとeditor.guides.highlightActiveIndentationがともにonになっているとき
+		// * Indent Guidesが有効
+		// * エディターのインデントのガイドの(<設定しているガイドの数>n+<background末尾を0からインデックスしたときの数>: n = 0...)のボーダー色
 		// "editorIndentGuide.background1": "#fff",
-		// "editorIndentGuide.background2": "#fff",
-		// "editorIndentGuide.background3": "#fff",
-		// "editorIndentGuide.background4": "#fff",
-		// "editorIndentGuide.background5": "#fff",
-		// "editorIndentGuide.background6": "#fff",
-		// "editorIndentGuide.activeBackground": "#fff",
-		// "editorIndentGuide.activeBackground1": "#fff",
-		// "editorIndentGuide.activeBackground2": "#fff",
-		// "editorIndentGuide.activeBackground3": "#fff",
-		// "editorIndentGuide.activeBackground4": "#fff",
-		// "editorIndentGuide.activeBackground5": "#fff",
-		// "editorIndentGuide.activeBackground6": "#fff",
-		// "editor.inlineSuggest.enabled": false,
-		// "editorInlayHint.background": "#fff",
-		// "editorInlayHint.foreground": "#fff",
-		// "editorInlayHint.typeForeground": "#fff",
-		// "editorInlayHint.typeBackground": "#fff",
-		// "editorInlayHint.parameterForeground": "#fff",
-		// "editorInlayHint.parameterBackground": "#fff",
-		// "editor.rulers": {
-		// 	"editorRuler.foreground": "#fff",
-		// 	"editor.linkedEditingBackground": "#fff"
-		// },
+		// "editorIndentGuide.background2": "#be3535",
+		// "editorIndentGuide.background3": "#80af28",
+		// "editorIndentGuide.background4": "#149e9e",
+		// "editorIndentGuide.background5": "#271494",
+		// "editorIndentGuide.background6": "#8c1ba8",
+		// * エディターのインデントのガイドの(<設定しているガイドの数>n+<background末尾を0からインデックスしたときの数>: n = 0...)のアクティブ時のボーダー色
+		// "editorIndentGuide.activeBackground1": "#665d5d",
+		// "editorIndentGuide.activeBackground2": "#b8b8b8",
+		// "editorIndentGuide.activeBackground3": "#3ba311",
+		// "editorIndentGuide.activeBackground4": "#55e6d9",
+		// "editorIndentGuide.activeBackground5": "#192196",
+		// "editorIndentGuide.activeBackground6": "#74616a",
+		// * editor.inlineSuggest.enabledがtrueの時
+		// * 設定でinlayhintを有効化
+		// * エディターのインラインヒントの背景色(共通)
+		// "editorInlayHint.background": "#a8a0a0",
+		// * エディターのインラインヒントの前面色(共通)
+		// "editorInlayHint.foreground": "#409726",
+		// * エディターのインラインヒントの型の前面色
+		// "editorInlayHint.typeForeground": "#f8f8f8",
+		// * エディターのインラインヒントの型の背景色
+		// "editorInlayHint.typeBackground": "#a13838",
+		// * エディターのインラインヒントのパラメータ(呼び出し時)の前面色
+		// "editorInlayHint.parameterForeground": "#2c29c5",
+		// * エディターのインラインヒントのパラメータ(呼び出し時)の背景色
+		// "editorInlayHint.parameterBackground": "#c35ccc",
+		// * エディターのルーラー(文字数の制限区切り線)の前面色
+		// "editorRuler.foreground": "#fff",
+		// *
+		// "editor.linkedEditingBackground": "#a03131",
+		// *
 		// "editorCodeLens.foreground": "#fff",
+		// *
 		// "editorLightBulb.foreground": "#fff",
+		// *
 		// "editorLightBulbAutoFix.foreground": "#fff",
+		// *
 		// "editorLightBulbAi.foreground": "#fff",
+		// *
 		// "editorBracketMatch.background": "#fff",
+		// *
 		// "editorBracketMatch.border": "#fff",
+		// *
 		// "editorBracketHighlight.foreground1": "#fff",
+		// *
 		// "editorBracketHighlight.foreground2": "#fff",
+		// *
 		// "editorBracketHighlight.foreground3": "#fff",
+		// *
 		// "editorBracketHighlight.foreground4": "#fff",
+		// *
 		// "editorBracketHighlight.foreground5": "#fff",
+		// *
 		// "editorBracketHighlight.foreground6": "#fff",
+		// *
 		// "editorBracketHighlight.unexpectedBracket.foreground": "#fff",
+		// *
 		// "editorBracketPairGuide.activeBackground1": "#fff",
+		// *
 		// "editorBracketPairGuide.activeBackground2": "#fff",
+		// *
 		// "editorBracketPairGuide.activeBackground3": "#fff",
+		// *
 		// "editorBracketPairGuide.activeBackground4": "#fff",
+		// *
 		// "editorBracketPairGuide.activeBackground5": "#fff",
+		// *
 		// "editorBracketPairGuide.activeBackground6": "#fff",
+		// *
 		// "editorBracketPairGuide.background1": "#fff",
+		// *
 		// "editorBracketPairGuide.background2": "#fff",
+		// *
 		// "editorBracketPairGuide.background3": "#fff",
+		// *
 		// "editorBracketPairGuide.background4": "#fff",
+		// *
 		// "editorBracketPairGuide.background5": "#fff",
+		// *
 		// "editorBracketPairGuide.background6": "#fff",
+		// *
 		// "editor.foldBackground": "#fff",
+		// *
 		// "editorOverviewRuler.background": "#fff",
+		// *
 		// "editorOverviewRuler.border": "#fff",
+		// *
 		// "editorOverviewRuler.findMatchForeground": "#fff",
+		// *
 		// "editorOverviewRuler.rangeHighlightForeground": "#fff",
+		// *
 		// "editorOverviewRuler.selectionHighlightForeground": "#fff",
+		// *
 		// "editorOverviewRuler.wordHighlightForeground": "#fff",
+		// *
 		// "editorOverviewRuler.wordHighlightStrongForeground": "#fff",
+		// *
 		// "editorOverviewRuler.wordHighlightTextForeground": "#fff",
+		// *
 		// "editorOverviewRuler.modifiedForeground": "#fff",
+		// *
 		// "editorOverviewRuler.addedForeground": "#fff",
+		// *
 		// "editorOverviewRuler.deletedForeground": "#fff",
+		// *
 		// "editorOverviewRuler.errorForeground": "#fff",
+		// *
 		// "editorOverviewRuler.warningForeground": "#fff",
+		// *
 		// "editorOverviewRuler.infoForeground": "#fff",
+		// *
 		// "editorOverviewRuler.bracketMatchForeground": "#fff",
+		// *
 		// "editorOverviewRuler.inlineChatInserted": "#fff",
+		// *
 		// "editorOverviewRuler.inlineChatRemoved": "#fff",
+		// *
 		// "editorError.foreground": "#fff",
+		// *
 		// "editorError.border": "#fff",
+		// *
 		// "editorError.background": "#fff",
+		// *
 		// "editorWarning.foreground": "#fff",
+		// *
 		// "editorWarning.border": "#fff",
+		// *
 		// "editorWarning.background": "#fff",
+		// *
 		// "editorInfo.foreground": "#fff",
+		// *
 		// "editorInfo.border": "#fff",
+		// *
 		// "editorInfo.background": "#fff",
+		// *
 		// "editorHint.foreground": "#fff",
+		// *
 		// "editorHint.border": "#fff",
+		// *
 		// "problemsErrorIcon.foreground": "#fff",
+		// *
 		// "problemsWarningIcon.foreground": "#fff",
+		// *
 		// "problemsInfoIcon.foreground": "#fff",
+		// *
 		// "editorUnnecessaryCode.border": "#fff",
+		// *
 		// "editorUnnecessaryCode.opacity": "#fff",
+		// *
 		// "editorGutter.background": "#fff",
+		// *
 		// "editorGutter.modifiedBackground": "#fff",
+		// *
 		// "editorGutter.addedBackground": "#fff",
+		// *
 		// "editorGutter.deletedBackground": "#fff",
+		// *
 		// "editorGutter.commentRangeForeground": "#fff",
+		// *
 		// "editorGutter.commentGlyphForeground": "#fff",
+		// *
 		// "editorGutter.commentUnresolvedGlyphForeground": "#fff",
+		// *
 		// "editorGutter.foldingControlForeground": "#fff",
+		// *
 		// "editorCommentsWidget.resolvedBorder": "#fff",
+		// *
 		// "editorCommentsWidget.unresolvedBorder": "#fff",
+		// *
 		// "editorCommentsWidget.rangeBackground": "#fff",
+		// *
 		// "editorCommentsWidget.rangeActiveBackground": "#fff",
+		// *
 		// "editorCommentsWidget.replyInputBackground": "#fff",
 		
 		//  == Diff Editor Color Section ==
+		// *
 		// "diffEditor.insertedTextBackground": "#fff",
+		// *
 		// "diffEditor.insertedTextBorder": "#fff",
+		// *
 		// "diffEditor.removedTextBackground": "#fff",
+		// *
 		// "diffEditor.removedTextBorder": "#fff",
+		// *
 		// "diffEditor.border": "#fff",
+		// *
 		// "diffEditor.diagonalFill": "#fff",
+		// *
 		// "diffEditor.insertedLineBackground": "#fff",
+		// *
 		// "diffEditor.removedLineBackground": "#fff",
+		// *
 		// "diffEditorOverview.insertedForeground": "#fff",
+		// *
 		// "diffEditorOverview.removedForeground": "#fff",
+		// *
 		// "diffEditor.unchangedRegionBackground": "#fff",
+		// *
 		// "diffEditor.unchangedRegionForeground": "#fff",
+		// *
 		// "diffEditor.unchangedRegionShadow": "#fff",
+		// *
 		// "diffEditor.unchangedCodeBackground": "#fff",
+		// *
 		// "diffEditor.move.border": "#fff",
+		// *
 		// "diffEditor.moveActive.border": "#fff",
+		// *
 		// "multiDiffEditor.headerBackground": "#fff",
+		// *
 		// "multiDiffEditor.background": "#fff",
+		// *
 		// "multiDiffEditor.border": "#fff",
 		
 		// == Chat Color Section ==
+		// *
 		// "chat.requestBorder": "#fff",
+		// *
 		// "chat.slashCommandBackground": "#fff",
+		// *
 		// "chat.slashCommandForeground": "#fff",
+		// *
 		// "chat.avatarBackground": "#fff",
+		// *
 		// "chat.avatarForeground": "#fff",
 		
 		// == Inline Chat Color Section ==
+		// *
 		// "inlineChat.background": "#fff",
+		// *
 		// "inlineChat.border": "#fff",
+		// *
 		// "inlineChat.shadow": "#fff",
+		// *
 		// "inlineChat.regionHighlight": "#fff",
+		// *
 		// "inlineChatInput.border": "#fff",
+		// *
 		// "inlineChatInput.focusBorder": "#fff",
+		// *
 		// "inlineChatInput.placeholderForeground": "#fff",
+		// *
 		// "inlineChatInput.background": "#fff",
+		// *
 		// "inlineChatDiff.inserted": "#fff",
+		// *
 		// "inlineChatDiff.removed": "#fff",
 
 		// == Panel Chat Color Section ==
+		// *
 		// "interactive.activeCodeBorder": "#fff",
+		// *
 		// "interactive.inactiveCodeBorder": "#fff",
 		
 		// == Editor Widget Color Section ==
+		// *
 		// "editorWidget.foreground": "#fff",
+		// *
 		// "editorWidget.background": "#fff",
+		// *
 		// "editorWidget.border": "#fff",
+		// *
 		// "editorWidget.resizeBorder": "#fff",
+		// *
 		// "editorSuggestWidget.background": "#fff",
+		// *
 		// "editorSuggestWidget.border": "#fff",
+		// *
 		// "editorSuggestWidget.foreground": "#fff",
+		// *
 		// "editorSuggestWidget.focusHighlightForeground": "#fff",
+		// *
 		// "editorSuggestWidget.highlightForeground": "#fff",
+		// *
 		// "editorSuggestWidget.selectedBackground": "#fff",
+		// *
 		// "editorSuggestWidget.selectedForeground": "#fff",
+		// *
 		// "editorSuggestWidget.selectedIconForeground": "#fff",
+		// *
 		// "editorSuggestWidgetStatus.foreground": "#fff",
+		// *
 		// "editorHoverWidget.foreground": "#fff",
+		// *
 		// "editorHoverWidget.background": "#fff",
+		// *
 		// "editorHoverWidget.border": "#fff",
+		// *
 		// "editorHoverWidget.highlightForeground": "#fff",
+		// *
 		// "editorHoverWidget.statusBarBackground": "#fff",
+		// *
 		// "editorGhostText.border": "#fff",
+		// *
 		// "editorGhostText.background": "#fff",
+		// *
 		// "editorGhostText.foreground": "#fff",
+		// *
 		// "editorStickyScroll.background": "#fff",
+		// *
 		// "editorStickyScroll.border": "#fff",
+		// *
 		// "editorStickyScroll.shadow": "#fff",
+		// *
 		// "editorStickyScrollHover.background": "#fff",
+		// *
 		// "debugExceptionWidget.background": "#fff",
+		// *
 		// "debugExceptionWidget.border": "#fff",
+		// *
 		// "editorMarkerNavigation.background": "#fff",
+		// *
 		// "editorMarkerNavigationError.background": "#fff",
+		// *
 		// "editorMarkerNavigationWarning.background": "#fff",
+		// *
 		// "editorMarkerNavigationInfo.background": "#fff",
+		// *
 		// "editorMarketNavigationError.headerBackground": "#fff",
+		// *
 		// "editorMarkerNavigationWarning.headerBackground": "#fff",
+		// *
 		// "editorMarkerNavigationInfo.headerBackground": "#fff",
 		
 		// == Peek View Color Section ==
+		// *
 		// "peekView.border": "#fff",
+		// *
 		// "peekViewEditor.background": "#fff",
+		// *
 		// "peekViewEditorGutter.background": "#fff",
+		// *
 		// "peekViewEditor.matchHighlightBackground": "#fff",
+		// *
 		// "peekViewEditor.matchHighlightBorder": "#fff",
+		// *
 		// "peekViewEditorStickyScroll.background": "#fff",
+		// *
 		// "peekViewResult.background": "#fff",
+		// *
 		// "peekViewResult.fileForeground": "#fff",
+		// *
 		// "peekViewResult.lineForeground": "#fff",
+		// *
 		// "peekViewResult.matchHighlightBackground": "#fff",
+		// *
 		// "peekViewResult.selectionBackground": "#fff",
+		// *
 		// "peekViewResult.selectionForeground": "#fff",
+		// *
 		// "peekViewTitle.background": "#fff",
+		// *
 		// "peekViewTitleDescription.foreground": "#fff",
+		// *
 		// "peekViewTitleLabel.foreground": "#fff",
+		// *
 		// "peekViewEditorStickyScroll.background": "#fff",
 		
 		// == Merge Conflicts Color Section ==
+		// *
 		// "merge.currentHeaderBackground": "#fff",
+		// *
 		// "merge.currentContentBackground": "#fff",
+		// *
 		// "merge.incomingHeaderBackground": "#fff",
+		// *
 		// "merge.incomingContentBackground": "#fff",
+		// *
 		// "merge.border": "#fff",
+		// *
 		// "merge.commonContentBackground": "#fff",
+		// *
 		// "merge.commonHeaderBackground": "#fff",
+		// *
 		// "editorOverviewRuler.currentContentForeground": "#fff
+		// *
 		// "editorOverviewRuler.incomingContentForeground": "#fff",
+		// *
 		// "editorOverviewRuler.commonContentForeground": "#fff",
+		// *
 		// "editorOverviewRuler.commentForeground": "#fff",
+		// *
 		// "editorOverviewRuler.commentUnresolvedForeground": "#fff",
+		// *
 		// "mergeEditor.change.background": "#fff",
+		// *
 		// "mergeEditor.change.word.background": "#fff",
+		// *
 		// "mergeEditor.conflict.unhandledUnfocused.border": "#fff",
+		// *
 		// "mergeEditor.conflict.unhandledFocused.border": "#fff",
+		// *
 		// "mergeEditor.conflict.handledUnfocused.border": "#fff",
+		// *
 		// "mergeEditor.conflict.handledFocused.border": "#fff",
+		// *
 		// "mergeEditor.conflict.handled.minimapOverViewRuler": "#fff",
+		// *
 		// "mergeEditor,conflict.unhandled.minimapOverViewRuler": "#fff",
+		// *
 		// "mergeEditor.conflictingLines.background": "#fff",
+		// *
 		// "mergeEditor.changeBase,background": "#fff",
+		// *
 		// "mergeEditor.changeBase.word.background": "#fff",
+		// *
 		// "mergeEditor.conflict.input1.background": "#fff",
+		// *
 		// "mergeEditor.conflict.input2.background": "#fff",
 		
 		// == Panel Color Section ==
+		// *
 		// "panel.background": "#303030",
+		// *
 		// "panel.border": "#f0dfcc", // ターミナルのすぐ上のボーダー
+		// *
 		// "panel.dropBorder": "#fff",
+		// *
 		// "panelTitle.activeBorder": "#fff",
+		// *
 		// "panelTitle.activeForeground": "#fff",
+		// *
 		// "panelTitle.inactiveForeground": "#fff",
+		// *
 		// "panelInput.border": "#fff",
+		// *
 		// "panelSection.border": "#fff",
+		// *
 		// "panelSection.dropBackground": "#fff",
+		// *
 		// "panelSectionHeader.background": "#fff",
+		// *
 		// "panelSectionHeader.foreground": "#fff",
+		// *
 		// "panelSectionHeader.border": "#fff",
+		// *
 		// "outputView.background": "#fff",
+		// *
 		// "outputViewStickyScroll.background": "#fff",
 		
 		// == Status Bar Color Section ==
+		// *
 		// "statusBar.background": "#1B2716", // 下のバー
+		// *
 		// "statusBar.foreground": "#E8CEB0",
+		// *
 		// "statusBar.border": "#3E3546",
+		// *
 		// "statusBar.debuggingBackground": "#fff",
+		// *
 		// "statusBar.debuggingForeground": "#fff",
+		// *
 		// "statusBar.debuggingBorder": "#fff",
+		// *
 		// "statusBar.noFolderForeground": "#fff",
+		// *
 		// "statusBar.noFolderBackground": "#fff",
+		// *
 		// "statusBar.noFolderBorder": "#fff",
+		// *
 		// "statusBarItem.activeBackground": "#fff",
+		// *
 		// "statusBarItem.hoverBackground": "#fff",
+		// *
 		// "statusBarItem.prominentForeground": "#fff",
+		// *
 		// "statusBarItem.prominentBackground": "#fff",
+		// *
 		// "statusBarItem.prominentHoverForeground": "#fff",
+		// *
 		// "statusBarItem.prominentHoverBackground": "#fff",
+		// *
 		// "statusBarItem.remoteBackground": "#fff",
+		// *
 		// "statusBarItem.remoteForeground": "#fff",
+		// *
 		// "statusBarItem.remoteHoverBackground": "#fff",
+		// *
 		// "statusBarItem.remoteHoverForeground": "#fff",
+		// *
 		// "statusBarItem.errorBackground": "#fff",
+		// *
 		// "statusBarItem.errorForeground": "#fff",
+		// *
 		// "statusBarItem.errorHoverBackground": "#fff",
+		// *
 		// "statusBarItem.errorHoverForeground": "#fff",
+		// *
 		// "statusBarItem.warningBackground": "#fff",
+		// *
 		// "statusBarItem.warningForeground": "#fff",
+		// *
 		// "statusBarItem.warningHoverBackground": "#fff",
+		// *
 		// "statusBarItem.warningHoverForeground": "#fff",
+		// *
 		// "statusBarItem.compactHoverBackground": "#fff",
+		// *
 		// "statusBarItem.focusBorder": "#fff",
+		// *
 		// "statusBar.focusBorder": "#fff",
+		// *
 		// "statusBarItem.offlineBackground": "#fff",
+		// *
 		// "statusBarItem.offlineForeground": "#fff",
+		// *
 		// "statusBarItem.offlineHoverBackground": "#fff",
+		// *
 		// "statusBarItem.offlineHoverForeground": "#fff",
 		
 		// == Title Bar Color Section ==
+		// *
 		// "titleBar.activeBackground": "#1B2716", // 上のバー
+		// *
 		// "titleBar.activeForeground": "#E8CEB0",
+		// *
 		// "titleBar.inactiveBackground": "#1B2716", // ウィンドウからフォーカスが外れたときの色
+		// *
 		// "titleBar.inactiveForeground": "#fbe3b180",
+		// *
 		// "titleBar.border": "#3E3546",
 		
 		// == Menu Bar Color Section ==
+		// *
 		// "menubar.selectionForeground": "#fff",
+		// *
 		// "menubar.selectionBackground": "#fff",
+		// *
 		// "menubar.selectionBorder": "#fff",
+		// *
 		// "menu.foreground": "#fff",
+		// *
 		// "menu.background": "#fff",
+		// *
 		// "menu.selectionForeground": "#fff",
+		// *
 		// "menu.selectionBackground": "#fff",
+		// *
 		// "menu.selectionBorder": "#fff",
+		// *
 		// "menu.separatorBackground": "#fff",
+		// *
 		// "menu.border": "#fff",
 		
 		// == Command Center Color Section ==
@@ -703,312 +1043,573 @@
 		// commandCenter.debbugingBackground: "#fff",
 		
 		// == Notification Color Section ==
+		// *
 		// "notificationCenter.border": "#fff",
+		// *
 		// "notificationCenterHeader.foreground": "#fff",
+		// *
 		// "notificationCenterHeader.background": "#fff",
+		// *
 		// "notificationToast.border": "#fff",
+		// *
 		// "notifications.foreground": "#fff",
+		// *
 		// "notifications.background": "#2B3225",
+		// *
 		// "notifications.border": "#fff",
+		// *
 		// "notificationLink.foreground": "#fff",
+		// *
 		// "notificationsErrorIcon.foreground": "#fff",
+		// *
 		// "notificationsWarningIcon.foreground": "#fff",
+		// *
 		// "notificationsInfoIcon.foreground": "#fff",
 		
 		// == Banner Color Section ==
+		// *
 		// "banner.background": "#fff",
+		// *
 		// "banner.foreground": "#fff",
+		// *
 		// "banner.iconForeground": "#fff",
 		
 		// == Extensions Color Section ==
+		// *
 		// "extensionButton.prominentForeground": "#fff",
+		// *
 		// "extensionButton.prominentBackground": "#fff",
+		// *
 		// "extensionButton.prominentHoverBackground": "#fff",
+		// *
 		// "extensionButton.background": "#fff",
+		// *
 		// "extensionButton.foreground": "#fff",
+		// *
 		// "extensionButton.hoverBackground": "#fff",
+		// *
 		// "extensionButton.separator": "#fff",
+		// *
 		// "extensionBadge.remoteBackground": "#809848",
+		// *
 		// "extensionBadge.remoteForeground": "#fff",
+		// *
 		// "extensionIcon.verifiedForeground": "#fff",
+		// *
 		// "extensionIcon.preReleaseForeground": "#fff",
+		// *
 		// "extensionIcon.sponserForeground": "#fff",
 		
 		// == Quick Picker Color Section ==
+		// *
 		// "pickerGroup.border": "#fff",
+		// *
 		// "pickerGroup.foreground": "#fff",
+		// *
 		// "quickInput.background": "#fff",
+		// *
 		// "quickInput.foreground": "#fff",
+		// *
 		// "quickInputList.focusBackground": "#fff",
+		// *
 		// "quickInputList.focusForeground": "#fff",
+		// *
 		// "quickInputList.focusIconForeground": "#fff",
+		// *
 		// "quickInputTitle.background": "#fff",
 		
 		// == Keybinding Label Color Section ==
+		// *
 		// "keybindingLabel.background": "#fff",
+		// *
 		// "keybindingLabel.foreground": "#fff",
+		// *
 		// "keybindingLabel.border": "#fff",
+		// *
 		// "keybindingLabel.bottomBorder": "#fff",
 		
 		// == Keyboard shortcut Table Color Section ==
+		// *
 		// "keybindingTable.headerBackground": "#fff",
+		// *
 		// "keybindingTable.rowBackground": "#fff",
 		
 		// == Integrated Terminal Color Section ==
+		// *
 		// "terminal.background": "#fff",
+		// *
 		// "terminal.border": "#fff",
+		// *
 		// "terminal.foreground": "#fff",
+		// *
 		// "terminal.ansiBlack": "#fff",
+		// *
 		// "terminal.ansiBlue": "#fff",
+		// *
 		// "terminal.ansiBrightBlack": "#fff",
+		// *
 		// "terminal.ansiBrightBlue": "#fff",
+		// *
 		// "terminal.ansiBrightCyan": "#fff",
+		// *
 		// "terminal.ansiBrightGreen": "#fff",
+		// *
 		// "terminal.ansiBrightMagenta": "#fff",
+		// *
 		// "terminal.ansiBrightRed": "#fff",
+		// *
 		// "terminal.ansiBrightWhite": "#fff",
+		// *
 		// "terminal.ansiBrightYellow": "#fff",
+		// *
 		// "terminal.ansiCyan": "#fff",
+		// *
 		// "terminal.ansiGreen": "#fff",
+		// *
 		// "terminal.ansiMagenta": "#fff",
+		// *
 		// "terminal.ansiRed": "#fff",
+		// *
 		// "terminal.ansiWhite": "#fff",
+		// *
 		// "terminal.ansiYellow": "#fff",
+		// *
 		// "terminal.selectionBackground": "#fff",
+		// *
 		// "terminal.selectionForeground": "#fff",
+		// *
 		// "terminal.inactiveSelectionBackground": "#fff",
+		// *
 		// "terminal.findMatchBorder": "#fff",
+		// *
 		// "terminal.findMatchHighlightBackground": "#fff",
+		// *
 		// "terminal.findMatchHighlightBorder": "#fff",
+		// *
 		// "terminal.hoverHighlightBackground": "#fff",
+		// *
 		// "terminalCursor.background": "#fff",
+		// *
 		// "terminalCursor.foreground": "#fff",
+		// *
 		// "terminal.dropBackground": "#fff",
+		// *
 		// "terminal.tab.activeBorder": "#fff",
+		// *
 		// "terminalCommandDecoration.defaultBackground": "#fff",
+		// *
 		// "terminalCommandDecoration.successBackground": "#fff",
+		// *
 		// "terminalCommandDecoration.errorBackground": "#fff",
+		// *
 		// "terminalOverviewRuler.cursorForeground": "#fff",
+		// *
 		// "terminalOverviewRuler.findMatchForeground": "#fff",
+		// *
 		// "terminalStickyScroll.background": "#fff",
+		// *
 		// "terminalStickyScrollHover.background": "#fff",
 		
 		// == Debug Color Section ==
+		// *
 		// "debugToolBar.background": "#fff",
+		// *
 		// "debugToolBar.border": "#fff",
+		// *
 		// "editor.stackFrameHighlightBackground": "#fff",
+		// *
 		// "editor.focusedStackFrameHighlightBackground": "#fff",
+		// *
 		// "editor.inlineValuesForeground": "#fff",
+		// *
 		// "editor.inlineValuesBackground": "#fff",
+		// *
 		// "debugView.exceptionLabelForeground": "#fff",
+		// *
 		// "debugView.exceptionLabelBackground": "#fff",
+		// *
 		// "debugView.stateLabelForeground": "#fff",
+		// *
 		// "debugView.stateLabelBackground": "#fff",
+		// *
 		// "debugView.valueChangedHighlight": "#fff",
+		// *
 		// "debugTokenExpression.name": "#fff",
+		// *
 		// "debugTokenExpression.value": "#fff",
+		// *
 		// "debugTokenExpression.string": "#fff",
+		// *
 		// "debugTokenExpression.boolean": "#fff",
+		// *
 		// "debugTokenExpression.number": "#fff",
+		// *
 		// "debugTokenExpression.error": "#fff",
 		
 		// == Testing Color Section ==
+		// *
 		// "testing.iconFailed": "#fff",
+		// *
 		// "testing.iconErrored": "#fff",
+		// *
 		// "testing.iconPassed": "#fff",
+		// *
 		// "testing.runAction": "#fff",
+		// *
 		// "testing.iconQueued": "#fff",
+		// *
 		// "testing.iconUnset": "#fff",
+		// *
 		// "testing.iconSkipped": "#fff",
+		// *
 		// "testing.peekBorder": "#fff",
+		// *
 		// "testing.peekHeaderBackground": "#fff",
+		// *
 		// "testing.message.error.decorationForeground": "#fff",
+		// *
 		// "testing.message.error.lineBackground": "#fff",
+		// *
 		// "testing.message.info.decorationForeground": "#fff",
+		// *
 		// "testing.message.info.lineBackground": "#fff",
+		// *
 		// "testing.messagePeekBorder": "#fff",
+		// *
 		// "testing.messagePeekHeaderBackground": "#fff",
+		// *
 		// "testing.coveredBackground": "#fff",
+		// *
 		// "testing.coveredBorder": "#fff",
+		// *
 		// "testing.coveredGutterBackground": "#fff",
+		// *
 		// "testing.uncoveredBranchBackground": "#fff",
+		// *
 		// "testing.uncoveredBackground": "#fff",
+		// *
 		// "testing.uncoveredBorder": "#fff",
+		// *
 		// "testing.uncoveredGutterBackground": "#fff",
+		// *
 		// "testing.coverCountBadgeBackground": "#fff",
+		// *
 		// "testing.coverCountBadgeForeground": "#fff",
 		
 		// == Welcome Page Color Section ==
+		// *
 		// "welcomePage.background": "#fff",
+		// *
 		// "welcomePage.progress.background": "#fff",
+		// *
 		// "welcomePage.progress.foreground": "#fff",
+		// *
 		// "welcomePage.tileBackground": "#fff",
+		// *
 		// "welcomePage.tileHoverBackground": "#fff",
+		// *
 		// "welcomePage.tileBorder": "#fff",
+		// *
 		// "walkThrough.embeddedEditorBackground": "#fff",
+		// *
 		// "walkThrough.stepTitle.foreground": "#fff",
 
 		// == Git Color Section ==
+		// *
 		// "gitDecoration.addedResourceForeground": "#fff",
+		// *
 		// "gitDecoration.modifiedResourceForeground": "#fff",
+		// *
 		// "gitDecoration.deletedResourceForeground": "#fff",
+		// *
 		// "gitDecoration.renamedResourceForeground": "#fff",
+		// *
 		// "gitDecoration.stageModifiedResourceForeground": "#fff",
+		// *
 		// "gitDecoration.stageDeletedResourceForeground": "#fff",
+		// *
 		// "gitDecoration.untrackedResourceForeground": "#fff",
+		// *
 		// "gitDecoration.ignoredResourceForeground": "#fff",
+		// *
 		// "gitDecoration.conflictingResourceForeground": "#fff",
+		// *
 		// "gitDecoration.submoduleResourceForeground": "#fff",
 		
 		// == Settings Editor Color Section ==
+		// *
 		// "settings.headerForeground": "#f0dfcc", // 設定項目のタイトルの色
+		// *
 		// "settings.modifiedItemIndicator": "#acc95d",
+		// *
 		// "settings.dropdownBackground": "#2B3225",
+		// *
 		// "settings.dropdownForeground": "#f0dfcc", // ドロップダウンの文字色
+		// *
 		// "settings.dropdownBorder": "#f0dfcca1", // ドロップダウンのボーダー
+		// *
 		// "settings.dropdownListBorder": "#fff",
+		// *
 		// "settings.checkboxBackground": "#fff",
+		// *
 		// "settings.checkboxForeground": "#fff",
+		// *
 		// "settings.checkboxBorder": "#fff",
+		// *
 		// "settings.rowHoverBackground": "#fff",
+		// *
 		// "settings.textInputBackground": "#fff",
+		// *
 		// "settings.textInputForeground": "#fff",
+		// *
 		// "settings.textInputBorder": "#fff",
+		// *
 		// "settings.numberInputBackground": "#fff",
+		// *
 		// "settings.numberInputForeground": "#fff",
+		// *
 		// "settings.numberInputBorder": "#fff",
+		// *
 		// "settings.focusedRowBackground": "#fff",
+		// *
 		// "settings.focusedRowBorder": "#fff",
+		// *
 		// "settings.headerBorder": "#fff",
+		// *
 		// "settings.sashBorder": "#fff",
+		// *
 		// "settings.settingsHeaderHoverForeground": "#f0dfcc",
 		
 		// == Breadcrumbs Color Section ==
+		// *
 		// "breadcrumb.foreground": "#f0dfcc",
+		// *
 		// "breadcrumb.background": "#fff",
+		// *
 		// "breadcrumb.focusForeground": "#fff",
+		// *
 		// "breadcrumb.activeSelectionForeground": "#fff",
+		// *
 		// "breadcrumbPicker.background": "#fff",
 		
 		// == Snippets Color Section ==
+		// *
 		// "editor.snippetTabstopHighlightBackground": "#fff",
+		// *
 		// "editor.snippetTabstopHighlightBorder": "#fff",
+		// *
 		// "editor.snippetFinalTabstopHighlightBackground": "#fff",
+		// *
 		// "editor.snippetFinalTabstopHighlightBorder": "#fff",
 		
 		// == Symbol Icon Color Section ==
+		// *
 		// "symbolIcon.arrayForeground": "#fff",
+		// *
 		// "symbolIcon.booleanForeground": "#fff",
+		// *
 		// "symbolIcon.classForeground": "#fff",
+		// *
 		// "symbolIcon.colorForeground": "#fff",
+		// *
 		// "symbolIcon.constantForeground": "#fff",
+		// *
 		// "symbolIcon.constructorForeground": "#fff",
+		// *
 		// "symbolIcon.enumeratorForeground": "#fff",
+		// *
 		// "symbolIcon.enumeratorMemberForeground": "#fff",
+		// *
 		// "symbolIcon.eventForeground": "#fff",
+		// *
 		// "symbolIcon.fieldForeground": "#fff",
+		// *
 		// "symbolIcon.fileForeground": "#fff",
+		// *
 		// "symbolIcon.folderForeground": "#fff",
+		// *
 		// "symbolIcon.functionForeground": "#fff",
+		// *
 		// "symbolIcon.interfaceForeground": "#fff",
+		// *
 		// "symbolIcon.keyForeground": "#fff",
+		// *
 		// "symbolIcon.keywordForeground": "#fff",
+		// *
 		// "symbolIcon.methodForeground": "#fff",
+		// *
 		// "symbolIcon.moduleForeground": "#fff",
+		// *
 		// "symbolIcon.namespaceForeground": "#fff",
+		// *
 		// "symbolIcon.nullForeground": "#fff",
+		// *
 		// "symbolIcon.numberForeground": "#fff",
+		// *
 		// "symbolIcon.objectForeground": "#fff",
+		// *
 		// "symbolIcon.operatorForeground": "#fff",
+		// *
 		// "symbolIcon.packageForeground": "#fff",
+		// *
 		// "symbolIcon.propertyForeground": "#fff",
+		// *
 		// "symbolIcon.referenceForeground": "#fff",
+		// *
 		// "symbolIcon.snippetForeground": "#fff",
+		// *
 		// "symbolIcon.stringForeground": "#fff",
+		// *
 		// "symbolIcon.structForeground": "#fff",
+		// *
 		// "symbolIcon.textForeground": "#fff",
+		// *
 		// "symbolIcon.typeParameterForeground": "#fff",
+		// *
 		// "symbolIcon.unitForeground": "#fff",
+		// *
 		// "symbolIcon.variableForeground": "#fff",
 		
 		// == Debug Icon Color Section ==
+		// *
 		// "debugIcon.breakpointForeground": "#fff",
+		// *
 		// "debugIcon.breakpointDisabledForeground": "#fff",
+		// *
 		// "debugIcon.breakpointUnverifiedForeground": "#fff",
+		// *
 		// "debugIcon.breakpointCurrentStackframeForeground": "#fff",
+		// *
 		// "debugIcon.breakpointStackframeForeground": "#fff",
+		// *
 		// "debugIcon.startForeground": "#fff",
+		// *
 		// "debugIcon.pauseForeground": "#fff",
+		// *
 		// "debugIcon.stopForeground": "#fff",
+		// *
 		// "debugIcon.disconnectForeground": "#fff",
+		// *
 		// "debugIcon.restartForeground": "#fff",
+		// *
 		// "debugIcon.stepOverForeground": "#fff",
+		// *
 		// "debugIcon.stepIntoForeground": "#fff",
+		// *
 		// "debugIcon.stepOutForeground": "#fff",
+		// *
 		// "debugIcon.continueForeground": "#fff",
+		// *
 		// "debugIcon.stepBackForeground": "#fff",
+		// *
 		// "debugConsole.infoForeground": "#fff",
+		// *
 		// "debugConsole.warningForeground": "#fff",
+		// *
 		// "debugConsole.errorForeground": "#fff",
+		// *
 		// "debugConsole.sourceForeground": "#fff",
+		// *
 		// "debugConsoleInputIcon.foreground": "#fff",
 		
 		// == Notebook Color Section ==
+		// *
 		// "notebook.editorBackground": "#fff",
+		// *
 		// "notebook.cellBorderColor": "#fff",
+		// *
 		// "notebook.cellHoverBackground": "#fff",
+		// *
 		// "notebook.cellInsertionIndicator": "#fff",
+		// *
 		// "notebook.cellStatusBarItemHoverBackground": "#fff",
+		// *
 		// "notebook.cellToolbarSeparator": "#fff",
+		// *
 		// "notebook.cellEditorBackground": "#fff",
+		// *
 		// "notebook.focusedCellBackground": "#fff",
+		// *
 		// "notebook.focusedCellBorder": "#fff",
+		// *
 		// "notebook.focusedEditorBorder": "#fff",
+		// *
 		// "notebook.inactiveFocusedCellBorder": "#fff",
+		// *
 		// "notebook.inactiveSelectedCellBorder": "#fff",
+		// *
 		// "notebook.outputContainerBackgroundColor": "#fff",
+		// *
 		// "notebook.outputContainerBorderColor": "#fff",
+		// *
 		// "notebook.selectedCellBackground": "#fff",
+		// *
 		// "notebook.selectedCellBorder": "#fff",
+		// *
 		// "notebook.symbolHighlightBackground": "#fff",
+		// *
 		// "notebookScrollbarSlider.activeBackground": "#fff",
+		// *
 		// "notebookScrollbarSlider.background": "#fff",
+		// *
 		// "notebookScrollbarSlider.hoverBackground": "#fff",
+		// *
 		// "notebookStatusErrorIcon.foreground": "#fff",
+		// *
 		// "notebookStatusRunningIcon.foreground": "#fff",
+		// *
 		// "notebookStatusSuccessIcon.foreground": "#fff",
+		// *
 		// "notebookEditorOverviewRuler.runningCellForeground": "#fff",
 		
 		// == Chart Color Section ==
+		// *
 		// "charts.foreground": "#fff",
+		// *
 		// "charts.lines": "#fff",
+		// *
 		// "charts.red": "#fff",
+		// *
 		// "charts.blue": "#fff",
+		// *
 		// "charts.yellow": "#fff",
+		// *
 		// "charts.orange": "#fff",
+		// *
 		// "charts.green": "#fff",
+		// *
 		// "charts.purple": "#fff",
 		
 		// == Ports Color Section ==
+		// *
 		// "ports.iconRunningProcessForeground": "#fff",
 		
 		// == Comments View Color Section ==
+		// *
 		// "commentsView.resolvedIcon": "#fff",
+		// *
 		// "commentsView.unresolvedIcon": "#fff",
 
 		// == Action Bar Color Section ==
+		// *
 		// "actionBar.toggleBackground": "#fff",
 
 		// == Simple Find Widget Color Section ==
+		// *
 		// "simpleFindWidget.sashBorder": "#fff",
 
 		// == SCM Section ==
+		// *
 		// "scm.historyItemAdditionsForeground": "#fff",
+		// *
 		// "scm.historyItemDeletionsForeground": "#fff",
+		// *
 		// "scm.historyItemStatisticsBorder": "#fff",
+		// *
 		// "scm..historyItemSelectedStatisticsBorder": "#fff",
 
 		// == Extenstion Color Section ==
+		// *
 		// "workbench.colorCustomizations": {}
 
 	},
