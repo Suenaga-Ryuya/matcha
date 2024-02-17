@@ -514,72 +514,59 @@
 		// "editorInlayHint.parameterBackground": "#c35ccc",
 		// * エディターのルーラー(文字数の制限区切り線)の前面色
 		// "editorRuler.foreground": "#fff",
-		// *
+		// * HTMLなどのタグを編集するときの背景色
 		// "editor.linkedEditingBackground": "#a03131",
-		// *
+		// * エディターのコードレンズの前面色
+		// * javascript.referencesCodeLens.enabledなどを有効にしたら使える
 		// "editorCodeLens.foreground": "#fff",
-		// *
+		// * エディターの電球マークの色
 		// "editorLightBulb.foreground": "#fff",
-		// *
-		// "editorLightBulbAutoFix.foreground": "#fff",
-		// *
+		// * エディターの電球きらきらマーク(auto fix)の色
+		// "editorLightBulbAutoFix.foreground": "#a02626",
+		// * 電球AI(きらきらマーク)の色
 		// "editorLightBulbAi.foreground": "#fff",
-		// *
+		// * 括弧の対応をハイライトするときの背景色
 		// "editorBracketMatch.background": "#fff",
-		// *
-		// "editorBracketMatch.border": "#fff",
-		// *
-		// "editorBracketHighlight.foreground1": "#fff",
-		// *
-		// "editorBracketHighlight.foreground2": "#fff",
-		// *
-		// "editorBracketHighlight.foreground3": "#fff",
-		// *
-		// "editorBracketHighlight.foreground4": "#fff",
-		// *
-		// "editorBracketHighlight.foreground5": "#fff",
-		// *
-		// "editorBracketHighlight.foreground6": "#fff",
-		// *
+		// * 括弧の対応をハイライトするときのボーダー色
+		// "editorBracketMatch.border": "#c21515",
+		// * 括弧の対応の(<設定している括弧()の数>n+<foreground末尾を0からインデックスしたときの数>: n = 0...)の前面色
+		// * editor.guides.bracketPairsを有効化にすると使える
+		// "editorBracketHighlight.foreground1": "#bd2020",
+		// "editorBracketHighlight.foreground2": "#38b120",
+		// "editorBracketHighlight.foreground3": "#10d187",
+		// "editorBracketHighlight.foreground4": "#0e51b6",
+		// "editorBracketHighlight.foreground5": "#7926b1",
+		// "editorBracketHighlight.foreground6": "#ad4ea5",
+		// * 対応する括弧がない場合の括弧の前面色
 		// "editorBracketHighlight.unexpectedBracket.foreground": "#fff",
-		// *
-		// "editorBracketPairGuide.activeBackground1": "#fff",
-		// *
-		// "editorBracketPairGuide.activeBackground2": "#fff",
-		// *
-		// "editorBracketPairGuide.activeBackground3": "#fff",
-		// *
-		// "editorBracketPairGuide.activeBackground4": "#fff",
-		// *
+		// * 括弧の対応の(<設定している括弧()の数>>n+<background末尾を0からインデックスしたときの数>: n = 0...)のアクティブ時の背景色(ボーダー色)
+		// "editorBracketPairGuide.activeBackground1": "#ffffff",
+		// "editorBracketPairGuide.activeBackground2": "#ffffff",
+		// "editorBracketPairGuide.activeBackground3": "#ffffff",
+		// "editorBracketPairGuide.activeBackground4": "#ffffff",
 		// "editorBracketPairGuide.activeBackground5": "#fff",
-		// *
 		// "editorBracketPairGuide.activeBackground6": "#fff",
+		// * 括弧の対応の(<設定している括弧()の数>n+<foreground末尾を0からインデックスしたときの数>: n = 0...)の背景色
+		// "editorBracketPairGuide.background1": "#c41515",
+		// "editorBracketPairGuide.background2": "#a8b81e",
+		// "editorBracketPairGuide.background3": "#09b318",
+		// "editorBracketPairGuide.background4": "#15a380",
+		// "editorBracketPairGuide.background5": "#4037bd",
+		// "editorBracketPairGuide.background6": "#961981",
+		// * エディターのコードを折りたたんでいる時の背景色
+		// "editor.foldBackground": "#a12929a9",
+		// * スクロールバーの背景色(minimapが有効時)
+		"editorOverviewRuler.background": "#921313",
+		// * スクロールバーの左のボーダー色
+		"editorOverviewRuler.border": "#fff",
+		// * スクロールバーの検索をしたときに合致しているところの目印となる背景色
+		"editorOverviewRuler.findMatchForeground": "#ffffff8a",
 		// *
-		// "editorBracketPairGuide.background1": "#fff",
+		// "editorOverviewRuler.rangeHighlightForeground": "#148b05a6",
 		// *
-		// "editorBracketPairGuide.background2": "#fff",
-		// *
-		// "editorBracketPairGuide.background3": "#fff",
-		// *
-		// "editorBracketPairGuide.background4": "#fff",
-		// *
-		// "editorBracketPairGuide.background5": "#fff",
-		// *
-		// "editorBracketPairGuide.background6": "#fff",
-		// *
-		// "editor.foldBackground": "#fff",
-		// *
-		// "editorOverviewRuler.background": "#fff",
-		// *
-		// "editorOverviewRuler.border": "#fff",
-		// *
-		// "editorOverviewRuler.findMatchForeground": "#fff",
-		// *
-		// "editorOverviewRuler.rangeHighlightForeground": "#fff",
-		// *
-		// "editorOverviewRuler.selectionHighlightForeground": "#fff",
-		// *
-		// "editorOverviewRuler.wordHighlightForeground": "#fff",
+		// "editorOverviewRuler.selectionHighlightForeground": "#0a92b4ce",
+		// * スクロールバーの範囲選択をしているところの目印となる背景色(同じものが複数あればすべてハイライト)
+		"editorOverviewRuler.wordHighlightForeground": "#38aa1c86",
 		// *
 		// "editorOverviewRuler.wordHighlightStrongForeground": "#fff",
 		// *
