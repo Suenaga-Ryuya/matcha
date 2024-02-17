@@ -556,21 +556,21 @@
 		// * エディターのコードを折りたたんでいる時の背景色
 		// "editor.foldBackground": "#a12929a9",
 		// * スクロールバーの背景色(minimapが有効時)
-		"editorOverviewRuler.background": "#921313",
+		// "editorOverviewRuler.background": "#921313",
 		// * スクロールバーの左のボーダー色
-		"editorOverviewRuler.border": "#fff",
-		// * スクロールバーの検索をしたときに合致しているところの目印となる背景色
-		"editorOverviewRuler.findMatchForeground": "#ffffff8a",
+		// "editorOverviewRuler.border": "#fff",
+		// * スクロールバーの検索をしたときに合致しているところの目印となる前面色
+		// "editorOverviewRuler.findMatchForeground": "#ffffff8a",
 		// *
-		// "editorOverviewRuler.rangeHighlightForeground": "#148b05a6",
-		// *
-		// "editorOverviewRuler.selectionHighlightForeground": "#0a92b4ce",
-		// * スクロールバーの範囲選択をしているところの目印となる背景色(同じものが複数あればすべてハイライト)
-		"editorOverviewRuler.wordHighlightForeground": "#38aa1c86",
-		// *
-		// "editorOverviewRuler.wordHighlightStrongForeground": "#fff",
-		// *
-		// "editorOverviewRuler.wordHighlightTextForeground": "#fff",
+		// "editorOverviewRuler.rangeHighlightForeground": "#24ffc8a6",
+		// * アクティブバーのサーチセクションで検索したときの検索結果をエディターで開いて範囲選択をした時の前面色(ハイライト)
+		// "editorOverviewRuler.selectionHighlightForeground": "#1f4ec4ce",
+		// * スクロールバーの範囲選択をしているところ(読み込み専用,たとえば定義した変数を使うときなど)の目印となる前面色(ハイライト)
+		// "editorOverviewRuler.wordHighlightForeground": "#38aa1c86",
+		// * スクロールバーの範囲選択をしているところ(書き込み可能,たとえば定義する変数など:Strong)の目印となる前面色(ハイライト)
+		// "editorOverviewRuler.wordHighlightStrongForeground": "#af7e7e9f",
+		// * スクロールバーの範囲選択をしているところ(マークダウンなどのテキストベース)の目印となる前面色(ハイライト)
+		// "editorOverviewRuler.wordHighlightTextForeground": "#1fe4dab0",
 		// *
 		// "editorOverviewRuler.modifiedForeground": "#fff",
 		// *
