@@ -587,9 +587,9 @@
 		// * エディター上で括弧のペアの目印となるのオーバービュールーラー上の前面色(ハイライト)
 		// "editorOverviewRuler.bracketMatchForeground": "#78b369",
 		// *
-		"editorOverviewRuler.inlineChatInserted": "#33ff00",
+		"editorOverviewRuler.inlineChatInserted": "#7c83ad",
 		// *
-		"editorOverviewRuler.inlineChatRemoved": "#e5ff00",
+		"editorOverviewRuler.inlineChatRemoved": "#ff00ea",
 		// * エディターのエラー発生時の波線の前面色
 		// "editorError.foreground": "#a51e1e",
 		// * エディターのエラー発生時の下部二十線のボーダー色
@@ -645,91 +645,92 @@
 		// * github pull requestsのレビューコメントの未解決の上下のボーダー色
 		// "editorCommentsWidget.unresolvedBorder": "#1063a7",
 		// * github pull requestsのコードに対してのレビューコメントの該当行の背景色
-		"editorCommentsWidget.rangeBackground": "#88ff11",
+		// "editorCommentsWidget.rangeBackground": "#88ff11",
 		// * github pull requestsのコードに対してのレビューコメントの枠にホバー時該当行の背景色
-		"editorCommentsWidget.rangeActiveBackground": "#ff5858",
+		// "editorCommentsWidget.rangeActiveBackground": "#ff5858",
 		// * github pull requestsのレビューコメントの返答入力部分の背景色
 		// "editorCommentsWidget.replyInputBackground": "#5e1313",
 		
 		//  == Diff Editor Color Section ==
-		// *
-		// "diffEditor.insertedTextBackground": "#fff",
-		// *
+		// * 差分エディターの新しく追加された部分の背景色
+		// "diffEditor.insertedTextBackground": "#ffffff7a",
+		// * 差分エディターの新しく追加された部分のボーダー色
 		// "diffEditor.insertedTextBorder": "#fff",
-		// *
-		// "diffEditor.removedTextBackground": "#fff",
-		// *
-		// "diffEditor.removedTextBorder": "#fff",
-		// *
+		// * 差分エディターの削除された部分の背景色
+		// "diffEditor.removedTextBackground": "#44c43381",
+		// * 差分エディターの削除された部分のボーダー色
+		// "diffEditor.removedTextBorder": "#868080",
+		// * 差分エディターの左右を区切る背景色
 		// "diffEditor.border": "#fff",
-		// *
+		// * 差分エディターの差分斜線のボーダー色
 		// "diffEditor.diagonalFill": "#fff",
-		// *
-		// "diffEditor.insertedLineBackground": "#fff",
-		// *
-		// "diffEditor.removedLineBackground": "#fff",
-		// *
-		// "diffEditorOverview.insertedForeground": "#fff",
-		// *
-		// "diffEditorOverview.removedForeground": "#fff",
-		// *
-		// "diffEditor.unchangedRegionBackground": "#fff",
-		// *
-		// "diffEditor.unchangedRegionForeground": "#fff",
-		// *
-		// "diffEditor.unchangedRegionShadow": "#fff",
-		// *
-		// "diffEditor.unchangedCodeBackground": "#fff",
-		// *
-		// "diffEditor.move.border": "#fff",
-		// *
-		// "diffEditor.moveActive.border": "#fff",
-		// *
-		// "multiDiffEditor.headerBackground": "#fff",
-		// *
-		// "multiDiffEditor.background": "#fff",
-		// *
-		// "multiDiffEditor.border": "#fff",
+		// * 差分エディターの新しく追加された部分の行の背景色
+		// "diffEditor.insertedLineBackground": "#775050d7",
+		// * 差分エディターの削除された部分の行の背景色
+		// "diffEditor.removedLineBackground": "#851c1c63",
+		// * 差分エディターの新しく追加された部分の行のエディターオーバービュールーラー上の前面色
+		// "diffEditorOverview.insertedForeground": "#db3434",
+		// * 差分エディターの削除された部分の行のエディターオーバービュールーラー上の前面色
+		// "diffEditorOverview.removedForeground": "#4dc549",
+		// * 複数の差分エディターを開いたときの変更されていない部分がまとめられて表示されているところの背景色
+		// "diffEditor.unchangedRegionBackground": "#3bf8ff",
+		// * 複数の差分エディターを開いたときの変更されていない部分がまとめられて表示されているところの前面色
+		// "diffEditor.unchangedRegionForeground": "#000000",
+		// * 複数の差分エディターを開いたときの変更されていない部分がまとめられて表示されているところのボーダーの影の色
+		// "diffEditor.unchangedRegionShadow": "#ffffff",
+		// * 複数の差分エディターを開いたときの変更されていない部分がまとめられて表示されているところを開いたときの変更部分の背景色
+		// "diffEditor.unchangedCodeBackground": "#bebebe",
+		// *　差分エディターでコードが移動された時にショートカットできることを表示するボーダー色
+		// "diffEditor.move.border": "#3579a0",
+		// * 差分エディターでコードが移動された時にショートカットして比較しているときのするボーダー色
+		// "diffEditor.moveActive.border": "#941483",
+		// *　複数の差分エディターを開いたときのヘッダーの背景色(2024/02/18の時点で適用されてない https://github.com/microsoft/vscode/issues/204352)
+		// "multiDiffEditor.headerBackground": "#9ba89f",
+		// * 複数の差分エディターを開いたときの余白の背景色(Diff Viewer拡張機能使用時など)
+		// * View Changesアイコンからでもできる
+		// "multiDiffEditor.background": "#df2828",
+		// * 複数の差分エディターを開いたときの余白のボーダー色(Diff Viewer拡張機能使用時など)
+		// "multiDiffEditor.border": "#bd2727",
 		
 		// == Chat Color Section ==
-		// *
+		// * github copilotのQ&Aの区切りボーダー色
 		// "chat.requestBorder": "#fff",
-		// *
-		// "chat.slashCommandBackground": "#fff",
-		// *
-		// "chat.slashCommandForeground": "#fff",
-		// *
+		// *　github copilotのスラッシュコマンドを実行したときのコマンドの背景色
+		// "chat.slashCommandBackground": "#ffffff",
+		// * github copilotのスラッシュコマンドを実行したときのコマンドの前面色
+		// "chat.slashCommandForeground": "#000000",
+		// *　github copilotのアバターの背景色
 		// "chat.avatarBackground": "#fff",
-		// *
+		// * github copilotのアバターの前面色
 		// "chat.avatarForeground": "#fff",
 		
 		// == Inline Chat Color Section ==
-		// *
-		// "inlineChat.background": "#fff",
-		// *
-		// "inlineChat.border": "#fff",
-		// *
+		// *　github copilotのインラインチャット(コードエディタ上)の背景色
+		// "inlineChat.background": "#000000",
+		// * github copilotのインラインチャット(コードエディタ上)のボーダー色
+		// "inlineChat.border": "#810e0e",
+		// *　github copilotのインラインチャット(コードエディタ上)の影の色
 		// "inlineChat.shadow": "#fff",
-		// *
-		// "inlineChat.regionHighlight": "#fff",
-		// *
+		// *　github copilotのインラインチャット(コードエディタ上)の選択部分・サジェスト部分の背景色
+		// "inlineChat.regionHighlight": "#e6baba65",
+		// *　github copilotのインラインチャット(コードエディタ上)の入力欄のボーダー色
 		// "inlineChatInput.border": "#fff",
-		// *
-		// "inlineChatInput.focusBorder": "#fff",
-		// *
-		// "inlineChatInput.placeholderForeground": "#fff",
-		// *
+		// * github copilotのインラインチャット(コードエディタ上)の入力欄のフォーカスが当たったときのボーダー色
+		// "inlineChatInput.focusBorder": "#b91e1e",
+		// * github copilotのインラインチャット(コードエディタ上)の入力欄の前面色(placeHolderの色)
+		// "inlineChatInput.placeholderForeground": "#000000",
+		// *　github copilotのインラインチャット(コードエディタ上)の入力欄の背景色
 		// "inlineChatInput.background": "#fff",
-		// *
+		// *　github copilotのインラインチャット(コードエディタ上)で追加されたコードの背景色
 		// "inlineChatDiff.inserted": "#fff",
-		// *
+		// * github copilotのインラインチャット(コードエディタ上)で削除されたコードの背景色
 		// "inlineChatDiff.removed": "#fff",
 
 		// == Panel Chat Color Section ==
 		// *
-		// "interactive.activeCodeBorder": "#fff",
+		// "interactive.activeCodeBorder": "#000000",
 		// *
-		// "interactive.inactiveCodeBorder": "#fff",
+		// "interactive.inactiveCodeBorder": "#ac0606",
 		
 		// == Editor Widget Color Section ==
 		// *
