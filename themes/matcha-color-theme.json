@@ -555,98 +555,101 @@
 		// "editorBracketPairGuide.background6": "#961981",
 		// * エディターのコードを折りたたんでいる時の背景色
 		// "editor.foldBackground": "#a12929a9",
-		// * スクロールバーの背景色(minimapが有効時)
+		// * OverviewRuler: スクロールバー上に表示されるマーカー
+		// * オーバービュールーラーの背景色(minimapが有効時)
 		// "editorOverviewRuler.background": "#921313",
-		// * スクロールバーの左のボーダー色
+		// * オーバービュールーラーの左のボーダー色
 		// "editorOverviewRuler.border": "#fff",
-		// * スクロールバーの検索をしたときに合致しているところの目印となる前面色
+		// * スクロールバーの検索をしたときにオーバービュールーラー上で合致しているところの目印となる前面色
 		// "editorOverviewRuler.findMatchForeground": "#ffffff8a",
-		// *
-		// "editorOverviewRuler.rangeHighlightForeground": "#24ffc8a6",
-		// * アクティブバーのサーチセクションで検索したときの検索結果をエディターで開いて範囲選択をした時の前面色(ハイライト)
+		// * Ctrl+Pで「ファイル名@変数名」などで調べたときにオーバービュールーラー上の合致しているところの目印となる前面色
+		// "editorOverviewRuler.rangeHighlightForeground": "#00ffbfa6",
+		// * アクティブバーのサーチセクションで検索したときの検索結果をエディターで開いて範囲選択をした時のオーバービュールーラー上の前面色(ハイライト)
 		// "editorOverviewRuler.selectionHighlightForeground": "#1f4ec4ce",
-		// * スクロールバーの範囲選択をしているところ(読み込み専用,たとえば定義した変数を使うときなど)の目印となる前面色(ハイライト)
+		// * スクロールバーの範囲選択をしているところ(読み込み専用,たとえば定義した変数を使うときなど)の目印となるオーバービュールーラー上の前面色(ハイライト)
 		// "editorOverviewRuler.wordHighlightForeground": "#38aa1c86",
-		// * スクロールバーの範囲選択をしているところ(書き込み可能,たとえば定義する変数など:Strong)の目印となる前面色(ハイライト)
+		// * スクロールバーの範囲選択をしているところ(書き込み可能,たとえば定義する変数など:Strong)の目印となるオーバービュールーラー上の前面色(ハイライト)
 		// "editorOverviewRuler.wordHighlightStrongForeground": "#af7e7e9f",
-		// * スクロールバーの範囲選択をしているところ(マークダウンなどのテキストベース)の目印となる前面色(ハイライト)
+		// * スクロールバーの範囲選択をしているところ(マークダウンなどのテキストベース)の目印となるオーバービュールーラー上の前面色(ハイライト)
 		// "editorOverviewRuler.wordHighlightTextForeground": "#1fe4dab0",
+		// * バージョン管理しているプロジェクトのファイルで中身を変更したとき目印となるのオーバービュールーラー上の前面色(ハイライト)
+		// "editorOverviewRuler.modifiedForeground": "#67f893",
+		// * バージョン管理しているプロジェクトのファイルで中身を追加したとき目印となるのオーバービュールーラー上の前面色(ハイライト)
+		// "editorOverviewRuler.addedForeground": "#ff7c7c",
+		// * バージョン管理しているプロジェクトのファイルで中身を削除したとき目印となるのオーバービュールーラー上の前面色(ハイライト)
+		// "editorOverviewRuler.deletedForeground": "#6e6cff",
+		// * エディター上でエラーが出ているときの目印となるのオーバービュールーラー上の前面色(ハイライト)
+		// "editorOverviewRuler.errorForeground": "#ff40df",
+		// * エディター上で警告が出ているときの目印となるのオーバービュールーラー上の前面色(ハイライト)
+		// "editorOverviewRuler.warningForeground": "#97d0ff",
+		// * エディター上で補足情報(青波線で表示されるスペルチェックなど)が出ているときの目印となるのオーバービュールーラー上の前面色(ハイライト)
+		// "editorOverviewRuler.infoForeground": "#7e3b3b",
+		// * エディター上で括弧のペアの目印となるのオーバービュールーラー上の前面色(ハイライト)
+		// "editorOverviewRuler.bracketMatchForeground": "#78b369",
 		// *
-		// "editorOverviewRuler.modifiedForeground": "#fff",
+		"editorOverviewRuler.inlineChatInserted": "#33ff00",
 		// *
-		// "editorOverviewRuler.addedForeground": "#fff",
-		// *
-		// "editorOverviewRuler.deletedForeground": "#fff",
-		// *
-		// "editorOverviewRuler.errorForeground": "#fff",
-		// *
-		// "editorOverviewRuler.warningForeground": "#fff",
-		// *
-		// "editorOverviewRuler.infoForeground": "#fff",
-		// *
-		// "editorOverviewRuler.bracketMatchForeground": "#fff",
-		// *
-		// "editorOverviewRuler.inlineChatInserted": "#fff",
-		// *
-		// "editorOverviewRuler.inlineChatRemoved": "#fff",
-		// *
-		// "editorError.foreground": "#fff",
-		// *
-		// "editorError.border": "#fff",
-		// *
-		// "editorError.background": "#fff",
-		// *
+		"editorOverviewRuler.inlineChatRemoved": "#e5ff00",
+		// * エディターのエラー発生時の波線の前面色
+		// "editorError.foreground": "#a51e1e",
+		// * エディターのエラー発生時の下部二十線のボーダー色
+		// "editorError.border": "#880303",
+		// * エディターの警告発生時のエラー部分の背景色
+		// "editorError.background": "#286e0d71",
+		// * エディターの警告発生時の波線の前面色
 		// "editorWarning.foreground": "#fff",
-		// *
+		// * エディターの警告発生時の下部二十線のボーダー色
 		// "editorWarning.border": "#fff",
-		// *
+		// * エディターの警告発生時のエラー部分の背景色
 		// "editorWarning.background": "#fff",
-		// *
+		// * エディターの補足情報の波線の前面色
 		// "editorInfo.foreground": "#fff",
-		// *
+		// * エディターの補足情報の下部二十線のボーダー色
 		// "editorInfo.border": "#fff",
-		// *
+		// * エディターの補足情報のエラー部分の背景色
 		// "editorInfo.background": "#fff",
-		// *
+		// * エディターのヒントの前面色(二本のうちの上の方)
+		// * JSなどで[require()]を入力したときなどのヒントの前面色
 		// "editorHint.foreground": "#fff",
-		// *
-		// "editorHint.border": "#fff",
-		// *
-		// "problemsErrorIcon.foreground": "#fff",
-		// *
-		// "problemsWarningIcon.foreground": "#fff",
-		// *
-		// "problemsInfoIcon.foreground": "#fff",
-		// *
-		// "editorUnnecessaryCode.border": "#fff",
-		// *
-		// "editorUnnecessaryCode.opacity": "#fff",
-		// *
-		// "editorGutter.background": "#fff",
-		// *
-		// "editorGutter.modifiedBackground": "#fff",
-		// *
-		// "editorGutter.addedBackground": "#fff",
-		// *
+		// * エディターのヒントの下部のボーダー色
+		// "editorHint.border": "#af2929",
+		// * エディターのターミナルのProblemセクションに表示されるエラーアイコン(〇の中に×)の前面色
+		// "problemsErrorIcon.foreground": "#aa1616",
+		// * エディターのターミナルのProblemセクションに表示される警告アイコン(△の中に!)の前面色
+		// "problemsWarningIcon.foreground": "#940e0e",
+		// * エディターのターミナルのProblemセクションに表示される情報アイコン(〇の中にi)の前面色
+		// "problemsInfoIcon.foreground": "#35b924",
+		// * ソースコードで使われていないモジュールなどを表示するときのボーダー色
+		// "editorUnnecessaryCode.border": "#642323",
+		// * ソースコードで使われていないモジュールなどを表示するときの透過率
+		// "editorUnnecessaryCode.opacity": "#00000096",
+		// * エディターの行番号が書かれている部分の背景色
+		// "editorGutter.background": "#ad1f1f",
+		// * バージョン管理をしているプロジェクトで、エディターの行番号が書かれている部分の更新された時の背景色
+		// "editorGutter.modifiedBackground": "#0cc72b",
+		// * バージョン管理をしているプロジェクトで、エディターの行番号が書かれている部分の新しく行が追加された時の前面色
+		// "editorGutter.addedBackground": "#c01010",
+		// * バージョン管理をしているプロジェクトで、エディターの行番号が書かれている部分の行が削除された時の前面色
 		// "editorGutter.deletedBackground": "#fff",
-		// *
-		// "editorGutter.commentRangeForeground": "#fff",
-		// *
-		// "editorGutter.commentGlyphForeground": "#fff",
-		// *
-		// "editorGutter.commentUnresolvedGlyphForeground": "#fff",
-		// *
-		// "editorGutter.foldingControlForeground": "#fff",
-		// *
-		// "editorCommentsWidget.resolvedBorder": "#fff",
-		// *
-		// "editorCommentsWidget.unresolvedBorder": "#fff",
-		// *
-		// "editorCommentsWidget.rangeBackground": "#fff",
-		// *
-		// "editorCommentsWidget.rangeActiveBackground": "#fff",
-		// *
-		// "editorCommentsWidget.replyInputBackground": "#fff",
+		// * github pull requestsのレビューコメントの場所を示すときの前面色(overviewRuler上)
+		// * エディターの行番号が書かれている部分の目印にもなる
+		// "editorGutter.commentRangeForeground": "#c4c4c4",
+		// * github pull requestsのレビューコメントのエディターの行番号のところに表示される目印のアイコンの前面色
+		// "editorGutter.commentGlyphForeground": "#272727",
+		// * github pull requestsのレビューコメントの未解決の時のエディターの行番号のところに表示される目印のアイコンの前面色
+		// "editorGutter.commentUnresolvedGlyphForeground": "#a10d0d",
+		// * エディターの行番号が書かれている部分の折りたたみアイコンの前面色
+		// "editorGutter.foldingControlForeground": "#c21818",
+		// * github pull requestsのレビューコメントの解決済みの上下のボーダー色
+		// "editorCommentsWidget.resolvedBorder": "#be3232",
+		// * github pull requestsのレビューコメントの未解決の上下のボーダー色
+		// "editorCommentsWidget.unresolvedBorder": "#1063a7",
+		// * github pull requestsのコードに対してのレビューコメントの該当行の背景色
+		"editorCommentsWidget.rangeBackground": "#88ff11",
+		// * github pull requestsのコードに対してのレビューコメントの枠にホバー時該当行の背景色
+		"editorCommentsWidget.rangeActiveBackground": "#ff5858",
+		// * github pull requestsのレビューコメントの返答入力部分の背景色
+		// "editorCommentsWidget.replyInputBackground": "#5e1313",
 		
 		//  == Diff Editor Color Section ==
 		// *
