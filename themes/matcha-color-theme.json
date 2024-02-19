@@ -695,97 +695,100 @@
 		// == Chat Color Section ==
 		// * github copilotのQ&Aの区切りボーダー色
 		// "chat.requestBorder": "#fff",
-		// *　github copilotのスラッシュコマンドを実行したときのコマンドの背景色
+		// * github copilotのスラッシュコマンドを実行したときのコマンドの背景色
 		// "chat.slashCommandBackground": "#ffffff",
 		// * github copilotのスラッシュコマンドを実行したときのコマンドの前面色
 		// "chat.slashCommandForeground": "#000000",
-		// *　github copilotのアバターの背景色
+		// * github copilotのアバターの背景色
 		// "chat.avatarBackground": "#fff",
 		// * github copilotのアバターの前面色
 		// "chat.avatarForeground": "#fff",
 		
 		// == Inline Chat Color Section ==
-		// *　github copilotのインラインチャット(コードエディタ上)の背景色
+		// * github copilotのインラインチャット(コードエディタ上)の背景色
 		// "inlineChat.background": "#000000",
 		// * github copilotのインラインチャット(コードエディタ上)のボーダー色
 		// "inlineChat.border": "#810e0e",
-		// *　github copilotのインラインチャット(コードエディタ上)の影の色
+		// * github copilotのインラインチャット(コードエディタ上)の影の色
 		// "inlineChat.shadow": "#fff",
-		// *　github copilotのインラインチャット(コードエディタ上)の選択部分・サジェスト部分の背景色
+		// * github copilotのインラインチャット(コードエディタ上)の選択部分・サジェスト部分の背景色
 		// "inlineChat.regionHighlight": "#e6baba65",
-		// *　github copilotのインラインチャット(コードエディタ上)の入力欄のボーダー色
+		// * github copilotのインラインチャット(コードエディタ上)の入力欄のボーダー色
 		// "inlineChatInput.border": "#fff",
 		// * github copilotのインラインチャット(コードエディタ上)の入力欄のフォーカスが当たったときのボーダー色
 		// "inlineChatInput.focusBorder": "#b91e1e",
 		// * github copilotのインラインチャット(コードエディタ上)の入力欄の前面色(placeHolderの色)
 		// "inlineChatInput.placeholderForeground": "#000000",
-		// *　github copilotのインラインチャット(コードエディタ上)の入力欄の背景色
+		// * github copilotのインラインチャット(コードエディタ上)の入力欄の背景色
 		// "inlineChatInput.background": "#fff",
-		// *　github copilotのインラインチャット(コードエディタ上)で追加されたコードの背景色
+		// * github copilotのインラインチャット(コードエディタ上)で追加されたコードの背景色
 		// "inlineChatDiff.inserted": "#fff",
 		// * github copilotのインラインチャット(コードエディタ上)で削除されたコードの背景色
 		// "inlineChatDiff.removed": "#fff",
 
 		// == Panel Chat Color Section ==
-		// *
-		// "interactive.activeCodeBorder": "#000000",
-		// *
+		// * jupyter notebookのセルのボーダー色
+		// "interactive.activeCodeBorder": "#1ac54d",
+		// * jupyter notebookのセルのボーダー色(非アクティブ)
+		// * Decorator.cellをallcellにすると使える
 		// "interactive.inactiveCodeBorder": "#ac0606",
 		
 		// == Editor Widget Color Section ==
-		// *
-		// "editorWidget.foreground": "#fff",
-		// *
+		// * 情報ダイアログ(Ctrl+Fなどの検索ダイアログなど)の前面色
+		// * 複数のイベントが起きる場合は、該当イベントの色で上書きされる
+		// "editorWidget.foreground": "#149b1f",
+		// * 情報ダイアログ(Ctrl+Fなどの検索ダイアログなど)の背景色
 		// "editorWidget.background": "#fff",
-		// *
-		// "editorWidget.border": "#fff",
-		// *
-		// "editorWidget.resizeBorder": "#fff",
-		// *
-		// "editorSuggestWidget.background": "#fff",
-		// *
-		// "editorSuggestWidget.border": "#fff",
-		// *
-		// "editorSuggestWidget.foreground": "#fff",
-		// *
-		// "editorSuggestWidget.focusHighlightForeground": "#fff",
-		// *
-		// "editorSuggestWidget.highlightForeground": "#fff",
-		// *
-		// "editorSuggestWidget.selectedBackground": "#fff",
-		// *
-		// "editorSuggestWidget.selectedForeground": "#fff",
-		// *
-		// "editorSuggestWidget.selectedIconForeground": "#fff",
-		// *
-		// "editorSuggestWidgetStatus.foreground": "#fff",
-		// *
-		// "editorHoverWidget.foreground": "#fff",
-		// *
-		// "editorHoverWidget.background": "#fff",
-		// *
-		// "editorHoverWidget.border": "#fff",
-		// *
-		// "editorHoverWidget.highlightForeground": "#fff",
-		// *
-		// "editorHoverWidget.statusBarBackground": "#fff",
-		// *
+		// * 情報ダイアログ(Ctrl+Fなどの検索ダイアログなど)のボーダー色
+		// "editorWidget.border": "#ff5f5f",
+		// * 情報ダイアログ(Ctrl+Fなどの検索ダイアログなど)のリサイズボーダー色
+		// "editorWidget.resizeBorder": "#a70909",
+		// * コード補完ダイアログの背景色
+		// "editorSuggestWidget.background": "#ff0505b6",
+		// * コード補完ダイアログのボーダー色
+		// "editorSuggestWidget.border": "#d1e08f",
+		// * コード補完ダイアログの前面色
+		// "editorSuggestWidget.foreground": "#57b84b",
+		// * コード補完ダイアログのフォーカスが当たっている候補の背景色
+		// "editorSuggestWidget.focusHighlightForeground": "#1698cc",
+		// * コード補完ダイアログの候補の前面色
+		// "editorSuggestWidget.highlightForeground": "#f31919",
+		// * コード補完ダイアログの選択されている候補の背景色
+		// "editorSuggestWidget.selectedBackground": "#ff0000",
+		// * コード補完ダイアログの選択されている候補の前面色
+		// "editorSuggestWidget.selectedForeground": "#008638",
+		// * コード補完ダイアログの選択されている候補のアイコンの前面色
+		// "editorSuggestWidget.selectedIconForeground": "#2abec9",
+		// * コード補完ダイアログのステータスバーの背景色(Show Status Barを有効にすると使える)
+		// "editorSuggestWidgetStatus.foreground": "#da0000",
+		// * 情報ダイアログ(拡張機能や関数などの定義をホバーしたときに出る)の前面色
+		// "editorHoverWidget.foreground": "#d42727",
+		// * 情報ダイアログ(拡張機能や関数などの定義をホバーしたときに出る)の背景色
+		// "editorHoverWidget.background": "#ffffff",
+		// * 情報ダイアログ(拡張機能や関数などの定義をホバーしたときに出る)のボーダー色
+		// "editorHoverWidget.border": "#ffffff",
+		// * 情報ダイアログ(拡張機能や関数などの定義をホバーしたときに出る)の補完文字色
+		// * たとえば、関数を入力した後に()を入力すると補完される文字の色
+		// "editorHoverWidget.highlightForeground": "#58ccd4",
+		// * 情報ダイアログ(拡張機能や関数などの定義をホバーしたときに出る)のステータスバー(View Problemなどが書いている)の背景色
+		// "editorHoverWidget.statusBarBackground": "#2643a3",
+		// * copilotのコード予測補完のボーダー色
 		// "editorGhostText.border": "#fff",
-		// *
-		// "editorGhostText.background": "#fff",
-		// *
+		// * copilotのコード予測補完の背景色
+		// "editorGhostText.background": "#c23131",
+		// * copilotのコード予測補完の前面色
 		// "editorGhostText.foreground": "#fff",
-		// *
-		// "editorStickyScroll.background": "#fff",
-		// *
-		// "editorStickyScroll.border": "#fff",
-		// *
-		// "editorStickyScroll.shadow": "#fff",
-		// *
-		// "editorStickyScrollHover.background": "#fff",
-		// *
+		// * エディターのコードが上部に固定されるものの背景色
+		// "editorStickyScroll.background": "#ffffff",
+		// * エディターのコードが上部に固定されるもののボーダー色
+		// "editorStickyScroll.border": "#d32424",
+		// * エディターのコードが上部に固定されるものの影の色
+		// "editorStickyScroll.shadow": "#ff1616",
+		// * エディターのコードが上部に固定されるもののホバー時の背景色
+		// "editorStickyScrollHover.background": "#fd0606",
+		// * デバッグした際に例外をキャッチしたときのダイアログの背景色
 		// "debugExceptionWidget.background": "#fff",
-		// *
+		// * デバッグした際に例外をキャッチしたときのダイアログのボーダー色
 		// "debugExceptionWidget.border": "#fff",
 		// *
 		// "editorMarkerNavigation.background": "#fff",
@@ -796,467 +799,468 @@
 		// *
 		// "editorMarkerNavigationInfo.background": "#fff",
 		// *
-		// "editorMarketNavigationError.headerBackground": "#fff",
+		// "editorMarkerNavigationError.headerBackground": "#fff",
 		// *
 		// "editorMarkerNavigationWarning.headerBackground": "#fff",
 		// *
 		// "editorMarkerNavigationInfo.headerBackground": "#fff",
 		
 		// == Peek View Color Section ==
-		// *
+		// * Go To Referencesなどで参照ダイアログのボーダー色
 		// "peekView.border": "#fff",
-		// *
+		// * Go To Referencesなどで参照ダイアログのエディターの背景色
 		// "peekViewEditor.background": "#fff",
-		// *
+		// * Go To Referencesなどで参照ダイアログのガター(行番号のところ)の背景色
 		// "peekViewEditorGutter.background": "#fff",
-		// *
+		// * Go To Referencesなどで参照ダイアログの参照しているコードの背景色
 		// "peekViewEditor.matchHighlightBackground": "#fff",
-		// *
+		// * Go To Referencesなどで参照ダイアログの参照しているコードのボーダー色
 		// "peekViewEditor.matchHighlightBorder": "#fff",
-		// *
-		// "peekViewEditorStickyScroll.background": "#fff",
-		// *
+		// * Go To Referencesなどで参照ダイアログの参照しているコードがあるファイルの検索結果一覧部分の背景色
 		// "peekViewResult.background": "#fff",
-		// *
-		// "peekViewResult.fileForeground": "#fff",
-		// *
+		// * Go To Referencesなどで参照ダイアログの参照しているコードがあるファイルの検索結果の該当ファイルの前面色
+		// "peekViewResult.fileForeground": "#fc2828",
+		// * Go To Referencesなどで参照ダイアログの参照しているコードがあるファイルの検索結果の該当ファイルの中身の該当行の前面色
 		// "peekViewResult.lineForeground": "#fff",
-		// *
+		// * Go To Referencesなどで参照ダイアログの参照しているコードがあるファイルの検索結果の該当ファイルの中身の該当行の背景色
 		// "peekViewResult.matchHighlightBackground": "#fff",
-		// *
-		// "peekViewResult.selectionBackground": "#fff",
-		// *
-		// "peekViewResult.selectionForeground": "#fff",
-		// *
-		// "peekViewTitle.background": "#fff",
-		// *
+		// * Go To Referencesなどで参照ダイアログの参照しているコードがあるファイルの検索結果のファイルを選択しているときの背景色
+		// "peekViewResult.selectionBackground": "#813b3b",
+		// * Go To Referencesなどで参照ダイアログの参照しているコードがあるファイルの検索結果のファイルを選択しているときの前面色
+		// "peekViewResult.selectionForeground": "#4596aa",
+		// * Go To Referencesなどで参照ダイアログのタイトルの背景色
+		// "peekViewTitle.background": "#b42121",
+		// * Go To Referencesなどで参照ダイアログのタイトルの説明部分の前面色
 		// "peekViewTitleDescription.foreground": "#fff",
-		// *
-		// "peekViewTitleLabel.foreground": "#fff",
-		// *
+		// * Go To Referencesなどで参照ダイアログのタイトルの選択しているファイル名の前面色
+		// "peekViewTitleLabel.foreground": "#da2020",
+		// * Go To Referencesなどで参照ダイアログのコードが上部に固定されるものの背景色
 		// "peekViewEditorStickyScroll.background": "#fff",
 		
 		// == Merge Conflicts Color Section ==
-		// *
-		// "merge.currentHeaderBackground": "#fff",
-		// *
-		// "merge.currentContentBackground": "#fff",
-		// *
-		// "merge.incomingHeaderBackground": "#fff",
-		// *
-		// "merge.incomingContentBackground": "#fff",
-		// *
+		// * [<<<<< HEAD]の現在のローカルでの変更のマージコンフリクトのヘッダーの背景色
+		// "merge.currentHeaderBackground": "#ffffff75",
+		// * [<<<<< HEAD]の現在のローカルでの変更のマージコンフリクトのコンテンツの背景色
+		// "merge.currentContentBackground": "#b93a3a57",
+		// * [>>>>> branch]のマージ先の変更のマージコンフリクトのヘッダーの背景色
+		// "merge.incomingHeaderBackground": "#69151549",
+		// * [>>>>> branch]のマージ先の変更のマージコンフリクトのコンテンツの背景色
+		// "merge.incomingContentBackground": "#2e0b0b3d",
+		// * マージコンフリクトの共通のコンテンツのボーダー色
 		// "merge.border": "#fff",
+		// * 
+		// "merge.commonContentBackground": "#0b0c0c5b",
 		// *
-		// "merge.commonContentBackground": "#fff",
-		// *
-		// "merge.commonHeaderBackground": "#fff",
-		// *
-		// "editorOverviewRuler.currentContentForeground": "#fff
-		// *
-		// "editorOverviewRuler.incomingContentForeground": "#fff",
-		// *
-		// "editorOverviewRuler.commonContentForeground": "#fff",
+		// "merge.commonHeaderBackground": "#ffffff77",
+		// * [<<<<< HEAD]の現在のローカルでの変更のマージコンフリクトのエディターオーバービュールーラーの前面色
+		// "editorOverviewRuler.currentContentForeground": "#dd0000",
+		// * [>>>>> branch]のマージ先の変更のマージコンフリクトのエディターオーバービュールーラーの前面色
+		// "editorOverviewRuler.incomingContentForeground": "#c73737",
+		// * 
+		// "editorOverviewRuler.commonContentForeground": "#20536b",
 		// *
 		// "editorOverviewRuler.commentForeground": "#fff",
 		// *
-		// "editorOverviewRuler.commentUnresolvedForeground": "#fff",
+		// "editorOverviewRuler.commentUnresolvedForeground": "#503333",
+		// * マージエディターの差分部分の背景色
+		// "mergeEditor.change.background": "#f8f8f8",
+		// * マージエディターの差分部分の前面色(背景色)
+		// "mergeEditor.change.word.background": "#a07373",
+		// * マージエディターのまだ解決できていない部分のフォーカスが当たっていないコンフリクトのボーダーの色
+		// "mergeEditor.conflict.unhandledUnfocused.border": "#ebebeb",
+		// * マージエディターのまだ解決できていない部分のフォーカスが当たっているコンフリクトのボーダーの色
+		// "mergeEditor.conflict.unhandledFocused.border": "#dac9c9",
+		// * マージエディターの解決できた部分のフォーカスが当たっていないコンフリクトのボーダーの色
+		// "mergeEditor.conflict.handledUnfocused.border": "#f50c0c",
+		// * マージエディターの解決できた部分のフォーカスが当たっているコンフリクトのボーダー色
+		// "mergeEditor.conflict.handledFocused.border": "#c50000",
+		// * マージエディターの解決できた部分のエディターオーバービュールーラーの目印の色
+		// "mergeEditor.conflict.handled.minimapOverViewRuler": "#be4848",
+		// * マージエディターのまだ解決できていない部分のエディターオーバービュールーラーの目印の色
+		// "mergeEditor.conflict.unhandled.minimapOverViewRuler": "#c94545",
 		// *
-		// "mergeEditor.change.background": "#fff",
+		// "mergeEditor.conflictingLines.background": "#851010",
 		// *
-		// "mergeEditor.change.word.background": "#fff",
+		// "mergeEditor.changeBase.background": "#0c863b",
+		// * 
+		// "mergeEditor.changeBase.word.background": "#d11919",
 		// *
-		// "mergeEditor.conflict.unhandledUnfocused.border": "#fff",
+		// "mergeEditor.conflict.input1.background": "#ff0000",
 		// *
-		// "mergeEditor.conflict.unhandledFocused.border": "#fff",
-		// *
-		// "mergeEditor.conflict.handledUnfocused.border": "#fff",
-		// *
-		// "mergeEditor.conflict.handledFocused.border": "#fff",
-		// *
-		// "mergeEditor.conflict.handled.minimapOverViewRuler": "#fff",
-		// *
-		// "mergeEditor,conflict.unhandled.minimapOverViewRuler": "#fff",
-		// *
-		// "mergeEditor.conflictingLines.background": "#fff",
-		// *
-		// "mergeEditor.changeBase,background": "#fff",
-		// *
-		// "mergeEditor.changeBase.word.background": "#fff",
-		// *
-		// "mergeEditor.conflict.input1.background": "#fff",
-		// *
-		// "mergeEditor.conflict.input2.background": "#fff",
+		// "mergeEditor.conflict.input2.background": "#08e200",
 		
 		// == Panel Color Section ==
-		// *
-		// "panel.background": "#303030",
-		// *
-		// "panel.border": "#f0dfcc", // ターミナルのすぐ上のボーダー
-		// *
-		// "panel.dropBorder": "#fff",
-		// *
-		// "panelTitle.activeBorder": "#fff",
-		// *
-		// "panelTitle.activeForeground": "#fff",
-		// *
-		// "panelTitle.inactiveForeground": "#fff",
-		// *
-		// "panelInput.border": "#fff",
-		// *
-		// "panelSection.border": "#fff",
-		// *
-		// "panelSection.dropBackground": "#fff",
-		// *
+		// * ターミナルの背景色
+		// "panel.background": "#962e2e",
+		// * ターミナルの上部のボーダー色
+		// "panel.border": "#f0dfcc",
+		// * ターミナルのタブを移動させるときに出るボーダー色
+		// "panel.dropBorder": "#c22525",
+		// * ターミナルの選択しているタブのボーダー色
+		// "panelTitle.activeBorder": "#743f3f",
+		// * ターミナルの選択しているタブの前面色(選択しているボーダーにも適用される)
+		// "panelTitle.activeForeground": "#c21a1a",
+		// * ターミナルの選択していないタブの前面色
+		// "panelTitle.inactiveForeground": "#b96060",
+		// * ターミナルの入力部分のボーダー色
+		// "panelInput.border": "#da2f2f",
+		// * ターミナルセクションを分割して表示しているときのセクションのボーダー色
+		// "panelSection.border": "#1cc040",
+		// * ターミナルのタブをターミナルにドラッグしているときの背景色
+		// "panelSection.dropBackground": "#a55353",
+		// * ターミナルセクションを分割して表示しているときのヘッダーの背景色
 		// "panelSectionHeader.background": "#fff",
-		// *
-		// "panelSectionHeader.foreground": "#fff",
-		// *
-		// "panelSectionHeader.border": "#fff",
-		// *
-		// "outputView.background": "#fff",
-		// *
+		// * ターミナルセクションを分割して表示しているときのヘッダーの前面色
+		// "panelSectionHeader.foreground": "#c72727",
+		// * ターミナルセクションを分割して表示しているときのヘッダーのボーダー色(ターミナルの位置を左右にすると確認できる)
+		// "panelSectionHeader.border": "#c48181",
+		// * ターミナルのoutputセクションの背景色
+		// "outputView.background": "#964646",
+		// * ターミナルのoutputセクションのコードが上部に固定されるものの背景色
 		// "outputViewStickyScroll.background": "#fff",
 		
 		// == Status Bar Color Section ==
-		// *
-		// "statusBar.background": "#1B2716", // 下のバー
-		// *
+		// * ステータスバー(下のバー)の背景色
+		// "statusBar.background": "#1B2716",
+		// * ステータスバー(下のバー)の前面色
 		// "statusBar.foreground": "#E8CEB0",
-		// *
-		// "statusBar.border": "#3E3546",
-		// *
+		// * ステータスバー(下のバー)のボーダー色
+		// "statusBar.border": "#ff0606",
+		// * ステータスバー(下のバー)のデバッグ中の背景色
 		// "statusBar.debuggingBackground": "#fff",
-		// *
+		// * ステータスバー(下のバー)のデバッグ中の前面色
 		// "statusBar.debuggingForeground": "#fff",
-		// *
+		// * ステータスバー(下のバー)のデバッグ中のボーダー色
 		// "statusBar.debuggingBorder": "#fff",
-		// *
+		// * ステータスバー(下のバー)のフォルダを開いていないときの前面色
 		// "statusBar.noFolderForeground": "#fff",
-		// *
+		// * ステータスバー(下のバー)のフォルダを開いていないときの背景色
 		// "statusBar.noFolderBackground": "#fff",
-		// *
+		// * ステータスバー(下のバー)のフォルダを開いていないときのボーダー色
 		// "statusBar.noFolderBorder": "#fff",
-		// *
+		// * ステータスバー(下のバー)のアイテムをクリック(アクティブ)したときの背景色
 		// "statusBarItem.activeBackground": "#fff",
-		// *
-		// "statusBarItem.hoverBackground": "#fff",
-		// *
-		// "statusBarItem.prominentForeground": "#fff",
-		// *
-		// "statusBarItem.prominentBackground": "#fff",
-		// *
-		// "statusBarItem.prominentHoverForeground": "#fff",
-		// *
-		// "statusBarItem.prominentHoverBackground": "#fff",
-		// *
-		// "statusBarItem.remoteBackground": "#fff",
-		// *
+		// * ステータスバー(下のバー)のアイテムをホバーしたときの背景色
+		// "statusBarItem.hoverBackground": "#d14848",
+		// * ステータスバー(下のバー)のアイテムをキーボード操作(Ctrl+Mなど)で使用したときに表示されるところの前面色
+		// "statusBarItem.prominentForeground": "#ffffff",
+		// * ステータスバー(下のバー)のアイテムをキーボード操作(Ctrl+Mなど)で使用したときに表示されるところの背景色
+		// "statusBarItem.prominentBackground": "#000000",
+		// * ステータスバー(下のバー)のアイテムをキーボード操作(Ctrl+Mなど)で使用したときに表示されるところのホバー時のボーダー色
+		// "statusBarItem.prominentHoverForeground": "#44c533",
+		// * ステータスバー(下のバー)のアイテムをキーボード操作(Ctrl+Mなど)で使用したときに表示されるところのホバー時の背景色
+		// "statusBarItem.prominentHoverBackground": "#1f537e",
+		// * ステータスバー(下のバー)の左下のリモートバッジの背景色
+		// "statusBarItem.remoteBackground": "#e71919",
+		// * ステータスバー(下のバー)の左下のリモートバッジの前面色
 		// "statusBarItem.remoteForeground": "#fff",
-		// *
+		// * ステータスバー(下のバー)の左下のリモートバッジをホバーしたときの背景色
 		// "statusBarItem.remoteHoverBackground": "#fff",
-		// *
+		// * ステータスバー(下のバー)の左下のリモートバッジをホバーしたときの前面色
 		// "statusBarItem.remoteHoverForeground": "#fff",
-		// *
-		// "statusBarItem.errorBackground": "#fff",
-		// *
-		// "statusBarItem.errorForeground": "#fff",
-		// *
-		// "statusBarItem.errorHoverBackground": "#fff",
-		// *
-		// "statusBarItem.errorHoverForeground": "#fff",
-		// *
+		// * ステータスバー(下のバー)の右下(ESLintなどを使用したときに表示される)のエラーアイコンの背景色
+		// "statusBarItem.errorBackground": "#a74a4a",
+		// * ステータスバー(下のバー)の右下(ESLintなどを使用したときに表示される)のエラーアイコンの前面色
+		// "statusBarItem.errorForeground": "#f87676",
+		// * ステータスバー(下のバー)の右下(ESLintなどを使用したときに表示される)のエラーアイコンをホバーしたときの背景色
+		// "statusBarItem.errorHoverBackground": "#d87979",
+		// * ステータスバー(下のバー)の右下(ESLintなどを使用したときに表示される)のエラーアイコンをホバーしたときの前面色
+		// "statusBarItem.errorHoverForeground": "#3b0404",
+		// * ステータスバー(下のバー)の右下(ESLintなどを使用したときに表示される)の警告アイコンの背景色
 		// "statusBarItem.warningBackground": "#fff",
-		// *
+		// * ステータスバー(下のバー)の右下(ESLintなどを使用したときに表示される)の警告アイコンの前面色
 		// "statusBarItem.warningForeground": "#fff",
-		// *
-		// "statusBarItem.warningHoverBackground": "#fff",
-		// *
+		// * ステータスバー(下のバー)の右下(ESLintなどを使用したときに表示される)の警告アイコンをホバーしたときの背景色
+		// "statusBarItem.warningHoverBackground": "#ff5b5b",
+		// * ステータスバー(下のバー)の右下(ESLintなどを使用したときに表示される)の警告アイコンをホバーしたときの前面色
 		// "statusBarItem.warningHoverForeground": "#fff",
-		// *
-		// "statusBarItem.compactHoverBackground": "#fff",
-		// *
+		// * ステータスバー(下のバー)の概要アイコン(gitのブランチなど)の背景色
+		// "statusBarItem.compactHoverBackground": "#38ff42",
+		// * ステータスバー(下のバー)のアイテムをフォーカスしたときのボーダー色(2024/02/19時点で適用されない？)
 		// "statusBarItem.focusBorder": "#fff",
-		// *
-		// "statusBar.focusBorder": "#fff",
-		// *
+		// * ステータスバー(下のバー)を(クリックして)フォーカスしたときのボーダー色
+		// "statusBar.focusBorder": "#d45e5e",
+		// * オフラインで使用しているときのステータスバー(下のバー)のアイテムの背景色
 		// "statusBarItem.offlineBackground": "#fff",
-		// *
+		// * オフラインで使用しているときのステータスバー(下のバー)のアイテムの前面色
 		// "statusBarItem.offlineForeground": "#fff",
-		// *
-		// "statusBarItem.offlineHoverBackground": "#fff",
-		// *
+		// * オフラインで使用しているときのステータスバー(下のバー)のアイテムをホバーしたときの背景色
+		// "statusBarItem.offlineHoverBackground": "#c01f1f",
+		// * オフラインで使用しているときのステータスバー(下のバー)のアイテムをホバーしたときの前面色
 		// "statusBarItem.offlineHoverForeground": "#fff",
 		
 		// == Title Bar Color Section ==
-		// *
-		// "titleBar.activeBackground": "#1B2716", // 上のバー
-		// *
+		// * タイトルバー(ウィンドウの上のバー)のアクティブ時(ウィンドウにフォーカスが当たっているとき)の背景色
+		// "titleBar.activeBackground": "#63ff20",
+		// * タイトルバー(ウィンドウの上のバー)のアクティブ時(ウィンドウにフォーカスが当たっているとき)の前面色
 		// "titleBar.activeForeground": "#E8CEB0",
-		// *
-		// "titleBar.inactiveBackground": "#1B2716", // ウィンドウからフォーカスが外れたときの色
-		// *
+		// * タイトルバー(ウィンドウの上のバー)の非アクティブ時(別ウィンドウにフォーカスが当たっているとき)のボーダー色
+		// "titleBar.inactiveBackground": "#f1ffea",
+		// * タイトルバー(ウィンドウの上のバー)の非アクティブ時(別ウィンドウにフォーカスが当たっているとき)の前面色
 		// "titleBar.inactiveForeground": "#fbe3b180",
-		// *
-		// "titleBar.border": "#3E3546",
+		// * タイトルバー(ウィンドウの上のバー)のボーダー色
+		// "titleBar.border": "#ff9100",
 		
 		// == Menu Bar Color Section ==
-		// *
-		// "menubar.selectionForeground": "#fff",
-		// *
-		// "menubar.selectionBackground": "#fff",
-		// *
-		// "menubar.selectionBorder": "#fff",
-		// *
-		// "menu.foreground": "#fff",
-		// *
-		// "menu.background": "#fff",
-		// *
-		// "menu.selectionForeground": "#fff",
-		// *
-		// "menu.selectionBackground": "#fff",
-		// *
+		// * メニューバー(ハンバーガーメニューで表示されないパターンの時)の前面色
+		// "menubar.selectionForeground": "#f00808",
+		// * メニューバー(ハンバーガーメニューで表示されないパターンの時)の背景色
+		// "menubar.selectionBackground": "#009231",
+		// * メニューバー(ドロップダウンのメニュー)のハンバーガーアイコンのボーダー色
+		// "menubar.selectionBorder": "#1ea5c7",
+		// * メニューバー(ドロップダウンのメニュー)の前面色
+		// "menu.foreground": "#41ff1b",
+		// * メニューバー(ドロップダウンのメニュー)の背景色
+		// "menu.background": "#f84949",
+		// * メニューバー(ドロップダウンのメニュー)の選択・ホバーしているときの前面色
+		// "menu.selectionForeground": "#ff3f3f",
+		// * メニューバー(ドロップダウンのメニュー)の選択・ホバーしているときの背景色
+		// "menu.selectionBackground": "#7b34b4",
+		// * メニューバー(ドロップダウンのメニュー)のボーダー色
 		// "menu.selectionBorder": "#fff",
-		// *
-		// "menu.separatorBackground": "#fff",
-		// *
-		// "menu.border": "#fff",
+		// * メニューバー(ドロップダウンのメニュー)のセパレータの色
+		// "menu.separatorBackground": "#4e41be",
+		// * メニューバー(ドロップダウンのメニュー)のボーダー色
+		// "menu.border": "#46e446",
 		
 		// == Command Center Color Section ==
-		// commandCenter.foreground": "#fff",
-		// commandCenter.activeForeground": "#fff",
-		// commandCenter.background": "#fff",
-		// commandCenter.activeBackground": "#fff",
-		// commandCenter.border: "#fff",
-		// commandCenter.inactiveForeground: "#fff",
-		// commandCenter.inactiveBorder: "#fff",
-		// commandCenter.activeBorder: "#fff",
-		// commandCenter.debbugingBackground: "#fff",
+		//  * タイトルバーのコマンドセンターの前面色
+		// "commandCenter.foreground": "#fff",
+		//  * タイトルバーのコマンドセンターのアクティブ時(クリックホールド・ホバー時)の前面色
+		// "commandCenter.activeForeground": "#a80000",
+		//  * タイトルバーのコマンドセンターの背景色
+		// "commandCenter.background": "#fff",
+		//  * タイトルバーのコマンドセンターのアクティブ時(クリックホールド・ホバー時)の背景色
+		// "commandCenter.activeBackground": "#ffc1c1",
+		//  * タイトルバーのコマンドセンターのボーダー色
+		// "commandCenter.border": "#fff",
+		//  * タイトルバーのコマンドセンターの非アクティブ時(別ウィンドウにフォーカスが当たっているとき)の前面色(2024/02/19時点で適用されない？)
+		// "commandCenter.inactiveForeground": "#2ae0b3",
+		//  * タイトルバーのコマンドセンターの非アクティブ時(別ウィンドウにフォーカスが当たっているとき)のボーダー色
+		// "commandCenter.inactiveBorder": "#ff0000",
+		//  * タイトルバーのコマンドセンターのアクティブ時(クリックホールド・ホバー時)の前面色
+		// "commandCenter.activeBorder": "#f12c2c",
+		//  *
+		// "commandCenter.debuggingBackground": "#ca2424d0",
 		
 		// == Notification Color Section ==
-		// *
+		// * 通知センターのヘッダーのボーダー色
 		// "notificationCenter.border": "#fff",
-		// *
+		// * 通知センターのヘッダーの前面色
 		// "notificationCenterHeader.foreground": "#fff",
-		// *
-		// "notificationCenterHeader.background": "#fff",
-		// *
-		// "notificationToast.border": "#fff",
-		// *
-		// "notifications.foreground": "#fff",
-		// *
+		// * 通知センターのヘッダーの背景色
+		// "notificationCenterHeader.background": "#b32626",
+		// * 通知のボーダー色(通知センターのではなく通知ポップアップのボーダー)
+		// "notificationToast.border": "#a74e4e",
+		// * 通知の前面色
+		// "notifications.foreground": "#914343",
+		// * 通知の背景色
 		// "notifications.background": "#2B3225",
-		// *
-		// "notifications.border": "#fff",
-		// *
-		// "notificationLink.foreground": "#fff",
-		// *
+		// * 通知センターに通知が複数のときのボーダー色(区切り)
+		// "notifications.border": "#b65d5d",
+		// * 通知のリンクの前面色
+		// "notificationLink.foreground": "#b13434",
+		// * 通知のエラーアイコンの前面色
 		// "notificationsErrorIcon.foreground": "#fff",
-		// *
+		// * 通知の警告アイコンの前面色
 		// "notificationsWarningIcon.foreground": "#fff",
-		// *
-		// "notificationsInfoIcon.foreground": "#fff",
+		// * 通知の情報アイコンの前面色
+		// "notificationsInfoIcon.foreground": "#eb7474",
 		
 		// == Banner Color Section ==
-		// *
-		// "banner.background": "#fff",
-		// *
-		// "banner.foreground": "#fff",
-		// *
-		// "banner.iconForeground": "#fff",
+		// * 信用していないフォルダを読み取り専用で開いたときのバナーの背景色
+		// "banner.background": "#e0caca",
+		// * 信用していないフォルダを読み取り専用で開いたときのバナーの前面色
+		// "banner.foreground": "#1bdd8c",
+		// * 信用していないフォルダを読み取り専用で開いたときのバナーのアイコンの前面色
+		// "banner.iconForeground": "#7b43e2",
 		
 		// == Extensions Color Section ==
+		// * 未インストールの拡張機能のボタンの前面色
+		// "extensionButton.prominentForeground": "#813b3b",
+		// * 未インストールの拡張機能アイコン(拡張機能のリストの左上に表示されるレコメンドバッジなど)の背景色
+		// "extensionButton.prominentBackground": "#eb2a2a",
 		// *
-		// "extensionButton.prominentForeground": "#fff",
-		// *
-		// "extensionButton.prominentBackground": "#fff",
-		// *
-		// "extensionButton.prominentHoverBackground": "#fff",
-		// *
-		// "extensionButton.background": "#fff",
-		// *
-		// "extensionButton.foreground": "#fff",
-		// *
+		// "extensionButton.prominentHoverBackground": "#be9a9a",
+		// * 拡張機能の詳細ページのボタンの前面色
+		// "extensionButton.background": "#440b0b",
+		// * 拡張機能の詳細ページのボタンの背景色
+		// "extensionButton.foreground": "#961515",
+		// * 拡張機能の詳細ページのボタンをホバーしたときの背景色
 		// "extensionButton.hoverBackground": "#fff",
-		// *
-		// "extensionButton.separator": "#fff",
-		// *
-		// "extensionBadge.remoteBackground": "#809848",
-		// *
+		// * 拡張機能の詳細ページのボタン内の内容のセパレーター色
+		// "extensionButton.separator": "#d12323",
+		// * リモートエディターで表示される拡張機能のリモートバッジの背景色
+		// "extensionBadge.remoteBackground": "#1f2b05",
+		// * リモートエディターで表示される拡張機能のリモートバッジの前面色
 		// "extensionBadge.remoteForeground": "#fff",
-		// *
-		// "extensionIcon.verifiedForeground": "#fff",
-		// *
-		// "extensionIcon.preReleaseForeground": "#fff",
-		// *
-		// "extensionIcon.sponserForeground": "#fff",
+		// * 拡張機能の認証済みバッジの前面色
+		// "extensionIcon.verifiedForeground": "#bd1a1aaf",
+		// * 拡張機能のプレリリースアイコンの前面色(拡張機能のリストの左上に表示される)
+		// "extensionIcon.preReleaseForeground": "#ac464694",
+		// * 拡張機能のスポンサー(パブリッシャー？)の前面色?
+		// "extensionIcon.sponsorForeground": "#23e0629d",
 		
-		// == Quick Picker Color Section ==
-		// *
-		// "pickerGroup.border": "#fff",
-		// *
-		// "pickerGroup.foreground": "#fff",
-		// *
-		// "quickInput.background": "#fff",
-		// *
-		// "quickInput.foreground": "#fff",
-		// *
+		// == Quick Picker Color Section (command centerを開いたときのダイアログ) ==
+		// * クイックピッカーのグループ分けする区切り線の色
+		// "pickerGroup.border": "#ff4444",
+		// * クイックピッカーのグループ前面色
+		// "pickerGroup.foreground": "#2bd881",
+		// * クイックピッカーの候補一覧の背景色
+		// "quickInput.background": "#000000",
+		// * クイックピッカーの候補一覧の前面色
+		// "quickInput.foreground": "#b42424",
+		// * クイックピッカーの候補一覧で選択している(フォーカスしている)候補の背景色
 		// "quickInputList.focusBackground": "#fff",
+		// * クイックピッカーの候補一覧で選択している(フォーカスしている)候補の前面色
+		// "quickInputList.focusForeground": "#cf1c1c",
+		// * クイックピッカーの候補一覧で選択している(フォーカスしている)候補のアイコンの前面色
+		// "quickInputList.focusIconForeground": "#37c466",
 		// *
-		// "quickInputList.focusForeground": "#fff",
-		// *
-		// "quickInputList.focusIconForeground": "#fff",
-		// *
-		// "quickInputTitle.background": "#fff",
+		// "quickInputTitle.background": "#ffffff",
 		
 		// == Keybinding Label Color Section ==
-		// *
+		// * キーボードショートカットのバインドラベルの背景色
 		// "keybindingLabel.background": "#fff",
-		// *
+		// * キーボードショートカットのバインドラベルの前面色
 		// "keybindingLabel.foreground": "#fff",
-		// *
+		// * キーボードショートカットのバインドラベルのボーダー色
 		// "keybindingLabel.border": "#fff",
-		// *
+		// * キーボードショートカットのバインドラベルの下部のボーダー色
 		// "keybindingLabel.bottomBorder": "#fff",
 		
 		// == Keyboard shortcut Table Color Section ==
-		// *
-		// "keybindingTable.headerBackground": "#fff",
-		// *
-		// "keybindingTable.rowBackground": "#fff",
+		// * キーボードショートカット設定画面のヘッダーの背景色
+		// "keybindingTable.headerBackground": "#cf2e2e",
+		// * キーボードショートカット設定画面のテーブルの偶数列の背景色
+		// "keybindingTable.rowsBackground": "#bbb2b2",
 		
 		// == Integrated Terminal Color Section ==
-		// *
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)の背景色
 		// "terminal.background": "#fff",
-		// *
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)を複数開いてるときに右側に表示される部分との分割ボーダー色
 		// "terminal.border": "#fff",
-		// *
-		// "terminal.foreground": "#fff",
-		// *
-		// "terminal.ansiBlack": "#fff",
-		// *
-		// "terminal.ansiBlue": "#fff",
-		// *
-		// "terminal.ansiBrightBlack": "#fff",
-		// *
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)の前面色
+		// "terminal.foreground": "#a13535",
+		// * ターミナルの文字色等を変更するための色設定
+		// * gitのターミナルで以下のコードを入力
+		// * for ((i = 0; i < 16; i++)); do
+		// *  for ((j = 0; j < 16; j++)); do
+		// *   hex=$(($i*16 + $j))
+		// *   printf '\e[38;5;%dm0x%02X\e[m ' $hex $hex
+		// *  done
+		// *  echo "";
+		// * done
+		// "terminal.ansiBlack": "#000000",
+		// "terminal.ansiBlue": "#0026ff",
+		// "terminal.ansiBrightBlack": "#5a5a5a",
 		// "terminal.ansiBrightBlue": "#fff",
-		// *
 		// "terminal.ansiBrightCyan": "#fff",
-		// *
 		// "terminal.ansiBrightGreen": "#fff",
-		// *
 		// "terminal.ansiBrightMagenta": "#fff",
-		// *
 		// "terminal.ansiBrightRed": "#fff",
-		// *
 		// "terminal.ansiBrightWhite": "#fff",
-		// *
 		// "terminal.ansiBrightYellow": "#fff",
-		// *
 		// "terminal.ansiCyan": "#fff",
-		// *
 		// "terminal.ansiGreen": "#fff",
-		// *
 		// "terminal.ansiMagenta": "#fff",
-		// *
 		// "terminal.ansiRed": "#fff",
-		// *
 		// "terminal.ansiWhite": "#fff",
-		// *
 		// "terminal.ansiYellow": "#fff",
-		// *
-		// "terminal.selectionBackground": "#fff",
-		// *
-		// "terminal.selectionForeground": "#fff",
-		// *
-		// "terminal.inactiveSelectionBackground": "#fff",
-		// *
-		// "terminal.findMatchBorder": "#fff",
-		// *
-		// "terminal.findMatchHighlightBackground": "#fff",
-		// *
-		// "terminal.findMatchHighlightBorder": "#fff",
-		// *
-		// "terminal.hoverHighlightBackground": "#fff",
-		// *
-		// "terminalCursor.background": "#fff",
-		// *
-		// "terminalCursor.foreground": "#fff",
-		// *
-		// "terminal.dropBackground": "#fff",
-		// *
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)の選択範囲の背景色
+		// "terminal.selectionBackground": "#b40303",
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)の選択範囲の前面色
+		// "terminal.selectionForeground": "#5cb931",
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)からフォーカスが外れたときの選択範囲の背景色
+		// "terminal.inactiveSelectionBackground": "#852f2f",
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)の検索時(Ctrl+F)の選択されているボーダー色
+		// "terminal.findMatchBorder": "#d63c3c",
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)の検索時(Ctrl+F)の選択されている背景色
+		// "terminal.findMatchHighlightBackground": "#eb3232f6",
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)の検索時(Ctrl+F)のハイライトのボーダー色
+		// "terminal.findMatchHighlightBorder": "#00ffb3",
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)のリンクなどのホバー時の背景色
+		// "terminal.hoverHighlightBackground": "#b63434",
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)の背景色(2024/02/19時点で適用されない？)
+		// "terminalCursor.background": "#ffffff",
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)のカーソルの色(背景色、ボーダー色)
+		// "terminalCursor.foreground": "#17da58",
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)にファイルなどをドラッグしたときの背景色
+		// "terminal.dropBackground": "#e00a0a52",
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)の複数開いてるときに右側に表示される部分のアクティブになっているターミナルのボーダー色
 		// "terminal.tab.activeBorder": "#fff",
-		// *
-		// "terminalCommandDecoration.defaultBackground": "#fff",
-		// *
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)のコマンドデコレーションのデフォルトの背景色(macで確認)
+		// "terminalCommandDecoration.defaultBackground": "#df0e0e",
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)のコマンドデコレーションの成功時の背景色(macで確認)
 		// "terminalCommandDecoration.successBackground": "#fff",
-		// *
-		// "terminalCommandDecoration.errorBackground": "#fff",
-		// *
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)のコマンドデコレーションのエラー時の背景色(macで確認)
+		// "terminalCommandDecoration.errorBackground": "#a02e2e",
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)のOverviewRulerのカーソルが当たってる部分の目印の前面色(macで確認)
 		// "terminalOverviewRuler.cursorForeground": "#fff",
-		// *
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)のOverviewRulerの検索時のマッチの前面色(macで確認)
 		// "terminalOverviewRuler.findMatchForeground": "#fff",
-		// *
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)のターミナル上部に固定されているコードの背景色(macで確認)
 		// "terminalStickyScroll.background": "#fff",
-		// *
+		// * 外部ターミナル(ターミナルウィンドウのターミナル)のターミナル上部に固定されているコードのホバー時の背景色(macで確認)
 		// "terminalStickyScrollHover.background": "#fff",
 		
 		// == Debug Color Section ==
-		// *
-		// "debugToolBar.background": "#fff",
-		// *
+		// * デバッグのツールバー(停止とかのアイコンが有るバー)の背景色
+		// "debugToolBar.background": "#000000",
+		// * デバッグのツールバー(停止とかのアイコンが有るバー)のボーダー色
 		// "debugToolBar.border": "#fff",
-		// *
-		// "editor.stackFrameHighlightBackground": "#fff",
-		// *
-		// "editor.focusedStackFrameHighlightBackground": "#fff",
-		// *
-		// "editor.inlineValuesForeground": "#fff",
-		// *
-		// "editor.inlineValuesBackground": "#fff",
-		// *
-		// "debugView.exceptionLabelForeground": "#fff",
-		// *
-		// "debugView.exceptionLabelBackground": "#fff",
-		// *
-		// "debugView.stateLabelForeground": "#fff",
-		// *
-		// "debugView.stateLabelBackground": "#fff",
-		// *
-		// "debugView.valueChangedHighlight": "#fff",
-		// *
-		// "debugTokenExpression.name": "#fff",
-		// *
-		// "debugTokenExpression.value": "#fff",
-		// *
-		// "debugTokenExpression.string": "#fff",
-		// *
-		// "debugTokenExpression.boolean": "#fff",
-		// *
-		// "debugTokenExpression.number": "#fff",
-		// *
+		// * デバックしたときのスタックフレーム元のハイライトの背景色
+		// "editor.stackFrameHighlightBackground": "#722828",
+		// * デバックしたときのフォーカスした(スタックしている)スタックフレームのハイライトの背景色
+		// "editor.focusedStackFrameHighlightBackground": "#a31010",
+		// * エディター内でのインラインデバッグを表示するときの前面色
+		// * debug.inlineValues: onにする
+		// "editor.inlineValuesForeground": "#f5e0e0",
+		// * エディター内でのインラインデバッグを表示するときの背景色
+		// "editor.inlineValuesBackground": "#dd5151",
+		// * CALL STACKセクションの例外ラベルの前面色(例外情報表示時)
+		// "debugView.exceptionLabelForeground": "#87538b",
+		// * CALL STACKセクションの例外ラベルの背景色(例外情報表示時)
+		// "debugView.exceptionLabelBackground": "#000000",
+		// * CALL STACKセクションの一般ラベルの前面色
+		// "debugView.stateLabelForeground": "#7cff02",
+		// * CALL STACKセクションの一般ラベルの背景色
+		// "debugView.stateLabelBackground": "#000000",
+		// * デバックの変化したデータのハイライトの色
+		// "debugView.valueChangedHighlight": "#ff2222",
+		// * デバッグのデータなどのname(key)の文字色
+		// "debugTokenExpression.name": "#8d0000",
+		// * デバッグのデータなどのvalueの文字色
+		// "debugTokenExpression.value": "#412323",
+		// * デバッグのデータなどのstringの文字色
+		// "debugTokenExpression.string": "#751919",
+		// * デバッグのデータなどのbooleanの文字色
+		// "debugTokenExpression.boolean": "#a33131",
+		// * デバッグのデータなどのnumberの文字色
+		// "debugTokenExpression.number": "#bb4040",
+		// * デバッグのデータなどのerrorが起きたときの文字色
 		// "debugTokenExpression.error": "#fff",
 		
 		// == Testing Color Section ==
+		// * テストが失敗したときのアイコンの色
+		// "testing.iconFailed": "#e47c7c",
 		// *
-		// "testing.iconFailed": "#fff",
+		// "testing.iconErrored": "#15850b",
+		// * テストが成功したときのアイコンの色
+		// "testing.iconPassed": "#793636",
+		// * エディターのインラインテスト実行アイコンの色
+		// "testing.runAction": "#db0000",
 		// *
-		// "testing.iconErrored": "#fff",
+		// "testing.iconQueued": "#9e2222",
+		// * テストがまだ実行されていないときのアイコンの色
+		// "testing.iconUnset": "#d14444",
 		// *
-		// "testing.iconPassed": "#fff",
-		// *
-		// "testing.runAction": "#fff",
-		// *
-		// "testing.iconQueued": "#fff",
-		// *
-		// "testing.iconUnset": "#fff",
-		// *
-		// "testing.iconSkipped": "#fff",
-		// *
-		// "testing.peekBorder": "#fff",
-		// *
-		// "testing.peekHeaderBackground": "#fff",
-		// *
+		// "testing.iconSkipped": "#ffffff",
+		// * テストが失敗したときに表示されるピークダイアログのボーダー色
+		// "testing.peekBorder": "#b94848",
+		// * テストが失敗したときに表示されるピークダイアログのヘッダー背景色
+		// "testing.peekHeaderBackground": "#a52424",
+		// * テストが失敗したときに失敗したテスト行に出てくるファイル名などの前面色
 		// "testing.message.error.decorationForeground": "#fff",
 		// *
 		// "testing.message.error.lineBackground": "#fff",
@@ -1265,7 +1269,7 @@
 		// *
 		// "testing.message.info.lineBackground": "#fff",
 		// *
-		// "testing.messagePeekBorder": "#fff",
+		// "testing.messagePeekBorder": "#ffffff",
 		// *
 		// "testing.messagePeekHeaderBackground": "#fff",
 		// *
@@ -1283,49 +1287,49 @@
 		// *
 		// "testing.uncoveredGutterBackground": "#fff",
 		// *
-		// "testing.coverCountBadgeBackground": "#fff",
+		// "testing.coverCountBadgeBackground": "#690d0d",
 		// *
-		// "testing.coverCountBadgeForeground": "#fff",
+		// "testing.coverCountBadgeForeground": "#8a1f1f",
 		
 		// == Welcome Page Color Section ==
 		// *
-		// "welcomePage.background": "#fff",
+		// "welcomePage.background": "#8a2a2a",
+		// * ウェルカムページのwalkthroughsの進捗バーの背景色(未完了)
+		// "welcomePage.progress.background": "#d68282",
+		// * ウェルカムページのwalkthroughsの進捗バーの前面色(完了)
+		// "welcomePage.progress.foreground": "#b39d9d",
+		// * ウェルカムページのwalkthroughsのボタンの背景色
+		// "welcomePage.tileBackground": "#b33a3a",
+		// * ウェルカムページのwalkthroughsのボタンをホバーしたときの背景色
+		// "welcomePage.tileHoverBackground": "#863f3f",
+		// * ウェルカムページのwalkthroughsを進めるときに表示されるステップのボーダー色
+		// "welcomePage.tileBorder": "#ac9c9c",
 		// *
-		// "welcomePage.progress.background": "#fff",
-		// *
-		// "welcomePage.progress.foreground": "#fff",
-		// *
-		// "welcomePage.tileBackground": "#fff",
-		// *
-		// "welcomePage.tileHoverBackground": "#fff",
-		// *
-		// "welcomePage.tileBorder": "#fff",
-		// *
-		// "walkThrough.embeddedEditorBackground": "#fff",
-		// *
-		// "walkThrough.stepTitle.foreground": "#fff",
+		// "walkThrough.embeddedEditorBackground": "#b12b2b",
+		// * ウェルカムページのwalkthroughsのステップのタイトルの前面色
+		// "walkthrough.stepTitle.foreground": "#f39f9f",
 
 		// == Git Color Section ==
-		// *
-		// "gitDecoration.addedResourceForeground": "#fff",
-		// *
-		// "gitDecoration.modifiedResourceForeground": "#fff",
-		// *
-		// "gitDecoration.deletedResourceForeground": "#fff",
-		// *
-		// "gitDecoration.renamedResourceForeground": "#fff",
-		// *
-		// "gitDecoration.stageModifiedResourceForeground": "#fff",
-		// *
-		// "gitDecoration.stageDeletedResourceForeground": "#fff",
-		// *
-		// "gitDecoration.untrackedResourceForeground": "#fff",
-		// *
+		// * gitでバージョン管理しているプロジェクトに新しく追跡ファイルを追加したときの背景色
+		// "gitDecoration.addedResourceForeground": "#b92929",
+		// * gitでバージョン管理しているファイルで変更があったときの前面色
+		// "gitDecoration.modifiedResourceForeground": "#da3b3b",
+		// * gitでバージョン管理しているファイルを削除したときの前面色
+		// "gitDecoration.deletedResourceForeground": "#dd2a2a",
+		// * gitでバージョン管理しているでリネームしたファイルをステージングしたときの前面色
+		// "gitDecoration.renamedResourceForeground": "#d61f1f",
+		// * gitでバージョン管理しているで変更したファイルをステージングしたときの前面色
+		// "gitDecoration.stageModifiedResourceForeground": "#ff4141",
+		// * gitでバージョン管理しているで削除したファイルをステージングしたときの背景色
+		// "gitDecoration.stageDeletedResourceForeground": "#ffeeee",
+		// * gitでバージョン管理しているプロジェクトに未追跡のファイルを追加した時
+		// "gitDecoration.untrackedResourceForeground": "#cf2727",
+		// * gitでバージョン管理しているプロジェクトでgitignoreされているファイルの前面色
 		// "gitDecoration.ignoredResourceForeground": "#fff",
-		// *
-		// "gitDecoration.conflictingResourceForeground": "#fff",
-		// *
-		// "gitDecoration.submoduleResourceForeground": "#fff",
+		// * gitでバージョン管理しているプロジェクトでコンフリクトしているときの前面色?
+		// "gitDecoration.conflictingResourceForeground": "#319e27",
+		// * gitでバージョン管理しているプロジェクトのサブモジュールの前面色
+		// "gitDecoration.submoduleResourceForeground": "#be1d1d",
 		
 		// == Settings Editor Color Section ==
 		// *
