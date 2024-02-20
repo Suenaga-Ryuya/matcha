@@ -1332,262 +1332,262 @@
 		// "gitDecoration.submoduleResourceForeground": "#be1d1d",
 		
 		// == Settings Editor Color Section ==
-		// *
-		// "settings.headerForeground": "#f0dfcc", // 設定項目のタイトルの色
-		// *
+		// * 設定項目のセクション、項目の前面色
+		// "settings.headerForeground": "#b86a10",
+		// * 設定項目尾変更されているときのインジケーターの色
 		// "settings.modifiedItemIndicator": "#acc95d",
-		// *
+		// * 設定項目のドロップダウンの背景色
 		// "settings.dropdownBackground": "#2B3225",
-		// *
-		// "settings.dropdownForeground": "#f0dfcc", // ドロップダウンの文字色
-		// *
-		// "settings.dropdownBorder": "#f0dfcca1", // ドロップダウンのボーダー
-		// *
-		// "settings.dropdownListBorder": "#fff",
-		// *
+		// * 設定項目のドロップダウンの前面色
+		// "settings.dropdownForeground": "#f0dfcc",
+		// * 設定項目のドロップダウンのボーダー色
+		// "settings.dropdownBorder": "#f0dfcca1",
+		// * 設定項目のドロップダウンのリストのボーダー色?(2024/02/19時点で適用されない？)
+		// "settings.dropdownListBorder": "#ffffff",
+		// * 設定項目のチェックボックスの背景色
 		// "settings.checkboxBackground": "#fff",
-		// *
+		// * 設定項目のチェックボックスの前面色
 		// "settings.checkboxForeground": "#fff",
-		// *
+		// * 設定項目のチェックボックスのボーダー色
 		// "settings.checkboxBorder": "#fff",
-		// *
+		// * 設定項目をホバーしているときの背景色
 		// "settings.rowHoverBackground": "#fff",
-		// *
+		// * 設定項目のテキスト入力部分の背景色
 		// "settings.textInputBackground": "#fff",
-		// *
+		// * 設定項目のテキスト入力部分の前面色
 		// "settings.textInputForeground": "#fff",
-		// *
-		// "settings.textInputBorder": "#fff",
-		// *
-		// "settings.numberInputBackground": "#fff",
-		// *
+		// * 設定項目のテキスト入力部分のボーダー色
+		// "settings.textInputBorder": "#8f0f0f",
+		// * 設定項目の数値入力部分の背景色
+		// "settings.numberInputBackground": "#b82222",
+		// * 設定項目の数値入力部分の前面色
 		// "settings.numberInputForeground": "#fff",
-		// *
+		// * 設定項目の数値入力部分のボーダー色
 		// "settings.numberInputBorder": "#fff",
-		// *
-		// "settings.focusedRowBackground": "#fff",
-		// *
+		// * フォーカスしている設定項目の背景色
+		// "settings.focusedRowBackground": "#c03636",
+		// * フォーカスしている設定項目のボーダー色
 		// "settings.focusedRowBorder": "#fff",
-		// *
-		// "settings.headerBorder": "#fff",
-		// *
-		// "settings.sashBorder": "#fff",
-		// *
-		// "settings.settingsHeaderHoverForeground": "#f0dfcc",
+		// * 設定項目のタブ部分のボーダー色
+		// "settings.headerBorder": "#d40b0b",
+		// * 設定項目のサイドバーとメインエリアの境界線の色
+		// "settings.sashBorder": "#40a037",
+		// * 設定項目のサイドバーのホバー時の前面色
+		// "settings.settingsHeaderHoverForeground": "#da7e15",
 		
 		// == Breadcrumbs Color Section ==
-		// *
+		// * パンくずリストの前面色
 		// "breadcrumb.foreground": "#f0dfcc",
-		// *
+		// * パンくずリストの背景色
 		// "breadcrumb.background": "#fff",
-		// *
-		// "breadcrumb.focusForeground": "#fff",
-		// *
-		// "breadcrumb.activeSelectionForeground": "#fff",
-		// *
-		// "breadcrumbPicker.background": "#fff",
+		// * パンくずリストのフォーカス時の前面色
+		// "breadcrumb.focusForeground": "#834040",
+		// * パンくずリストを選択してアクティブになったときの前面色
+		// "breadcrumb.activeSelectionForeground": "#d43636",
+		// * パンくずリストの選択時のピッカー背景色
+		// "breadcrumbPicker.background": "#c71e1e",
 		
 		// == Snippets Color Section ==
-		// *
-		// "editor.snippetTabstopHighlightBackground": "#fff",
-		// *
-		// "editor.snippetTabstopHighlightBorder": "#fff",
-		// *
-		// "editor.snippetFinalTabstopHighlightBackground": "#fff",
-		// *
-		// "editor.snippetFinalTabstopHighlightBorder": "#fff",
+		// * スニペットのタブストップのハイライトの背景色(スニペットを挿入した時)
+		// "editor.snippetTabstopHighlightBackground": "#d82e2e",
+		// * スニペットのタブストップのハイライトのボーダー色(スニペットを挿入した時)
+		// "editor.snippetTabstopHighlightBorder": "#1be4ff",
+		// * スニペットの最終タブストップのハイライトの背景色(スニペットを挿入した時)
+		// "editor.snippetFinalTabstopHighlightBackground": "#5abd57",
+		// * スニペットの最終タブストップのハイライトのボーダー色(スニペットを挿入した時)
+		// "editor.snippetFinalTabstopHighlightBorder": "#2beee4",
 		
 		// == Symbol Icon Color Section ==
 		// *
-		// "symbolIcon.arrayForeground": "#fff",
+		// "symbolIcon.arrayForeground": "#ff0000",
 		// *
-		// "symbolIcon.booleanForeground": "#fff",
+		// "symbolIcon.booleanForeground": "#ff9090",
+		// * コード補完のクラスのアイコンの前面色(弓みたいな形)
+		// "symbolIcon.classForeground": "#27ca21",
 		// *
-		// "symbolIcon.classForeground": "#fff",
+		// "symbolIcon.colorForeground": "#ffdc41",
+		// * コード補完の定数のアイコンの前面色(太陽の形)
+		// "symbolIcon.constantForeground": "#f9ffc1",
+		// * コード補完のコンストラクタのアイコンの前面色(箱の形)
+		// "symbolIcon.constructorForeground": "#76ff40",
+		// * コード補完のデータのアイコンの前面色(横鎖のような形)
+		// "symbolIcon.enumeratorForeground": "#c3ffa7",
+		// * コード補完の列挙子のアイコンの前面色(横鎖のような形で塗りつぶしされている)
+		// "symbolIcon.enumeratorMemberForeground": "#2aff7b",
 		// *
-		// "symbolIcon.colorForeground": "#fff",
+		// "symbolIcon.eventForeground": "#8fffa2",
+		// * コード補完のクラスのフィールドのアイコンの前面色(□が二重に重なっている形)
+		// "symbolIcon.fieldForeground": "#000000",
 		// *
-		// "symbolIcon.constantForeground": "#fff",
+		// "symbolIcon.fileForeground": "#bcfdff",
 		// *
-		// "symbolIcon.constructorForeground": "#fff",
+		// "symbolIcon.folderForeground": "#566fff",
+		// * コード補完の関数のアイコンの前面色(箱の形)
+		// "symbolIcon.functionForeground": "#08ff67",
+		// * コード補完のインターフェースのアイコンの前面色(探索木のような形)
+		// "symbolIcon.interfaceForeground": "#000000",
 		// *
-		// "symbolIcon.enumeratorForeground": "#fff",
+		// "symbolIcon.keyForeground": "#6940ff",
+		// * コード補完のキーワードのアイコンの前面色(ハンバーガーメニューのような形)
+		// "symbolIcon.keywordForeground": "#000000",
+		// * コード補完のメソッドのアイコンの前面色(箱の形)
+		// "symbolIcon.methodForeground": "#1fe9b6",
+		// * コード補完のモジュールのアイコンの前面色(</>の形)
+		// "symbolIcon.moduleForeground": "#000000",
 		// *
-		// "symbolIcon.enumeratorMemberForeground": "#fff",
+		// "symbolIcon.namespaceForeground": "#e3b1ff",
 		// *
-		// "symbolIcon.eventForeground": "#fff",
+		// "symbolIcon.nullForeground": "#8b1b1b",
 		// *
-		// "symbolIcon.fieldForeground": "#fff",
+		// "symbolIcon.numberForeground": "#854848",
 		// *
-		// "symbolIcon.fileForeground": "#fff",
+		// "symbolIcon.objectForeground": "#968229",
 		// *
-		// "symbolIcon.folderForeground": "#fff",
+		// "symbolIcon.operatorForeground": "#968942",
 		// *
-		// "symbolIcon.functionForeground": "#fff",
-		// *
-		// "symbolIcon.interfaceForeground": "#fff",
-		// *
-		// "symbolIcon.keyForeground": "#fff",
-		// *
-		// "symbolIcon.keywordForeground": "#fff",
-		// *
-		// "symbolIcon.methodForeground": "#fff",
-		// *
-		// "symbolIcon.moduleForeground": "#fff",
-		// *
-		// "symbolIcon.namespaceForeground": "#fff",
-		// *
-		// "symbolIcon.nullForeground": "#fff",
-		// *
-		// "symbolIcon.numberForeground": "#fff",
-		// *
-		// "symbolIcon.objectForeground": "#fff",
-		// *
-		// "symbolIcon.operatorForeground": "#fff",
-		// *
-		// "symbolIcon.packageForeground": "#fff",
-		// *
-		// "symbolIcon.propertyForeground": "#fff",
+		// "symbolIcon.packageForeground": "#000000",
+		// * コード補完のプロパティのアイコンの前面色(歯車の形、HTML)
+		// "symbolIcon.propertyForeground": "#000000",
 		// *
 		// "symbolIcon.referenceForeground": "#fff",
 		// *
 		// "symbolIcon.snippetForeground": "#fff",
 		// *
-		// "symbolIcon.stringForeground": "#fff",
+		// "symbolIcon.stringForeground": "#aa0404",
 		// *
-		// "symbolIcon.structForeground": "#fff",
+		// "symbolIcon.structForeground": "#ce3131",
 		// *
 		// "symbolIcon.textForeground": "#fff",
 		// *
 		// "symbolIcon.typeParameterForeground": "#fff",
 		// *
 		// "symbolIcon.unitForeground": "#fff",
-		// *
-		// "symbolIcon.variableForeground": "#fff",
+		// * コード補完の変数のアイコンの前面色(ブーメランみないな形)
+		// "symbolIcon.variableForeground": "#28107e",
 		
 		// == Debug Icon Color Section ==
-		// *
-		// "debugIcon.breakpointForeground": "#fff",
-		// *
-		// "debugIcon.breakpointDisabledForeground": "#fff",
-		// *
+		// * デバッグのブレークポイントの前面色
+		// "debugIcon.breakpointForeground": "#ff1818",
+		// * デバッグのブレークポイントの無効の前面色
+		// "debugIcon.breakpointDisabledForeground": "#ac2525",
+		// * デバッグのブレークポイントの未認証の前面色?
 		// "debugIcon.breakpointUnverifiedForeground": "#fff",
-		// *
-		// "debugIcon.breakpointCurrentStackframeForeground": "#fff",
-		// *
-		// "debugIcon.breakpointStackframeForeground": "#fff",
-		// *
-		// "debugIcon.startForeground": "#fff",
-		// *
-		// "debugIcon.pauseForeground": "#fff",
-		// *
-		// "debugIcon.stopForeground": "#fff",
-		// *
+		// * デバッグのブレークポイントの実行中のスタックフレームの前面色
+		// "debugIcon.breakpointCurrentStackframeForeground": "#941717",
+		// * デバッグのブレークポイントのスタックフレームの前面色
+		// "debugIcon.breakpointStackframeForeground": "#bb8181",
+		// * デバッグのスタートアイコンの前面色
+		// "debugIcon.startForeground": "#da1a1a",
+		// * デバッグの一時停止アイコンの前面色
+		// "debugIcon.pauseForeground": "#ebebeb",
+		// * デバッグの停止アイコンの前面色
+		// "debugIcon.stopForeground": "#f00000",
+		// * デバッグの接続切断アイコンの前面色
 		// "debugIcon.disconnectForeground": "#fff",
-		// *
-		// "debugIcon.restartForeground": "#fff",
-		// *
-		// "debugIcon.stepOverForeground": "#fff",
-		// *
+		// * デバッグの再接続アイコンの前面色
+		// "debugIcon.restartForeground": "#ff1818",
+		// * デバッグのステップオーバーアイコンの前面色
+		// "debugIcon.stepOverForeground": "#bb1e1e",
+		// * デバッグのステップインアイコンの前面色
 		// "debugIcon.stepIntoForeground": "#fff",
-		// *
+		// * デバッグのステップアウトアイコンの前面色
 		// "debugIcon.stepOutForeground": "#fff",
-		// *
+		// * デバッグの続行アイコンの前面色
 		// "debugIcon.continueForeground": "#fff",
-		// *
-		// "debugIcon.stepBackForeground": "#fff",
-		// *
-		// "debugConsole.infoForeground": "#fff",
-		// *
-		// "debugConsole.warningForeground": "#fff",
-		// *
-		// "debugConsole.errorForeground": "#fff",
-		// *
-		// "debugConsole.sourceForeground": "#fff",
-		// *
-		// "debugConsoleInputIcon.foreground": "#fff",
+		// * デバッグのステップバックアイコンの前面色
+		// "debugIcon.stepBackForeground": "#7e7272",
+		// * デバッグコンソールの情報・成功の前面色
+		// "debugConsole.infoForeground": "#e90d0d",
+		// * デバッグコンソールの警告の前面色(違うところに適応？debugConsole.sourceForeground)
+		// "debugConsole.warningForeground": "#ffffff",
+		// * デバッグコンソールのエラーの前面色
+		// "debugConsole.errorForeground": "#a05c5c",
+		// * デバッグコンソールのデバッグ元リソースの前面色(実行した行の右に表示される)
+		// "debugConsole.sourceForeground": "#f55757",
+		// * デバッグコンソールの入力した部分を示すアイコンの前面色
+		// "debugConsoleInputIcon.foreground": "#af9e9e",
 		
 		// == Notebook Color Section ==
-		// *
-		// "notebook.editorBackground": "#fff",
-		// *
+		// * ノートブックのエディターの背景色
+		// "notebook.editorBackground": "#c71d1d",
+		// * ノートブックのセルのボーダー色
 		// "notebook.cellBorderColor": "#fff",
-		// *
-		// "notebook.cellHoverBackground": "#fff",
-		// *
-		// "notebook.cellInsertionIndicator": "#fff",
-		// *
+		// * ノートブックのセルをホバーしたときの背景色
+		// "notebook.cellHoverBackground": "#db2424",
+		// * ノートブックのセルを移動(インサーション)するときのボーダー色
+		// "notebook.cellInsertionIndicator": "#fafafa",
+		// * ノートブックのセルのステータスバーのアイテムのホバー時の背景色
 		// "notebook.cellStatusBarItemHoverBackground": "#fff",
+		// * ノートブックのセルのツールバーのセパレーターの色(ボーダー色)
+		// "notebook.cellToolbarSeparator": "#ee2c2c",
+		// * ノートブックのセルのエディター部分の背景色
+		// "notebook.cellEditorBackground": "#b42e2e",
+		// * ノートブックのフォーカスが当たっているセルの背景色
+		// "notebook.focusedCellBackground": "#7e3434",
+		// * ノートブックのフォーカスが当たっているセルのボーダー色
+		// "notebook.focusedCellBorder": "#c94646",
+		// * ノートブックのフォーカスが当たっているセルのエディターのボーダー色
+		// "notebook.focusedEditorBorder": "#d42121",
+		// * ノートブックの非アクティブなセルのボーダー色
+		// "notebook.inactiveFocusedCellBorder": "#c53333",
 		// *
-		// "notebook.cellToolbarSeparator": "#fff",
+		// "notebook.inactiveSelectedCellBorder": "#d11717",
+		// * ノートブックの実行時の出力部分の背景色
+		// "notebook.outputContainerBackgroundColor": "#be1717",
 		// *
-		// "notebook.cellEditorBackground": "#fff",
+		// "notebook.outputContainerBorderColor": "#fd1b1b",
 		// *
-		// "notebook.focusedCellBackground": "#fff",
+		// "notebook.selectedCellBackground": "#00ff80",
 		// *
-		// "notebook.focusedCellBorder": "#fff",
+		// "notebook.selectedCellBorder": "#d62525",
 		// *
-		// "notebook.focusedEditorBorder": "#fff",
-		// *
-		// "notebook.inactiveFocusedCellBorder": "#fff",
-		// *
-		// "notebook.inactiveSelectedCellBorder": "#fff",
-		// *
-		// "notebook.outputContainerBackgroundColor": "#fff",
-		// *
-		// "notebook.outputContainerBorderColor": "#fff",
-		// *
-		// "notebook.selectedCellBackground": "#fff",
-		// *
-		// "notebook.selectedCellBorder": "#fff",
-		// *
-		// "notebook.symbolHighlightBackground": "#fff",
-		// *
-		// "notebookScrollbarSlider.activeBackground": "#fff",
-		// *
-		// "notebookScrollbarSlider.background": "#fff",
-		// *
+		// "notebook.symbolHighlightBackground": "#b61b1b",
+		// * ノートブックのスクロールバーをアクティブにしたときの(ホールド)背景色
+		// "notebookScrollbarSlider.activeBackground": "#a31616",
+		// * ノートブックのスクロールバーの背景色
+		// "notebookScrollbarSlider.background": "#21c237",
+		// * ノートブックのスクロールバーをホバーしたときの背景色
 		// "notebookScrollbarSlider.hoverBackground": "#fff",
+		// * ノートブックの実行が失敗したときのアイコンの前面色
+		// "notebookStatusErrorIcon.foreground": "#bb1d1d",
 		// *
-		// "notebookStatusErrorIcon.foreground": "#fff",
+		// "notebookStatusRunningIcon.foreground": "#8b1b1b",
+		// * ノートブックの実行が成功したときのアイコンの前面色
+		// "notebookStatusSuccessIcon.foreground": "#aa4646",
 		// *
-		// "notebookStatusRunningIcon.foreground": "#fff",
-		// *
-		// "notebookStatusSuccessIcon.foreground": "#fff",
-		// *
-		// "notebookEditorOverviewRuler.runningCellForeground": "#fff",
+		// "notebookEditorOverviewRuler.runningCellForeground": "#e01010",
 		
 		// == Chart Color Section ==
-		// *
+		// * チャートの前面色(flame chart extensionで確認)
 		// "charts.foreground": "#fff",
-		// *
-		// "charts.lines": "#fff",
-		// *
+		// * チャートの行の背景色(flame chart extensionで確認)
+		// "charts.lines": "#aa1a1a",
+		// * チャートの赤の背景色(flame chart extensionで確認)
 		// "charts.red": "#fff",
-		// *
+		// * チャートの青の背景色(flame chart extensionで確認)
 		// "charts.blue": "#fff",
-		// *
+		// * チャートの黄色の背景色(flame chart extensionで確認)
 		// "charts.yellow": "#fff",
-		// *
+		// * チャートの橙の背景色(flame chart extensionで確認)
 		// "charts.orange": "#fff",
-		// *
+		// * チャートの緑の背景色(flame chart extensionで確認)
 		// "charts.green": "#fff",
-		// *
+		// * チャートの紫の背景色(flame chart extensionで確認)
 		// "charts.purple": "#fff",
 		
 		// == Ports Color Section ==
-		// *
+		// * ポートの起動しているのアイコンの前面色
 		// "ports.iconRunningProcessForeground": "#fff",
 		
 		// == Comments View Color Section ==
 		// *
-		// "commentsView.resolvedIcon": "#fff",
+		// "commentsView.resolvedIcon": "#be2c2c",
 		// *
-		// "commentsView.unresolvedIcon": "#fff",
+		// "commentsView.unresolvedIcon": "#e99e9e",
 
 		// == Action Bar Color Section ==
 		// *
-		// "actionBar.toggleBackground": "#fff",
+		// "actionBar.toggledBackground": "#fff",
 
 		// == Simple Find Widget Color Section ==
 		// *
@@ -1602,10 +1602,6 @@
 		// "scm.historyItemStatisticsBorder": "#fff",
 		// *
 		// "scm..historyItemSelectedStatisticsBorder": "#fff",
-
-		// == Extenstion Color Section ==
-		// *
-		// "workbench.colorCustomizations": {}
 
 	},
 	"tokenColors": [
