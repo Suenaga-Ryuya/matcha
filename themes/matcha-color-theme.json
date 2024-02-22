@@ -1,7 +1,21 @@
 {
 	"name": "matcha",
 	"colors": {
-		
+		"focusBorder": "#e3c4a080",
+		"activityBar.background": "#131B0E",
+		"activityBar.border": "#312C3A",
+		"activityBar.foreground": "#5D6F34",
+		"activityBarBadge.background": "#9FB766",
+		"activityBarBadge.foreground": "#090D07",
+		"editor.background": "#131B0E",
+		"statusBar.background": "#131B0E",
+		"statusBar.border": "#312C3A",
+		"statusBar.foreground": "#e3c4a080",
+		"titleBar.activeBackground": "#131B0E",
+		"titleBar.activeForeground": "#e3c4a0",
+		"titleBar.inactiveBackground": "#131B0E",
+		"titleBar.inactiveForeground": "#e3c4a080",
+		"titleBar.border": "#312C3A"
 	},
 	"tokenColors": [
 		{
