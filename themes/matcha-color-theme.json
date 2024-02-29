@@ -2,20 +2,22 @@
 	"name": "matcha",
 	"colors": {
 		"focusBorder": "#e3c4a080",
-		"activityBar.background": "#131B0E",
-		"activityBar.border": "#312C3A",
+		"activityBar.background": "#292d15",
+		"activityBar.border": "#e3c4a080",
 		"activityBar.foreground": "#5D6F34",
 		"activityBarBadge.background": "#9FB766",
 		"activityBarBadge.foreground": "#090D07",
-		"editor.background": "#131B0E",
-		"statusBar.background": "#131B0E",
-		"statusBar.border": "#312C3A",
+		"editor.background": "#292d15",
+		"sideBar.background": "#292d15",
+		"sideBar.border": "#e3c4a080",
+		"statusBar.background": "#292d15",
+		"statusBar.border": "#e3c4a080",
 		"statusBar.foreground": "#e3c4a080",
-		"titleBar.activeBackground": "#131B0E",
-		"titleBar.activeForeground": "#e3c4a0",
-		"titleBar.inactiveBackground": "#131B0E",
+		"titleBar.activeBackground": "#292d15",
+		"titleBar.activeForeground": "#e3c4a080",
+		"titleBar.inactiveBackground": "#292d15",
 		"titleBar.inactiveForeground": "#e3c4a080",
-		"titleBar.border": "#312C3A"
+		"titleBar.border": "#e3c4a080"
 	},
 	"tokenColors": [
 		{
