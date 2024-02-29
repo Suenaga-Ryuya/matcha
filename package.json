@@ -17,5 +17,8 @@
         "path": "./themes/matcha-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "color": "^4.2.3"
   }
 }
