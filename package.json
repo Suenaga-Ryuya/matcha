@@ -15,6 +15,11 @@
         "label": "matcha",
         "uiTheme": "vs-dark",
         "path": "./themes/matcha-color-theme.json"
+      },
+      {
+        "label": "matcha latte",
+        "uiTheme": "vs",
+        "path": "./themes/matcha-latte-color-theme.json"
       }
     ]
   },
