@@ -2,7 +2,7 @@
 	"name": "matcha",
     "type": "light",
 	"colors": {
-		"activityBar.background": "#2b2c22",
+		"activityBar.background": "#815959",
 		"activityBar.border": "#E3C4A0",
 		"activityBar.foreground": "#E3C4A0",
 		"activityBarBadge.background": "#809948",
