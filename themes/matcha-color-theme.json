@@ -175,5 +175,125 @@
 				"foreground": "#6a6b60"
 			}
 		},
+		{
+			"name": "numeric",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#FBD26B"
+			}
+		},
+		{
+			"name": "bool",
+			"scope": [
+				"constant.language",
+				"constant.character.escape"
+			],
+			"settings": {
+				"foreground": "#8491C3"
+			}
+		},
+		{
+			"name": "html tag",
+			"scope": [
+				"entity.name.tag",
+			],
+			"settings": {
+				"foreground": "#FDE0A5"
+			}
+		},
+		{
+			"name": "keyValue",
+			"scope": [
+				"punctuation.separator.key-value"
+			],
+			"settings": {
+				"foreground": "#b9d08b"
+			}
+		},
+		{
+			"name": "html in php",
+			"scope": [
+				"text.html entity.other.attribute-name.html",
+				"text.html.php entity.other.attribute-name.html",
+				"keyword.operator.key"
+			],
+			"settings": {
+				"foreground": "#b9d08b"
+			}
+		},
+		{
+			"name": "html class value in php",
+			"scope": [
+				"text.html string.quoted.double.html",
+				"text.html.php string.quoted.double.html",
+			],
+			"settings": {
+				"foreground": "#FBD26B"
+			}
+		},
+		{
+			"name": "punctuation in html",
+			"scope": [
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag.end",
+				"punctuation.section.embedded.begin",
+				"punctuation.section.embedded.end",
+			],
+			"settings": {
+				"foreground": "#53727d"
+			}
+		},
+		{
+			"name": "function",
+			"scope": [
+				"storage.type.function",
+				"punctuation.definition.arrow"
+			],
+			"settings": {
+				"foreground": "#D1878B"
+			}
+		},
+		{
+			"name": "call function",
+			"scope": [
+				"meta.function",
+				"support.function.magic"
+			],
+			"settings": {
+				"foreground": "#85916D"
+			}
+		},
+		{
+			"name": "built in function",
+			"scope": [
+				"support.function.builtin",
+				"support.function.construct.output"
+			],
+			"settings": {
+				"foreground": "#A4C2A9"
+			}
+		},
+		{
+			"name": "keyword",
+			"scope": [
+				"keyword.control.flow"
+			],
+			"settings": {
+				"foreground": "#EEBBCB"
+			}
+		},
+		{
+			"name": "constant",
+			"scope": [
+				"storage.type",
+				"storage.modifier",
+				"constant.other.caps"
+			],
+			"settings": {
+				"foreground": "#5B7E91"
+			}
+		}
 	]
 }
