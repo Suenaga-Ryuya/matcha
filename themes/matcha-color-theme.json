@@ -165,7 +165,7 @@
 	},
 	"tokenColors": [
 		{
-			"name": "Comment",
+			"name": "comment",
 			"scope": [
 				"comment",
 				"punctuation.definition.comment"
@@ -176,123 +176,120 @@
 			}
 		},
 		{
-			"name": "numeric",
+			"name": "constant",
 			"scope": [
-				"constant.numeric"
+				"constant"
 			],
 			"settings": {
-				"foreground": "#FBD26B"
+				"foreground": "#FCFCFC"
 			}
 		},
 		{
-			"name": "bool",
+			"name": "entity",
 			"scope": [
-				"constant.language",
-				"constant.character.escape"
+				"entity"
 			],
 			"settings": {
-				"foreground": "#8491C3"
+				"foreground": "#FCFCFC"
 			}
 		},
 		{
-			"name": "html tag",
+			"name": "invalid",
 			"scope": [
-				"entity.name.tag",
+				"invalid"
 			],
 			"settings": {
-				"foreground": "#FDE0A5"
-			}
-		},
-		{
-			"name": "keyValue",
-			"scope": [
-				"punctuation.separator.key-value"
-			],
-			"settings": {
-				"foreground": "#b9d08b"
-			}
-		},
-		{
-			"name": "html in php",
-			"scope": [
-				"text.html entity.other.attribute-name.html",
-				"text.html.php entity.other.attribute-name.html",
-				"keyword.operator.key"
-			],
-			"settings": {
-				"foreground": "#b9d08b"
-			}
-		},
-		{
-			"name": "html class value in php",
-			"scope": [
-				"text.html string.quoted.double.html",
-				"text.html.php string.quoted.double.html",
-			],
-			"settings": {
-				"foreground": "#FBD26B"
-			}
-		},
-		{
-			"name": "punctuation in html",
-			"scope": [
-				"punctuation.definition.tag.begin",
-				"punctuation.definition.tag.end",
-				"punctuation.section.embedded.begin",
-				"punctuation.section.embedded.end",
-			],
-			"settings": {
-				"foreground": "#53727d"
-			}
-		},
-		{
-			"name": "function",
-			"scope": [
-				"storage.type.function",
-				"punctuation.definition.arrow"
-			],
-			"settings": {
-				"foreground": "#D1878B"
-			}
-		},
-		{
-			"name": "call function",
-			"scope": [
-				"meta.function",
-				"support.function.magic"
-			],
-			"settings": {
-				"foreground": "#85916D"
-			}
-		},
-		{
-			"name": "built in function",
-			"scope": [
-				"support.function.builtin",
-				"support.function.construct.output"
-			],
-			"settings": {
-				"foreground": "#A4C2A9"
+				"foreground": "#FCFCFC"
 			}
 		},
 		{
 			"name": "keyword",
 			"scope": [
-				"keyword.control.flow"
+				"keyword"
 			],
 			"settings": {
-				"foreground": "#EEBBCB"
+				"foreground": "#FCFCFC"
 			}
 		},
 		{
-			"name": "constant",
+			"name": "markup",
 			"scope": [
-				"storage.type",
-				"storage.modifier",
-				"constant.other.caps"
+				"markup"
 			],
 			"settings": {
-				"foreground": "#5B7E91"
+				"foreground": "#FCFCFC"
+			}
+		},
+		{
+			"name": "meta",
+			"scope": [
+				"meta"
+			],
+			"settings": {
+				"foreground": "#FCFCFC"
+			}
+		},
+		{
+			"name": "punctuation",
+			"scope": [
+				"punctuation"
+			],
+			"settings": {
+				"foreground": "#FCFCFC"
+			}
+		},
+		{
+			"name": "source",
+			"scope": [
+				"source"
+			],
+			"settings": {
+				"foreground": "#FCFCFC"
+			}
+		},
+		{
+			"name": "storage",
+			"scope": [
+				"storage"
+			],
+			"settings": {
+				"foreground": "#FCFCFC"
+			}
+		},
+		{
+			"name": "string",
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#FCFCFC"
+			}
+		},
+		{
+			"name": "support",
+			"scope": [
+				"support"
+			],
+			"settings": {
+				"foreground": "#FCFCFC"
+			}
+		},
+		{
+			"name": "text",
+			"scope": [
+				"text"
+			],
+			"settings": {
+				"foreground": "#FCFCFC"
+			}
+		},
+		{
+			"name": "variable",
+			"scope": [
+				"variable"
+			],
+			"settings": {
+				"foreground": "#FCFCFC"
 			}
 		}
 	]
