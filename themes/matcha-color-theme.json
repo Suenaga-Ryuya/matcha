@@ -181,7 +181,7 @@
 				"constant"
 			],
 			"settings": {
-				"foreground": "#FCFCFC"
+				"foreground": "#FFDB4F"
 			}
 		},
 		{
@@ -190,7 +190,7 @@
 				"entity"
 			],
 			"settings": {
-				"foreground": "#FCFCFC"
+				"foreground": "#C7C3E1"
 			}
 		},
 		{
@@ -199,16 +199,28 @@
 				"invalid"
 			],
 			"settings": {
-				"foreground": "#FCFCFC"
+				"foreground": "#E24215"
 			}
 		},
 		{
 			"name": "keyword",
 			"scope": [
-				"keyword"
+				"keyword",
+				"support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#FCFCFC"
+				"foreground": "#6C9BD2"
+			}
+		},
+		{
+			"scope": [
+				"keyword.control",
+				"keyword.control.exception",
+				"keyword.control.flow",
+				"keyword.other.fn"
+			],
+			"settings": {
+				"foreground": "#D1878B"
 			}
 		},
 		{
@@ -226,7 +238,7 @@
 				"meta"
 			],
 			"settings": {
-				"foreground": "#FCFCFC"
+				"foreground": "#A4CA68"
 			}
 		},
 		{
@@ -239,30 +251,33 @@
 			}
 		},
 		{
-			"name": "source",
-			"scope": [
-				"source"
-			],
-			"settings": {
-				"foreground": "#FCFCFC"
-			}
-		},
-		{
 			"name": "storage",
 			"scope": [
-				"storage"
+				"storage",
+				"support.function"
 			],
 			"settings": {
-				"foreground": "#FCFCFC"
+				"foreground": "#E9C3DC"
 			}
 		},
 		{
 			"name": "string",
 			"scope": [
-				"string"
+				"string",
+				"support.function.construct"
 			],
 			"settings": {
-				"foreground": "#FCFCFC"
+				"foreground": "#93B881"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end",
+				"punctuation.support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#82A9DA"
 			}
 		},
 		{
@@ -271,25 +286,19 @@
 				"support"
 			],
 			"settings": {
-				"foreground": "#FCFCFC"
-			}
-		},
-		{
-			"name": "text",
-			"scope": [
-				"text"
-			],
-			"settings": {
-				"foreground": "#FCFCFC"
+				"foreground": "#7EC7D8"
 			}
 		},
 		{
 			"name": "variable",
 			"scope": [
-				"variable"
+				"variable",
+				"punctuation.definition.variable",
+				"variable.other",
+				"source.python"
 			],
 			"settings": {
-				"foreground": "#FCFCFC"
+				"foreground": "#D3C5B9"
 			}
 		}
 	]
