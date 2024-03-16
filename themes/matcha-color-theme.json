@@ -172,7 +172,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#6a6b60"
+			 	"foreground": "#6a6b60"
 			}
 		},
 		{
@@ -196,7 +196,8 @@
 		{
 			"name": "invalid",
 			"scope": [
-				"invalid"
+				"invalid",
+				"variable.other.readwrite"
 			],
 			"settings": {
 				"foreground": "#E24215"
@@ -210,17 +211,6 @@
 			],
 			"settings": {
 				"foreground": "#6C9BD2"
-			}
-		},
-		{
-			"scope": [
-				"keyword.control",
-				"keyword.control.exception",
-				"keyword.control.flow",
-				"keyword.other.fn"
-			],
-			"settings": {
-				"foreground": "#D1878B"
 			}
 		},
 		{
@@ -263,21 +253,10 @@
 		{
 			"name": "string",
 			"scope": [
-				"string",
-				"support.function.construct"
+				"string"
 			],
 			"settings": {
 				"foreground": "#93B881"
-			}
-		},
-		{
-			"scope": [
-				"punctuation.definition.string.begin",
-				"punctuation.definition.string.end",
-				"punctuation.support.type.property-name"
-			],
-			"settings": {
-				"foreground": "#82A9DA"
 			}
 		},
 		{
@@ -293,8 +272,9 @@
 			"name": "variable",
 			"scope": [
 				"variable",
-				"punctuation.definition.variable",
-				"variable.other",
+				"punctuation.definition.variable.php",
+				"source.php variable.other.php",
+				"source.ruby",
 				"source.python"
 			],
 			"settings": {
