@@ -1,8 +1,4 @@
 node_modules
 *.vsix
 vsc-extension-quickstart.md
-property.js
-convert.mjs
 src
-color.md
-colors.json
