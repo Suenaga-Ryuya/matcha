@@ -1,16 +1,39 @@
-# matcha README
+\* !! The matcha theme is not released and under development !!
 
-## Working with Markdown
+Matcha is the vscode color theme inspired by matcha (抹茶) from Kyoto, Shizuoka and so on in Japan.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+- matcha: matcha is a dark theme.
+- matcha latte: matcha latte is a light theme. (Under development)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Supported Languages
+### Completely Supported Languages
+The languages below are completely supported.
 
-## For more information
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- PHP
+- Python
+- Ruby
+- Java
+- C
+- C++
+- C#
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### Partially Supported Languages
+The languages below are partially supported.
 
-**Enjoy!**
+- Go
+- Rust
+- SQL
+- Swift
+- Dart
+- Julia
+- Lua
+- JSON
+- YAML
+
+## Contribution
+
+... coming soon ...
