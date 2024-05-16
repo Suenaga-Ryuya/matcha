@@ -1,0 +1,25 @@
+{
+  "name": "matcha",
+  "displayName": "matcha",
+  "description": "This is the matcha color theme.",
+  "version": "0.0.1",
+  "publisher": "5e5bb535-2123-6223-a4e0-63944fd89516",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "matcha",
+        "uiTheme": "vs-dark",
+        "path": "./themes/matcha-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "color": "^4.2.3"
+  }
+}

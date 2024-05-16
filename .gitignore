@@ -1,0 +1,4 @@
+node_modules
+*.vsix
+vsc-extension-quickstart.md
+themes/matcha-latte-color-theme.json
