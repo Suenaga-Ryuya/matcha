@@ -1,5 +1,3 @@
-\* !! The matcha theme is not released and under development !!
-
 Matcha is the vscode color theme inspired by matcha (抹茶) from Kyoto, Shizuoka and so on in Japan.
 
 There are two color themes in this extension.
