@@ -3,7 +3,8 @@
   "displayName": "matcha",
   "description": "This is the matcha color theme.",
   "version": "0.0.1",
-  "publisher": "5e5bb535-2123-6223-a4e0-63944fd89516",
+  "publisher": "suenryu",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.86.0"
   },
@@ -19,7 +20,13 @@
       }
     ]
   },
-  "devDependencies": {
-    "color": "^4.2.3"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Suenaga-Ryuya/matcha"
+  },
+  "keywords": [
+    "theme",
+    "green",
+    "matcha"
+  ]
 }
