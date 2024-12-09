@@ -4,7 +4,7 @@
   "description": "This is the matcha color theme.",
   "version": "0.0.1",
   "publisher": "suenryu",
-  "icon": "images/icon.png",
+  "icon": "images/matcha.png",
   "engines": {
     "vscode": "^1.86.0"
   },
